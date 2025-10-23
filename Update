@@ -186,6 +186,31 @@
       "label": "bolacha",
       "packs": [],
       "image": ""
+    },
+    "folder_kdqkls": {
+      "label": "dede",
+      "packs": [],
+      "image": ""
+    },
+    "folder_1ed5or": {
+      "label": "weqwe",
+      "packs": [],
+      "image": ""
+    },
+    "folder_pc3u0h": {
+      "label": "bolachaw",
+      "packs": [],
+      "image": ""
+    },
+    "folder_gg5iz7": {
+      "label": "waew",
+      "packs": [],
+      "image": ""
+    },
+    "folder_3009b1": {
+      "label": "wewe",
+      "packs": [],
+      "image": ""
     }
   },
   "bgSequence": {
@@ -212,5 +237,6 @@
     "colorStart": "#ffd054",
     "colorEnd": "#ff8c50"
   },
-  "soundConfig": {}
+  "soundConfig": {},
+  "admin_import_url": ""
 }
