@@ -7,7 +7,10 @@
       "pack": "classic",
       "name": "Jack_the_juicer_alternate_pose.png",
       "url": "https://static.wikia.nocookie.net/superthings/images/f/f5/Jack_the_juicer_alternate_pose.png",
-      "customProperties": {},
+      "customProperties": {
+        "ATK": "",
+        "DEF": ""
+      },
       "customReveal": {
         "positions": {
           "title": {
@@ -98,119 +101,214 @@
     }
   ],
   "packPresets": {
-    "classic": {
-      "label": "Classic Pack",
-      "color": "#ffefea",
-      "barTint": "rgba(0,0,0,0.65)",
+    "pack_56xb7j": {
+      "label": "Series 1",
+      "color": "#fff",
+      "barTint": "rgba(0,0,0,0.6)",
       "zoom": 1.02,
       "hitsRange": [
         2,
         4
       ],
       "shakeIntensity": 1,
-      "fragmentCost": 10,
+      "fragmentCost": 0,
       "preview": "",
       "guaranteeRare": false
     },
-    "neon": {
-      "label": "Neon Blast",
-      "color": "#f2fff9",
-      "barTint": "rgba(6,6,12,0.75)",
-      "zoom": 1.08,
-      "hitsRange": [
-        3,
-        5
-      ],
-      "shakeIntensity": 1.8,
-      "fragmentCost": 10,
-      "preview": "",
-      "guaranteeRare": false
-    },
-    "gold": {
-      "label": "Golden Vault",
-      "color": "#fffaf0",
-      "barTint": "rgba(10,6,0,0.7)",
-      "zoom": 1.12,
-      "hitsRange": [
-        3,
-        6
-      ],
-      "shakeIntensity": 1.4,
-      "fragmentCost": 10,
-      "preview": "",
-      "guaranteeRare": false
-    },
-    "mystery": {
-      "label": "Mystery Fog",
-      "color": "#f7fbff",
-      "barTint": "rgba(2,8,18,0.78)",
-      "zoom": 1.06,
+    "pack_hpvv79": {
+      "label": "Series 2",
+      "color": "#fff",
+      "barTint": "rgba(0,0,0,0.6)",
+      "zoom": 1.02,
       "hitsRange": [
         2,
-        5
+        4
       ],
-      "shakeIntensity": 1.2,
-      "fragmentCost": 10,
+      "shakeIntensity": 1,
+      "fragmentCost": 0,
+      "preview": "",
+      "guaranteeRare": false
+    },
+    "pack_gqzupi": {
+      "label": "Series 3",
+      "color": "#fff",
+      "barTint": "rgba(0,0,0,0.6)",
+      "zoom": 1.02,
+      "hitsRange": [
+        2,
+        4
+      ],
+      "shakeIntensity": 1,
+      "fragmentCost": 0,
+      "preview": "",
+      "guaranteeRare": false
+    },
+    "pack_f7uu0f": {
+      "label": "Series 4",
+      "color": "#fff",
+      "barTint": "rgba(0,0,0,0.6)",
+      "zoom": 1.02,
+      "hitsRange": [
+        2,
+        4
+      ],
+      "shakeIntensity": 1,
+      "fragmentCost": 0,
+      "preview": "",
+      "guaranteeRare": false
+    },
+    "pack_xnnkwe": {
+      "label": "Series 5",
+      "color": "#fff",
+      "barTint": "rgba(0,0,0,0.6)",
+      "zoom": 1.02,
+      "hitsRange": [
+        2,
+        4
+      ],
+      "shakeIntensity": 1,
+      "fragmentCost": 0,
+      "preview": "",
+      "guaranteeRare": false
+    },
+    "pack_qlbnlj": {
+      "label": "Secret Spies",
+      "color": "#fff",
+      "barTint": "rgba(0,0,0,0.6)",
+      "zoom": 1.02,
+      "hitsRange": [
+        2,
+        4
+      ],
+      "shakeIntensity": 1,
+      "fragmentCost": 0,
+      "preview": "",
+      "guaranteeRare": false
+    },
+    "pack_gvz5gc": {
+      "label": "Power Machines",
+      "color": "#fff",
+      "barTint": "rgba(0,0,0,0.6)",
+      "zoom": 1.02,
+      "hitsRange": [
+        2,
+        4
+      ],
+      "shakeIntensity": 1,
+      "fragmentCost": 0,
+      "preview": "",
+      "guaranteeRare": false
+    },
+    "pack_hw68ig": {
+      "label": "Golden Treasure",
+      "color": "#fff",
+      "barTint": "rgba(0,0,0,0.6)",
+      "zoom": 1.02,
+      "hitsRange": [
+        2,
+        4
+      ],
+      "shakeIntensity": 1,
+      "fragmentCost": 0,
+      "preview": "",
+      "guaranteeRare": false
+    },
+    "pack_k8s9bt": {
+      "label": "Shark Treasure",
+      "color": "#fff",
+      "barTint": "rgba(0,0,0,0.6)",
+      "zoom": 1.02,
+      "hitsRange": [
+        2,
+        4
+      ],
+      "shakeIntensity": 1,
+      "fragmentCost": 0,
+      "preview": "",
+      "guaranteeRare": false
+    },
+    "pack_q9eta2": {
+      "label": "Crazy Jungle",
+      "color": "#fff",
+      "barTint": "rgba(0,0,0,0.6)",
+      "zoom": 1.02,
+      "hitsRange": [
+        2,
+        4
+      ],
+      "shakeIntensity": 1,
+      "fragmentCost": 0,
+      "preview": "",
+      "guaranteeRare": false
+    },
+    "pack_56dz1i": {
+      "label": "Wild Kingdom",
+      "color": "#fff",
+      "barTint": "rgba(0,0,0,0.6)",
+      "zoom": 1.02,
+      "hitsRange": [
+        2,
+        4
+      ],
+      "shakeIntensity": 1,
+      "fragmentCost": 0,
       "preview": "",
       "guaranteeRare": false
     }
   },
   "packFolders": {
-    "all": {
-      "label": "All",
+    "folder_d598eh": {
+      "label": "Superthings",
       "packs": [
-        "classic",
-        "neon",
-        "gold",
-        "mystery"
+        "pack_gqzupi",
+        "pack_hpvv79",
+        "pack_gvz5gc",
+        "pack_qlbnlj",
+        "pack_xnnkwe",
+        "pack_f7uu0f",
+        "pack_56xb7j"
       ],
-      "image": ""
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/superthingsgoliath.png"
     },
-    "classics": {
-      "label": "Classics",
+    "folder_w3nxw6": {
+      "label": "Piratix",
       "packs": [
-        "classic",
-        "gold"
+        "pack_56dz1i",
+        "pack_q9eta2",
+        "pack_k8s9bt",
+        "pack_hw68ig"
       ],
-      "image": ""
+      "image": "https://static.wikia.nocookie.net/piratix-adventure-world/images/f/f7/Alex-font-material-personajesfafaf-1.jpg"
     },
-    "neonverse": {
-      "label": "Neonverse",
-      "packs": [
-        "mystery",
-        "neon"
-      ],
-      "image": ""
-    },
-    "folder_mk1vsl": {
-      "label": "bolacha",
+    "folder_cy8ezc": {
+      "label": "Zomlings",
       "packs": [],
-      "image": ""
+      "image": "https://static.wikia.nocookie.net/wikilings/images/8/84/Titlecard.png"
     },
-    "folder_tv6iqf": {
-      "label": "folder_tv6iqf",
+    "folder_pt2ab3": {
+      "label": "Harry Potter",
       "packs": [],
-      "image": ""
+      "image": "https://img.freepik.com/free-vector/coming-soon-black-backgroun-design_1017-37033.jpg"
     },
-    "folder_zbcjun": {
-      "label": "folder_zbcjun",
+    "folder_lutcuq": {
+      "label": "Pokemon",
       "packs": [],
-      "image": ""
+      "image": "https://img.freepik.com/free-vector/coming-soon-black-backgroun-design_1017-37033.jpg"
     },
-    "folder_52pdz0": {
-      "label": "folder_52pdz0",
+    "folder_cb41m2": {
+      "label": "Demon Slayer",
       "packs": [],
-      "image": ""
+      "image": "https://img.freepik.com/free-vector/coming-soon-black-backgroun-design_1017-37033.jpg"
     },
-    "folder_5egsl0": {
-      "label": "folder_5egsl0",
+    "folder_66w8eg": {
+      "label": "Yu-gi-oh",
       "packs": [],
-      "image": ""
+      "image": "https://img.freepik.com/free-vector/coming-soon-black-backgroun-design_1017-37033.jpg"
     },
-    "folder_53w0pk": {
-      "label": "folder_53w0pk",
+    "folder_r3wbvp": {
+      "label": "One Piece",
       "packs": [],
-      "image": ""
+      "image": "https://img.freepik.com/free-vector/coming-soon-black-backgroun-design_1017-37033.jpg"
     }
   },
   "bgSequence": {
@@ -223,7 +321,10 @@
     "super": "",
     "ultra": ""
   },
-  "globalProperties": {},
+  "globalProperties": {
+    "ATK": "",
+    "DEF": ""
+  },
   "fragmentIcon": "https://api.websim.com/blobs/0199fd2c-0c11-76a5-9e5a-91e1ce65d23c.png",
   "packOpenCount": 0,
   "rarityUnlockThresholds": {
@@ -238,5 +339,5 @@
     "colorEnd": "#ff8c50"
   },
   "soundConfig": {},
-  "admin_import_url": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/Update"
+  "admin_import_url": ""
 }
