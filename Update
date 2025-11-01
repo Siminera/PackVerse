@@ -1,105 +1,5 @@
 {
-  "pool": [
-    {
-      "id": "xzt8ff",
-      "rarity": "common",
-      "description": "",
-      "pack": "classic",
-      "name": "Jack_the_juicer_alternate_pose.png",
-      "url": "https://static.wikia.nocookie.net/superthings/images/f/f5/Jack_the_juicer_alternate_pose.png",
-      "customProperties": {
-        "ATK": "",
-        "DEF": ""
-      },
-      "customReveal": {
-        "positions": {
-          "title": {
-            "x": 24,
-            "y": 20,
-            "w": 360,
-            "h": 46,
-            "styles": {
-              "fontSize": "26px",
-              "fontFamily": "Space Mono",
-              "color": ""
-            }
-          },
-          "image": {
-            "x": 24,
-            "y": 80,
-            "w": 420,
-            "h": 320,
-            "styles": {
-              "boxShadow": "",
-              "borderRadius": "12px"
-            }
-          },
-          "description": {
-            "x": 420,
-            "y": 80,
-            "w": 300,
-            "h": 160,
-            "styles": {
-              "fontSize": "14px",
-              "color": ""
-            }
-          },
-          "stickerNum": {
-            "x": 18,
-            "y": 18,
-            "styles": {}
-          }
-        },
-        "templates": {
-          "9a3p6": {
-            "name": "Default Template",
-            "createdAt": 1760990568993,
-            "snapshot": {
-              "title": {
-                "x": 24,
-                "y": 20,
-                "w": 360,
-                "h": 46,
-                "styles": {
-                  "fontSize": "26px",
-                  "fontFamily": "Space Mono",
-                  "color": ""
-                }
-              },
-              "image": {
-                "x": 24,
-                "y": 80,
-                "w": 420,
-                "h": 320,
-                "styles": {
-                  "boxShadow": "",
-                  "borderRadius": "12px"
-                }
-              },
-              "description": {
-                "x": 420,
-                "y": 80,
-                "w": 300,
-                "h": 160,
-                "styles": {
-                  "fontSize": "14px",
-                  "color": ""
-                }
-              },
-              "stickerNum": {
-                "x": 18,
-                "y": 18,
-                "styles": {}
-              }
-            },
-            "bgImage": "",
-            "bgColor": "",
-            "accent": ""
-          }
-        }
-      }
-    }
-  ],
+  "pool": [],
   "packPresets": {
     "pack_56xb7j": {
       "label": "Series 1",
@@ -111,8 +11,8 @@
         4
       ],
       "shakeIntensity": 1,
-      "fragmentCost": 0,
-      "preview": "",
+      "fragmentCost": 10,
+      "preview": "https://api.websim.com/blobs/019a3f01-777a-76b8-8cf6-a03af1cbdf73.png",
       "guaranteeRare": false
     },
     "pack_hpvv79": {
@@ -125,8 +25,8 @@
         4
       ],
       "shakeIntensity": 1,
-      "fragmentCost": 0,
-      "preview": "",
+      "fragmentCost": 10,
+      "preview": "https://api.websim.com/blobs/019a3f0e-7830-724d-b0cb-171b9f0ebe12.png",
       "guaranteeRare": false
     },
     "pack_gqzupi": {
@@ -139,8 +39,8 @@
         4
       ],
       "shakeIntensity": 1,
-      "fragmentCost": 0,
-      "preview": "",
+      "fragmentCost": 10,
+      "preview": "https://api.websim.com/blobs/019a3f18-832b-7458-9748-30f3ca60999e.png",
       "guaranteeRare": false
     },
     "pack_f7uu0f": {
@@ -153,8 +53,8 @@
         4
       ],
       "shakeIntensity": 1,
-      "fragmentCost": 0,
-      "preview": "",
+      "fragmentCost": 10,
+      "preview": "https://api.websim.com/blobs/019a3f27-675c-719c-8e3a-08daf5e08143.png",
       "guaranteeRare": false
     },
     "pack_xnnkwe": {
@@ -167,8 +67,8 @@
         4
       ],
       "shakeIntensity": 1,
-      "fragmentCost": 0,
-      "preview": "",
+      "fragmentCost": 10,
+      "preview": "https://api.websim.com/blobs/019a3f24-d0a4-7073-8c24-4d44840f2c20.png",
       "guaranteeRare": false
     },
     "pack_qlbnlj": {
@@ -181,8 +81,8 @@
         4
       ],
       "shakeIntensity": 1,
-      "fragmentCost": 0,
-      "preview": "",
+      "fragmentCost": 20,
+      "preview": "https://api.websim.com/blobs/019a3f2f-b780-71a9-82b7-e482f8f6a22f.png",
       "guaranteeRare": false
     },
     "pack_gvz5gc": {
@@ -195,8 +95,8 @@
         4
       ],
       "shakeIntensity": 1,
-      "fragmentCost": 0,
-      "preview": "",
+      "fragmentCost": 20,
+      "preview": "https://api.websim.com/blobs/019a3f2d-4a15-740f-956d-995fcab9d664.png",
       "guaranteeRare": false
     },
     "pack_hw68ig": {
@@ -209,8 +109,8 @@
         4
       ],
       "shakeIntensity": 1,
-      "fragmentCost": 0,
-      "preview": "",
+      "fragmentCost": 10,
+      "preview": "https://api.websim.com/blobs/019a3f33-823b-736b-b915-76847854b30a.png",
       "guaranteeRare": false
     },
     "pack_k8s9bt": {
@@ -223,8 +123,8 @@
         4
       ],
       "shakeIntensity": 1,
-      "fragmentCost": 0,
-      "preview": "",
+      "fragmentCost": 10,
+      "preview": "https://api.websim.com/blobs/019a3f36-6644-749d-b9d9-b17c8708f5ab.png",
       "guaranteeRare": false
     },
     "pack_q9eta2": {
@@ -237,8 +137,8 @@
         4
       ],
       "shakeIntensity": 1,
-      "fragmentCost": 0,
-      "preview": "",
+      "fragmentCost": 10,
+      "preview": "https://api.websim.com/blobs/019a3f38-c804-740f-9d8e-20c3baa13a58.png",
       "guaranteeRare": false
     },
     "pack_56dz1i": {
@@ -251,22 +151,127 @@
         4
       ],
       "shakeIntensity": 1,
-      "fragmentCost": 0,
-      "preview": "",
+      "fragmentCost": 10,
+      "preview": "https://api.websim.com/blobs/019a3f3b-a23f-75ef-a256-248b7cc71007.png",
       "guaranteeRare": false
+    },
+    "pack_fde1mx": {
+      "label": "Specials 1",
+      "color": "#fff",
+      "barTint": "rgba(0,0,0,0.6)",
+      "zoom": 1.02,
+      "hitsRange": [
+        2,
+        4
+      ],
+      "shakeIntensity": 1,
+      "fragmentCost": 50,
+      "preview": "https://api.websim.com/blobs/019a3f40-d8f5-752d-bdcc-c67bfd8ccaf8.png",
+      "guaranteeRare": true
+    },
+    "pack_k0oc91": {
+      "label": "Specials 2",
+      "color": "#fff",
+      "barTint": "rgba(0,0,0,0.6)",
+      "zoom": 1.02,
+      "hitsRange": [
+        2,
+        4
+      ],
+      "shakeIntensity": 1,
+      "fragmentCost": 50,
+      "preview": "https://api.websim.com/blobs/019a3f76-f714-718b-a66b-656fc685bf77.png",
+      "guaranteeRare": true
+    },
+    "pack_aiw0oa": {
+      "label": "Specials 3",
+      "color": "#fff",
+      "barTint": "rgba(0,0,0,0.6)",
+      "zoom": 1.02,
+      "hitsRange": [
+        2,
+        4
+      ],
+      "shakeIntensity": 1,
+      "fragmentCost": 50,
+      "preview": "https://api.websim.com/blobs/019a3f77-108b-732c-aa0a-e8198c0154db.png",
+      "guaranteeRare": true
+    },
+    "pack_wuzai5": {
+      "label": "Specials 4",
+      "color": "#fff",
+      "barTint": "rgba(0,0,0,0.6)",
+      "zoom": 1.02,
+      "hitsRange": [
+        2,
+        4
+      ],
+      "shakeIntensity": 1,
+      "fragmentCost": 50,
+      "preview": "https://api.websim.com/blobs/019a3f77-53a6-7362-90da-0a10816320c1.png",
+      "guaranteeRare": true
+    },
+    "pack_w0xsq6": {
+      "label": "Specials 5",
+      "color": "#fff",
+      "barTint": "rgba(0,0,0,0.6)",
+      "zoom": 1.02,
+      "hitsRange": [
+        2,
+        4
+      ],
+      "shakeIntensity": 1,
+      "fragmentCost": 50,
+      "preview": "https://api.websim.com/blobs/019a3f77-726f-77bf-861b-f01d585db984.png",
+      "guaranteeRare": true
+    },
+    "pack_jvd233": {
+      "label": "Specials Secret Spies",
+      "color": "#fff",
+      "barTint": "rgba(0,0,0,0.6)",
+      "zoom": 1.02,
+      "hitsRange": [
+        2,
+        4
+      ],
+      "shakeIntensity": 1,
+      "fragmentCost": 55,
+      "preview": "https://api.websim.com/blobs/019a3f77-94fd-7628-aa1c-6b5a92efb32e.png",
+      "guaranteeRare": true
+    },
+    "pack_65pw48": {
+      "label": "Specials Power Machines",
+      "color": "#fff",
+      "barTint": "rgba(0,0,0,0.6)",
+      "zoom": 1.02,
+      "hitsRange": [
+        2,
+        4
+      ],
+      "shakeIntensity": 1,
+      "fragmentCost": 55,
+      "preview": "https://api.websim.com/blobs/019a3f77-d329-759b-96ac-873c654d4387.png",
+      "guaranteeRare": true
     }
   },
   "packFolders": {
     "folder_d598eh": {
       "label": "Superthings",
       "packs": [
-        "pack_gqzupi",
-        "pack_hpvv79",
         "pack_gvz5gc",
         "pack_qlbnlj",
         "pack_xnnkwe",
         "pack_f7uu0f",
-        "pack_56xb7j"
+        "pack_gqzupi",
+        "pack_hpvv79",
+        "pack_56xb7j",
+        "pack_fde1mx",
+        "pack_k0oc91",
+        "pack_aiw0oa",
+        "pack_wuzai5",
+        "pack_w0xsq6",
+        "pack_jvd233",
+        "pack_65pw48"
       ],
       "image": "https://static.tvtropes.org/pmwiki/pub/images/superthingsgoliath.png"
     },
