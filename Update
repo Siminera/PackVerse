@@ -1,5 +1,15 @@
 {
-  "pool": [],
+  "pool": [
+    {
+      "id": "ihlve6",
+      "rarity": "common",
+      "description": "Great Ter is a villain Superthing from Series 1, and is a member of the Mad Clan. His rival is Mega Veg, a carrot, and he is based off of a grater.His power is labelled as 'Metal Claw' presumably meaning that he can scrape anyone, as it states that very few people will face Great Ter, and will only come towards him if they are tough.",
+      "pack": "pack_56xb7j",
+      "name": "Great Ter",
+      "url": "https://static.wikia.nocookie.net/superthings/images/f/fb/079_and_080.png",
+      "customProperties": {}
+    }
+  ],
   "packPresets": {
     "pack_56xb7j": {
       "label": "Series 1",
@@ -252,6 +262,20 @@
       "fragmentCost": 55,
       "preview": "https://api.websim.com/blobs/019a3f77-d329-759b-96ac-873c654d4387.png",
       "guaranteeRare": true
+    },
+    "pack_zd8qt1": {
+      "label": "coming soon",
+      "color": "#fff",
+      "barTint": "rgba(0,0,0,0.6)",
+      "zoom": 1.02,
+      "hitsRange": [
+        2,
+        4
+      ],
+      "shakeIntensity": 1,
+      "fragmentCost": 0,
+      "preview": "https://img.freepik.com/free-vector/coming-soon-black-backgroun-design_1017-37033.jpg",
+      "guaranteeRare": false
     }
   },
   "packFolders": {
@@ -292,7 +316,9 @@
     },
     "folder_pt2ab3": {
       "label": "Harry Potter",
-      "packs": [],
+      "packs": [
+        "pack_zd8qt1"
+      ],
       "image": "https://img.freepik.com/free-vector/coming-soon-black-backgroun-design_1017-37033.jpg"
     },
     "folder_lutcuq": {
