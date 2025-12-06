@@ -10,7 +10,7 @@
       "customProperties": {
         "ATK": "",
         "DEF": "",
-        "Level": "3",
+        "Level": "",
         "Attribute": "",
         "Type": "",
         "Card": ""
@@ -636,6 +636,233 @@
             "textColor": "#000000"
           },
           "DEF": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 1,
+            "textColor": "#000000"
+          }
+        },
+        "selectedTextTarget": "title",
+        "streakFreq": "15",
+        "streakSize": "100",
+        "streakWidth": "100",
+        "streakHeight": "100",
+        "streakRotation": "0",
+        "vertexAmp": "8",
+        "vertexFreq": "6",
+        "vertexNoise": "10",
+        "saturation": "100",
+        "brightness": "100",
+        "hueShift": "0",
+        "rainbowVariant": "0"
+      }
+    },
+    {
+      "name": "Template",
+      "createdAt": 1765025573107,
+      "data": {
+        "title": "",
+        "attribute": "",
+        "desc": "",
+        "skillOne": "",
+        "cardColor": "#864904",
+        "holoEffect": "0",
+        "holoIntensity": "41",
+        "textboxDims": {
+          "title": {
+            "wPercent": 29,
+            "hPx": 80
+          },
+          "desc": {
+            "wPercent": 80,
+            "hPx": 180
+          },
+          "skills": {
+            "wPercent": 80,
+            "hPx": 140
+          },
+          "ATK": {
+            "wPercent": 80,
+            "hPx": 140
+          },
+          "DEF": {
+            "wPercent": 80,
+            "hPx": 140
+          },
+          "Level": {
+            "wPercent": 80,
+            "hPx": 140
+          },
+          "Attribute": {
+            "wPercent": 80,
+            "hPx": 140
+          },
+          "Type": {
+            "wPercent": 80,
+            "hPx": 140
+          },
+          "Card": {
+            "wPercent": 80,
+            "hPx": 140
+          }
+        },
+        "textboxStyle": {
+          "title": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#ffffff",
+            "_baseDropBlur": 12,
+            "_baseInnerStrength": 0.3,
+            "textBevel": {
+              "enabled": false,
+              "highlight": "#ffffff",
+              "shadow": "#000000",
+              "offset": 2
+            }
+          },
+          "desc": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "skills": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 1,
+            "textColor": "#000000"
+          },
+          "ATK": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 1,
+            "textColor": "#000000"
+          },
+          "DEF": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 1,
+            "textColor": "#000000"
+          },
+          "Level": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 1,
+            "textColor": "#000000"
+          },
+          "Attribute": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 1,
+            "textColor": "#000000"
+          },
+          "Type": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 1,
+            "textColor": "#000000"
+          },
+          "Card": {
             "strokeEnabled": true,
             "strokeWidth": 2,
             "strokeColor": "#000000",
