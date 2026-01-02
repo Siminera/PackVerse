@@ -872,12 +872,46 @@
     "super": 0,
     "ultra": 0
   },
+  "luckBoostProfiles": {},
   "luckDisplay": {
     "title": "LUCK BOOST ACTIVE •",
     "colorStart": "#ffd054",
     "colorEnd": "#ff8c50"
   },
-  "soundConfig": {},
+  "rarityWeights": {
+    "common": 60,
+    "rare": 25,
+    "super": 12,
+    "ultra": 3
+  },
+  "packOptions": {
+    "size": 5,
+    "guaranteeRare": true
+  },
+  "soundConfig": {
+    "click": "https://actions.google.com/sounds/v1/cartoon/wood_plank_flicks.ogg",
+    "open": "https://actions.google.com/sounds/v1/cartoon/clang_and_wobble.ogg",
+    "pack_click": "https://www.soundjay.com/mechanical/sounds/clong-1.mp3",
+    "reveal_music": "https://actions.google.com/sounds/v1/science_fiction/techno_interface_hum.ogg",
+    "item_new": "https://actions.google.com/sounds/v1/cartoon/glissando_up.ogg",
+    "item_duplicate": "https://actions.google.com/sounds/v1/impacts/wood.ogg",
+    "common_whoosh": "https://actions.google.com/sounds/v1/impacts/whoosh_short.ogg",
+    "rare_whoosh": "https://actions.google.com/sounds/v1/impacts/whoosh_medium.ogg",
+    "super_whoosh": "https://actions.google.com/sounds/v1/impacts/whoosh_long.ogg",
+    "ultra_whoosh": "https://actions.google.com/sounds/v1/impacts/whoosh_deep.ogg",
+    "common_reveal": "https://actions.google.com/sounds/v1/cartoon/pop.ogg",
+    "rare_reveal": "https://actions.google.com/sounds/v1/cartoon/clang.ogg",
+    "super_reveal": "https://actions.google.com/sounds/v1/cartoon/metal_thud.ogg",
+    "ultra_reveal": "https://actions.google.com/sounds/v1/cartoon/epic_drum.ogg",
+    "common_impact": "https://actions.google.com/sounds/v1/impacts/wood.ogg",
+    "rare_impact": "https://actions.google.com/sounds/v1/impacts/metal.ogg",
+    "super_impact": "https://actions.google.com/sounds/v1/impacts/large_boom.ogg",
+    "ultra_impact": "https://actions.google.com/sounds/v1/impacts/explosion.ogg",
+    "common_particles": "https://actions.google.com/sounds/v1/alarms/beep_short.ogg",
+    "rare_particles": "https://actions.google.com/sounds/v1/alarms/medium_bell_ring.ogg",
+    "super_particles": "https://actions.google.com/sounds/v1/alarms/large_bell_ring.ogg",
+    "ultra_particles": "https://actions.google.com/sounds/v1/alarms/klaxon_short.ogg"
+  },
   "templates": [
     {
       "name": "Effect",
