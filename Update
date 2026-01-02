@@ -451,6 +451,83 @@
         }
       },
       "tts": "Great Ter is a villain Superthing from Series 1, and is a member of the Mad Clan. His rival is Mega Veg, a carrot, and he is based off of a grater.His power is labelled as 'Metal Claw' presumably meaning that he can scrape anyone, as it states that very few people will face Great Ter, and will only come towards him if they are tough."
+    },
+    {
+      "id": "r7t7m6",
+      "rarity": "common",
+      "description": "",
+      "pack": "classic",
+      "name": "roxinol",
+      "url": "https://static.wikia.nocookie.net/superthings/images/f/f5/Jack_the_juicer_alternate_pose.png",
+      "customProperties": {
+        "ATK": "",
+        "DEF": "",
+        "Level": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "Attribute": [
+          "Dark",
+          "Light",
+          "Earth",
+          "Water",
+          "Fire",
+          "Wind",
+          "Eletric"
+        ],
+        "Type": [
+          "Aqua",
+          "Beast",
+          "Beast-Warrior",
+          "Cyberse",
+          "Dinosaur",
+          "Divine-Beast",
+          "Dragon",
+          "Fairy",
+          "Fiend",
+          "Fish",
+          "Insect",
+          "Machine",
+          "Plant",
+          "Psychic",
+          "Pyro",
+          "Reptile",
+          "Rock",
+          "Sea Serpent",
+          "Spellcaster",
+          "Thunder",
+          "Warrior",
+          "Winged Beast",
+          "Wyrm",
+          "Zombie"
+        ],
+        "Card": [
+          "Normal",
+          "Effect",
+          "Fusion",
+          "Ritual",
+          "Synchro",
+          "Xyz",
+          "Pendulum",
+          "Link",
+          "Token",
+          "Gemini",
+          "Spirit",
+          "Union",
+          "Toon",
+          "Tuner"
+        ]
+      }
     }
   ],
   "packPresets": {
@@ -872,21 +949,10 @@
     "super": 0,
     "ultra": 0
   },
-  "luckBoostProfiles": {},
   "luckDisplay": {
     "title": "LUCK BOOST ACTIVE •",
     "colorStart": "#ffd054",
     "colorEnd": "#ff8c50"
-  },
-  "rarityWeights": {
-    "common": 60,
-    "rare": 25,
-    "super": 12,
-    "ultra": 3
-  },
-  "packOptions": {
-    "size": 5,
-    "guaranteeRare": true
   },
   "soundConfig": {
     "click": "https://actions.google.com/sounds/v1/cartoon/wood_plank_flicks.ogg",
