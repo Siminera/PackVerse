@@ -3422,7 +3422,7 @@
         "attribute": "",
         "desc": "If this card is Summoned: your opponent cannot target your Level 3 or lower monsters this turn.\n\n\nIf \"Mega Veg\" is in your GY: this card gains 300 ATK and cannot be destroyed the turn it is Summoned.",
         "skillOne": "",
-        "currentImageSrc": "",
+        "currentImageSrc": "https://www.mockofun.com/wp-content/uploads/2024/04/yugioh-card-generator-118248.jpg",
          "currentImageSrc2": "",
         "currentImageSrc3": "",
         "currentBackImageSrc": "",
@@ -3766,3 +3766,4 @@
   ],
   "admin_import_url": ""
 }
+
