@@ -2628,12 +2628,15 @@
   "soundConfig": {},
   "templates": [
     {
+      "key": "uvb4ba",
       "name": "Effect_Common_ST_01",
       "createdAt": 1768159980185,
-      "data": {},
-      "key": "uvb4ba"
+      "data": {}
     }
   ],
+  "card_last_settings": null,
+  "card_preview_template": null,
+  "card_preview_item": null,
   "fontUrl": "",
   "adminPin": "admin",
   "intro_video_url": "",
