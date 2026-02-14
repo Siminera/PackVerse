@@ -2287,13 +2287,13 @@
   "soundConfig": {},
   "templates": [
     {
-      "key": "tpl_xuqzg1kx",
-      "name": "T-Mate",
-      "createdAt": 1771099555717,
+      "key": "tpl_hnin58va",
+      "name": "EXAMPLES",
+      "createdAt": 1771100091603,
       "data": {
-        "title": "T-Mate",
+        "title": "Mad Pop",
         "attribute": "COSMIC",
-        "desc": "If you control another \"Superthing\": this card gains 300 ATK.\n\nIf you control two or more \"Superthing\": this card gains 800 ATK instead.",
+        "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
         "skillOne": "Cosmic Blast",
         "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
         "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
@@ -2599,13 +2599,13 @@
         "cardVideoTime": 0,
         "hdriUrl": "",
         "backVideoPendingUrl": "",
-        "savedAt": 1771099555717,
+        "savedAt": 1771100091603,
         "propertyImages": {
-          "ATK": "1300",
-          "DEF": "1200",
+          "ATK": "1400",
+          "DEF": "1400",
           "Level": "3",
-          "Attribute": "Water",
-          "Type": "Plant",
+          "Attribute": "Earth",
+          "Type": "Rock",
           "Card": "Effect"
         },
         "imageSizes": {
@@ -2627,9 +2627,9 @@
           }
         },
         "card_last_settings_v1": {
-          "title": "T-Mate",
+          "title": "Mad Pop",
           "attribute": "COSMIC",
-          "desc": "If you control another \"Superthing\": this card gains 300 ATK.\n\nIf you control two or more \"Superthing\": this card gains 800 ATK instead.",
+          "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
           "skillOne": "Cosmic Blast",
           "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
           "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
@@ -2935,13 +2935,13 @@
           "cardVideoTime": 0,
           "hdriUrl": "",
           "backVideoPendingUrl": "",
-          "savedAt": 1771099549168,
+          "savedAt": 1771100084893,
           "propertyImages": {
-            "ATK": "1300",
-            "DEF": "1200",
+            "ATK": "1400",
+            "DEF": "1400",
             "Level": "3",
-            "Attribute": "Water",
-            "Type": "Plant",
+            "Attribute": "Earth",
+            "Type": "Rock",
             "Card": "Effect"
           },
           "imageSizes": {
@@ -2968,13 +2968,13 @@
     }
   ],
   "card_preview_template": {
-    "key": "tpl_xuqzg1kx",
-    "name": "T-Mate",
-    "createdAt": 1771099555717,
+    "key": "tpl_hnin58va",
+    "name": "EXAMPLES",
+    "createdAt": 1771100091603,
     "data": {
-      "title": "T-Mate",
+      "title": "Mad Pop",
       "attribute": "COSMIC",
-      "desc": "If you control another \"Superthing\": this card gains 300 ATK.\n\nIf you control two or more \"Superthing\": this card gains 800 ATK instead.",
+      "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
       "skillOne": "Cosmic Blast",
       "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
       "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
@@ -3280,13 +3280,13 @@
       "cardVideoTime": 0,
       "hdriUrl": "",
       "backVideoPendingUrl": "",
-      "savedAt": 1771099555717,
+      "savedAt": 1771100091603,
       "propertyImages": {
-        "ATK": "1300",
-        "DEF": "1200",
+        "ATK": "1400",
+        "DEF": "1400",
         "Level": "3",
-        "Attribute": "Water",
-        "Type": "Plant",
+        "Attribute": "Earth",
+        "Type": "Rock",
         "Card": "Effect"
       },
       "imageSizes": {
@@ -3308,9 +3308,9 @@
         }
       },
       "card_last_settings_v1": {
-        "title": "T-Mate",
+        "title": "Mad Pop",
         "attribute": "COSMIC",
-        "desc": "If you control another \"Superthing\": this card gains 300 ATK.\n\nIf you control two or more \"Superthing\": this card gains 800 ATK instead.",
+        "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
         "skillOne": "Cosmic Blast",
         "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
         "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
@@ -3616,13 +3616,13 @@
         "cardVideoTime": 0,
         "hdriUrl": "",
         "backVideoPendingUrl": "",
-        "savedAt": 1771099549168,
+        "savedAt": 1771100084893,
         "propertyImages": {
-          "ATK": "1300",
-          "DEF": "1200",
+          "ATK": "1400",
+          "DEF": "1400",
           "Level": "3",
-          "Attribute": "Water",
-          "Type": "Plant",
+          "Attribute": "Earth",
+          "Type": "Rock",
           "Card": "Effect"
         },
         "imageSizes": {
