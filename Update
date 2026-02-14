@@ -2970,6 +2970,7 @@
   "card_preview_template": {
     "key": "tpl_0u2grvei",
     "name": "imager",
+    "createdAt": 1771100708786,
     "data": {
       "title": "Power Shield",
       "attribute": "COSMIC",
