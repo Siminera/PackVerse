@@ -2287,16 +2287,16 @@
   "soundConfig": {},
   "templates": [
     {
-      "key": "tpl_hnin58va",
-      "name": "EXAMPLES",
-      "createdAt": 1771100091603,
+      "key": "tpl_0u2grvei",
+      "name": "imager",
+      "createdAt": 1771100708786,
       "data": {
-        "title": "Mad Pop",
+        "title": "Power Shield",
         "attribute": "COSMIC",
-        "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
+        "desc": "If this card is Normal Summoned: add 1 “Superthings” Spell/Trap from your Deck to your hand.\nIf a Superthing is face-up on the field: this card gains +700 DEF and can redirect attacks to itself once per turn.",
         "skillOne": "Cosmic Blast",
         "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
-        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/8/8a/PowerShield.png",
         "currentImageSrc3": "",
         "currentBackImageSrc": "",
         "image1State": {
@@ -2599,13 +2599,13 @@
         "cardVideoTime": 0,
         "hdriUrl": "",
         "backVideoPendingUrl": "",
-        "savedAt": 1771100091603,
+        "savedAt": 1771100708786,
         "propertyImages": {
-          "ATK": "1400",
-          "DEF": "1400",
+          "ATK": "500",
+          "DEF": "1600",
           "Level": "3",
-          "Attribute": "Earth",
-          "Type": "Rock",
+          "Attribute": "Light",
+          "Type": "Warrior",
           "Card": "Effect"
         },
         "imageSizes": {
@@ -2627,12 +2627,12 @@
           }
         },
         "card_last_settings_v1": {
-          "title": "Mad Pop",
+          "title": "Power Shield",
           "attribute": "COSMIC",
-          "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
+          "desc": "If this card is Normal Summoned: add 1 “Superthings” Spell/Trap from your Deck to your hand.\nIf a Superthing is face-up on the field: this card gains +700 DEF and can redirect attacks to itself once per turn.",
           "skillOne": "Cosmic Blast",
           "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
-          "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+          "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/8/8a/PowerShield.png",
           "currentImageSrc3": "",
           "currentBackImageSrc": "",
           "image1State": {
@@ -2935,13 +2935,13 @@
           "cardVideoTime": 0,
           "hdriUrl": "",
           "backVideoPendingUrl": "",
-          "savedAt": 1771100084893,
+          "savedAt": 1771100699335,
           "propertyImages": {
-            "ATK": "1400",
-            "DEF": "1400",
+            "ATK": "500",
+            "DEF": "1600",
             "Level": "3",
-            "Attribute": "Earth",
-            "Type": "Rock",
+            "Attribute": "Light",
+            "Type": "Warrior",
             "Card": "Effect"
           },
           "imageSizes": {
@@ -2963,21 +2963,20 @@
             }
           }
         },
-        "linkedItemId": "gu3tyg"
+        "linkedItemId": "95c60w"
       }
     }
   ],
   "card_preview_template": {
-    "key": "tpl_hnin58va",
-    "name": "EXAMPLES",
-    "createdAt": 1771100091603,
+    "key": "tpl_0u2grvei",
+    "name": "imager",
     "data": {
-      "title": "Mad Pop",
+      "title": "Power Shield",
       "attribute": "COSMIC",
-      "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
+      "desc": "If this card is Normal Summoned: add 1 “Superthings” Spell/Trap from your Deck to your hand.\nIf a Superthing is face-up on the field: this card gains +700 DEF and can redirect attacks to itself once per turn.",
       "skillOne": "Cosmic Blast",
       "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
-      "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+      "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/8/8a/PowerShield.png",
       "currentImageSrc3": "",
       "currentBackImageSrc": "",
       "image1State": {
@@ -3280,13 +3279,13 @@
       "cardVideoTime": 0,
       "hdriUrl": "",
       "backVideoPendingUrl": "",
-      "savedAt": 1771100091603,
+      "savedAt": 1771100708786,
       "propertyImages": {
-        "ATK": "1400",
-        "DEF": "1400",
+        "ATK": "500",
+        "DEF": "1600",
         "Level": "3",
-        "Attribute": "Earth",
-        "Type": "Rock",
+        "Attribute": "Light",
+        "Type": "Warrior",
         "Card": "Effect"
       },
       "imageSizes": {
@@ -3308,12 +3307,12 @@
         }
       },
       "card_last_settings_v1": {
-        "title": "Mad Pop",
+        "title": "Power Shield",
         "attribute": "COSMIC",
-        "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
+        "desc": "If this card is Normal Summoned: add 1 “Superthings” Spell/Trap from your Deck to your hand.\nIf a Superthing is face-up on the field: this card gains +700 DEF and can redirect attacks to itself once per turn.",
         "skillOne": "Cosmic Blast",
         "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
-        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/8/8a/PowerShield.png",
         "currentImageSrc3": "",
         "currentBackImageSrc": "",
         "image1State": {
@@ -3616,13 +3615,13 @@
         "cardVideoTime": 0,
         "hdriUrl": "",
         "backVideoPendingUrl": "",
-        "savedAt": 1771100084893,
+        "savedAt": 1771100699335,
         "propertyImages": {
-          "ATK": "1400",
-          "DEF": "1400",
+          "ATK": "500",
+          "DEF": "1600",
           "Level": "3",
-          "Attribute": "Earth",
-          "Type": "Rock",
+          "Attribute": "Light",
+          "Type": "Warrior",
           "Card": "Effect"
         },
         "imageSizes": {
@@ -3644,7 +3643,7 @@
           }
         }
       },
-      "linkedItemId": "gu3tyg"
+      "linkedItemId": "95c60w"
     }
   },
   "card_preview_item": null,
