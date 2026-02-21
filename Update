@@ -2632,7 +2632,7 @@
           "desc": "If this card is Normal Summoned: add 1 “Superthings” Spell/Trap from your Deck to your hand.\nIf a Superthing is face-up on the field: this card gains +700 DEF and can redirect attacks to itself once per turn.",
           "skillOne": "Cosmic Blast",
           "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
-          "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/8/8a/PowerShield.png",
+          "currentImageSrc2": "",
           "currentImageSrc3": "",
           "currentBackImageSrc": "",
           "image1State": {
@@ -3654,3 +3654,4 @@
   "intro_video_time": 0,
   "admin_import_url": ""
 }
+
