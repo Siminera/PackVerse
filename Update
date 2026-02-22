@@ -1601,16 +1601,16 @@
   "soundConfig": {},
   "templates": [
     {
-      "key": "tpl_dzklfewe",
-      "name": "neww",
-      "createdAt": 1771797463774,
+      "key": "tpl_u3nsyu5d",
+      "name": "Fizzer",
+      "createdAt": 1771798408684,
       "data": {
-        "title": "Great Ter",
+        "title": "Fizzer",
         "attribute": "COSMIC",
-        "desc": "If this card is Summoned: your opponent cannot target your Level 3 or lower monsters this turn.\n\n\nIf \"Mega Veg\" is in your GY: this card gains 300 ATK and cannot be destroyed the turn it is Summoned.",
+        "desc": "When destroyed, special summon another Superthing from your Hand or GY.\nif \"Mad Pop\" in GY: Special Summon 2 Superthings intead.",
         "skillOne": "Cosmic Blast",
         "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
-        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/f/fb/079_and_080.png",
+        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
         "currentImageSrc3": "",
         "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
         "image1State": {
@@ -1918,13 +1918,13 @@
         "cardVideoTime": 0,
         "hdriUrl": "",
         "backVideoPendingUrl": "",
-        "savedAt": 1771797463773,
+        "savedAt": 1771798408684,
         "propertyImages": {
-          "ATK": "1300",
-          "DEF": "1200",
-          "Level": "3",
-          "Attribute": "Water",
-          "Type": "Plant",
+          "ATK": "500",
+          "DEF": "500",
+          "Level": "2",
+          "Attribute": "Fire",
+          "Type": "Pyro",
           "Card": "Effect"
         },
         "imageSizes": {
@@ -1946,12 +1946,12 @@
           }
         },
         "card_last_settings_v1": {
-          "title": "Great Ter",
+          "title": "Fizzer",
           "attribute": "COSMIC",
-          "desc": "If this card is Summoned: your opponent cannot target your Level 3 or lower monsters this turn.\n\n\nIf \"Mega Veg\" is in your GY: this card gains 300 ATK and cannot be destroyed the turn it is Summoned.",
+          "desc": "When destroyed, special summon another Superthing from your Hand or GY.\nif \"Mad Pop\" in GY: Special Summon 2 Superthings intead.",
           "skillOne": "Cosmic Blast",
           "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
-          "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/f/fb/079_and_080.png",
+          "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
           "currentImageSrc3": "",
           "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
           "image1State": {
@@ -2259,13 +2259,13 @@
           "cardVideoTime": 0,
           "hdriUrl": "",
           "backVideoPendingUrl": "",
-          "savedAt": 1771797427965,
+          "savedAt": 1771798386866,
           "propertyImages": {
-            "ATK": "1300",
-            "DEF": "1200",
-            "Level": "3",
-            "Attribute": "Water",
-            "Type": "Plant",
+            "ATK": "500",
+            "DEF": "500",
+            "Level": "2",
+            "Attribute": "Fire",
+            "Type": "Pyro",
             "Card": "Effect"
           },
           "imageSizes": {
@@ -2286,20 +2286,21 @@
               "height": 1433
             }
           }
-        }
+        },
+        "linkedItemId": "k9yp0y"
       }
     }
   ],
   "card_preview_template": {
-    "key": "tpl_dzklfewe",
-    "name": "neww",
+    "key": "tpl_u3nsyu5d",
+    "name": "Fizzer",
     "data": {
-      "title": "Great Ter",
+      "title": "Fizzer",
       "attribute": "COSMIC",
-      "desc": "If this card is Summoned: your opponent cannot target your Level 3 or lower monsters this turn.\n\n\nIf \"Mega Veg\" is in your GY: this card gains 300 ATK and cannot be destroyed the turn it is Summoned.",
+      "desc": "When destroyed, special summon another Superthing from your Hand or GY.\nif \"Mad Pop\" in GY: Special Summon 2 Superthings intead.",
       "skillOne": "Cosmic Blast",
       "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
-      "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/f/fb/079_and_080.png",
+      "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
       "currentImageSrc3": "",
       "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
       "image1State": {
@@ -2607,13 +2608,13 @@
       "cardVideoTime": 0,
       "hdriUrl": "",
       "backVideoPendingUrl": "",
-      "savedAt": 1771797463773,
+      "savedAt": 1771798408684,
       "propertyImages": {
-        "ATK": "1300",
-        "DEF": "1200",
-        "Level": "3",
-        "Attribute": "Water",
-        "Type": "Plant",
+        "ATK": "500",
+        "DEF": "500",
+        "Level": "2",
+        "Attribute": "Fire",
+        "Type": "Pyro",
         "Card": "Effect"
       },
       "imageSizes": {
@@ -2635,12 +2636,12 @@
         }
       },
       "card_last_settings_v1": {
-        "title": "Great Ter",
+        "title": "Fizzer",
         "attribute": "COSMIC",
-        "desc": "If this card is Summoned: your opponent cannot target your Level 3 or lower monsters this turn.\n\n\nIf \"Mega Veg\" is in your GY: this card gains 300 ATK and cannot be destroyed the turn it is Summoned.",
+        "desc": "When destroyed, special summon another Superthing from your Hand or GY.\nif \"Mad Pop\" in GY: Special Summon 2 Superthings intead.",
         "skillOne": "Cosmic Blast",
         "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
-        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/f/fb/079_and_080.png",
+        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
         "currentImageSrc3": "",
         "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
         "image1State": {
@@ -2948,13 +2949,13 @@
         "cardVideoTime": 0,
         "hdriUrl": "",
         "backVideoPendingUrl": "",
-        "savedAt": 1771797427965,
+        "savedAt": 1771798386866,
         "propertyImages": {
-          "ATK": "1300",
-          "DEF": "1200",
-          "Level": "3",
-          "Attribute": "Water",
-          "Type": "Plant",
+          "ATK": "500",
+          "DEF": "500",
+          "Level": "2",
+          "Attribute": "Fire",
+          "Type": "Pyro",
           "Card": "Effect"
         },
         "imageSizes": {
@@ -2975,7 +2976,8 @@
             "height": 1433
           }
         }
-      }
+      },
+      "linkedItemId": "k9yp0y"
     }
   },
   "card_preview_item": null,
