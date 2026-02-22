@@ -881,347 +881,6 @@
         "Card": "Effect"
       },
       "customReveal": {
-        "selectedTemplate": {
-          "key": "trhy2v",
-          "name": "Effect",
-          "dataSnapshot": {
-            "title": "Great Ter",
-            "attribute": "COSMIC",
-            "desc": "If this card is Summoned: your opponent cannot target your Level 3 or lower monsters this turn.\n\n\nIf \"Mega Veg\" is in your GY: this card gains 300 ATK and cannot be destroyed the turn it is Summoned.",
-            "skillOne": "Cosmic Blast",
-            "currentImageSrc": "https://www.mockofun.com/wp-content/uploads/2024/04/yugioh-card-generator-118248.jpg",
-            "currentImageSrc2": "https://www.mockofun.com/wp-content/uploads/2024/04/yugioh-card-generator-118248.jpg",
-            "currentImageSrc3": "https://www.mockofun.com/wp-content/uploads/2024/04/yugioh-card-generator-118248.jpg",
-            "currentBackImageSrc": "",
-            "image1State": {
-              "posX": -2,
-              "posY": -48,
-              "scale": 125,
-              "zOrder": "below"
-            },
-            "image2State": {
-              "posX": 0,
-              "posY": 0,
-              "scalePct": 100,
-              "zOrder": "below"
-            },
-            "image3State": {
-              "posX": 0,
-              "posY": 0,
-              "scalePct": 100,
-              "zOrder": "above"
-            },
-            "cardColor": "#7851a9",
-            "holoEffect": "0",
-            "holoIntensity": 60,
-            "autoRotateEnabled": true,
-            "hueShift": 0,
-            "saturation": 100,
-            "brightness": 100,
-            "rainbowVariant": "0",
-            "spectrumOffset": 0,
-            "spectrumScale": 200,
-            "spectrumContrast": 100,
-            "spectrumOrientation": "0",
-            "streakFreq": 15,
-            "streakSize": 100,
-            "streakWidth": 100,
-            "streakHeight": 100,
-            "streakRotation": 0,
-            "streakFormat": "0",
-            "shimmerStrength": 2,
-            "animSpeed": 5,
-            "vertexAmp": 8,
-            "vertexFreq": 6,
-            "vertexNoise": 10,
-            "selectedTextTarget": "Card",
-            "titleFontSize": 42,
-            "descFontSize": 18,
-            "skillsFontSize": 20,
-            "extraFontSizes": {
-              "ATK": 20,
-              "DEF": 20,
-              "Level": 20,
-              "Attribute": 20,
-              "Type": 20,
-              "Card": 20
-            },
-            "offsets": {
-              "title": {
-                "x": 39,
-                "y": 20
-              },
-              "desc": {
-                "x": 40,
-                "y": 20
-              },
-              "skills": {
-                "x": 40,
-                "y": 20
-              },
-              "ATK": {
-                "x": 40,
-                "y": 20
-              },
-              "DEF": {
-                "x": 40,
-                "y": 20
-              },
-              "Level": {
-                "x": 40,
-                "y": 20
-              },
-              "Attribute": {
-                "x": 40,
-                "y": 20
-              },
-              "Type": {
-                "x": 40,
-                "y": 20
-              },
-              "Card": {
-                "x": 40,
-                "y": 20
-              }
-            },
-            "textboxDims": {
-              "title": {
-                "wPercent": 67,
-                "hPx": 80
-              },
-              "desc": {
-                "wPercent": 80,
-                "hPx": 180
-              },
-              "skills": {
-                "wPercent": 80,
-                "hPx": 140
-              },
-              "ATK": {
-                "wPercent": 80,
-                "hPx": 140
-              },
-              "DEF": {
-                "wPercent": 80,
-                "hPx": 140
-              },
-              "Level": {
-                "wPercent": 80,
-                "hPx": 140
-              },
-              "Attribute": {
-                "wPercent": 80,
-                "hPx": 140
-              },
-              "Type": {
-                "wPercent": 80,
-                "hPx": 140
-              },
-              "Card": {
-                "wPercent": 80,
-                "hPx": 140
-              }
-            },
-            "textboxStyle": {
-              "title": {
-                "strokeEnabled": false,
-                "strokeWidth": 2,
-                "strokeColor": "#000000",
-                "innerShadow": false,
-                "innerShadowColor": "#000000",
-                "innerShadowStrength": 0.3,
-                "dropShadow": false,
-                "dropShadowColor": "#000000",
-                "dropShadowOffsetX": 6,
-                "dropShadowOffsetY": 6,
-                "dropShadowBlur": 12,
-                "shadowSize": 100,
-                "bgColor": "#ffffff",
-                "bgOpacity": 0,
-                "textColor": "#000000",
-                "_baseDropBlur": 12,
-                "_baseInnerStrength": 0.3,
-                "textBevel": {
-                  "enabled": false,
-                  "highlight": "#ffffff",
-                  "shadow": "#000000",
-                  "offset": 2
-                }
-              },
-              "desc": {
-                "strokeEnabled": true,
-                "strokeWidth": 2,
-                "strokeColor": "#000000",
-                "innerShadow": true,
-                "innerShadowColor": "#000000",
-                "innerShadowStrength": 0.3,
-                "dropShadow": true,
-                "dropShadowColor": "#000000",
-                "dropShadowOffsetX": 6,
-                "dropShadowOffsetY": 6,
-                "dropShadowBlur": 12,
-                "shadowSize": 100,
-                "bgColor": "#ffffff",
-                "bgOpacity": 0,
-                "textColor": "#000000"
-              },
-              "skills": {
-                "strokeEnabled": true,
-                "strokeWidth": 2,
-                "strokeColor": "#000000",
-                "innerShadow": true,
-                "innerShadowColor": "#000000",
-                "innerShadowStrength": 0.3,
-                "dropShadow": true,
-                "dropShadowColor": "#000000",
-                "dropShadowOffsetX": 6,
-                "dropShadowOffsetY": 6,
-                "dropShadowBlur": 12,
-                "shadowSize": 100,
-                "bgColor": "#ffffff",
-                "bgOpacity": 0,
-                "textColor": "#000000"
-              },
-              "ATK": {
-                "strokeEnabled": true,
-                "strokeWidth": 2,
-                "strokeColor": "#000000",
-                "innerShadow": true,
-                "innerShadowColor": "#000000",
-                "innerShadowStrength": 0.3,
-                "dropShadow": true,
-                "dropShadowColor": "#000000",
-                "dropShadowOffsetX": 6,
-                "dropShadowOffsetY": 6,
-                "dropShadowBlur": 12,
-                "shadowSize": 100,
-                "bgColor": "#ffffff",
-                "bgOpacity": 0,
-                "textColor": "#000000"
-              },
-              "DEF": {
-                "strokeEnabled": true,
-                "strokeWidth": 2,
-                "strokeColor": "#000000",
-                "innerShadow": true,
-                "innerShadowColor": "#000000",
-                "innerShadowStrength": 0.3,
-                "dropShadow": true,
-                "dropShadowColor": "#000000",
-                "dropShadowOffsetX": 6,
-                "dropShadowOffsetY": 6,
-                "dropShadowBlur": 12,
-                "shadowSize": 100,
-                "bgColor": "#ffffff",
-                "bgOpacity": 0,
-                "textColor": "#000000"
-              },
-              "Level": {
-                "strokeEnabled": true,
-                "strokeWidth": 2,
-                "strokeColor": "#000000",
-                "innerShadow": true,
-                "innerShadowColor": "#000000",
-                "innerShadowStrength": 0.3,
-                "dropShadow": true,
-                "dropShadowColor": "#000000",
-                "dropShadowOffsetX": 6,
-                "dropShadowOffsetY": 6,
-                "dropShadowBlur": 12,
-                "shadowSize": 100,
-                "bgColor": "#ffffff",
-                "bgOpacity": 0,
-                "textColor": "#000000"
-              },
-              "Attribute": {
-                "strokeEnabled": true,
-                "strokeWidth": 2,
-                "strokeColor": "#000000",
-                "innerShadow": true,
-                "innerShadowColor": "#000000",
-                "innerShadowStrength": 0.3,
-                "dropShadow": true,
-                "dropShadowColor": "#000000",
-                "dropShadowOffsetX": 6,
-                "dropShadowOffsetY": 6,
-                "dropShadowBlur": 12,
-                "shadowSize": 100,
-                "bgColor": "#ffffff",
-                "bgOpacity": 0,
-                "textColor": "#000000"
-              },
-              "Type": {
-                "strokeEnabled": true,
-                "strokeWidth": 2,
-                "strokeColor": "#000000",
-                "innerShadow": true,
-                "innerShadowColor": "#000000",
-                "innerShadowStrength": 0.3,
-                "dropShadow": true,
-                "dropShadowColor": "#000000",
-                "dropShadowOffsetX": 6,
-                "dropShadowOffsetY": 6,
-                "dropShadowBlur": 12,
-                "shadowSize": 100,
-                "bgColor": "#ffffff",
-                "bgOpacity": 0,
-                "textColor": "#000000"
-              },
-              "Card": {
-                "strokeEnabled": true,
-                "strokeWidth": 2,
-                "strokeColor": "#000000",
-                "innerShadow": true,
-                "innerShadowColor": "#000000",
-                "innerShadowStrength": 0.3,
-                "dropShadow": true,
-                "dropShadowColor": "#000000",
-                "dropShadowOffsetX": 6,
-                "dropShadowOffsetY": 6,
-                "dropShadowBlur": 12,
-                "shadowSize": 100,
-                "bgColor": "#ffffff",
-                "bgOpacity": 0,
-                "textColor": "#000000"
-              }
-            },
-            "textBevelEnabled": false,
-            "textBevelHighlight": "#ffffff",
-            "textBevelShadow": "#000000",
-            "textBevelOffset": 2,
-            "cardVideoUrl": "",
-            "cardVideoTime": 0,
-            "hdriUrl": "",
-            "backVideoPendingUrl": "",
-            "savedAt": 1765203939400,
-            "propertyImages": {
-              "ATK": "",
-              "DEF": "",
-              "Level": "",
-              "Attribute": "",
-              "Type": "",
-              "Card": ""
-            },
-            "imageSizes": {
-              "image1": {
-                "width": 1205,
-                "height": 1441
-              },
-              "image2": {
-                "width": 964,
-                "height": 1153
-              },
-              "image3": {
-                "width": 964,
-                "height": 1153
-              },
-              "backImage": {
-                "width": 1024,
-                "height": 1433
-              }
-            }
-          }
-        },
         "positions": {
           "title": {
             "x": 24,
@@ -2287,16 +1946,16 @@
   "soundConfig": {},
   "templates": [
     {
-      "key": "tpl_vmi00n5g",
-      "name": "FINAL",
-      "createdAt": 1771705151775,
+      "key": "tpl_u1d3jb2q",
+      "name": "done",
+      "createdAt": 1771778022693,
       "data": {
-        "title": "Crazy Jet",
+        "title": "Fizzer",
         "attribute": "COSMIC",
-        "desc": "Can Special Summon itself from hand if you sent a \"Superthing\" to GY this turn.\n\nIf \"Power Shield\" in GY: this card gains 500 ATK.",
+        "desc": "When destroyed, special summon another Superthing from your Hand or GY.\nif \"Mad Pop\" in GY: Special Summon 2 Superthings intead.",
         "skillOne": "Cosmic Blast",
         "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
-        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/e/e2/077_and_078.png",
+        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/3/32/Fizzer.png",
         "currentImageSrc3": "",
         "currentBackImageSrc": "",
         "image1State": {
@@ -2354,7 +2013,7 @@
         },
         "offsets": {
           "title": {
-            "x": 800,
+            "x": 67,
             "y": 20
           },
           "desc": {
@@ -2392,7 +2051,7 @@
         },
         "textboxDims": {
           "title": {
-            "wPercent": 80,
+            "wPercent": 66,
             "hPx": 80
           },
           "desc": {
@@ -2599,13 +2258,13 @@
         "cardVideoTime": 0,
         "hdriUrl": "",
         "backVideoPendingUrl": "",
-        "savedAt": 1771705151775,
+        "savedAt": 1771778022693,
         "propertyImages": {
-          "ATK": "1800",
-          "DEF": "100",
-          "Level": "3",
-          "Attribute": "Water",
-          "Type": "Aqua",
+          "ATK": "500",
+          "DEF": "500",
+          "Level": "2",
+          "Attribute": "Fire",
+          "Type": "Pyro",
           "Card": "Effect"
         },
         "imageSizes": {
@@ -2627,12 +2286,12 @@
           }
         },
         "card_last_settings_v1": {
-          "title": "Crazy Jet",
+          "title": "Fizzer",
           "attribute": "COSMIC",
-          "desc": "Can Special Summon itself from hand if you sent a \"Superthing\" to GY this turn.\n\nIf \"Power Shield\" in GY: this card gains 500 ATK.",
+          "desc": "When destroyed, special summon another Superthing from your Hand or GY.\nif \"Mad Pop\" in GY: Special Summon 2 Superthings intead.",
           "skillOne": "Cosmic Blast",
           "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
-          "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/e/e2/077_and_078.png",
+          "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/3/32/Fizzer.png",
           "currentImageSrc3": "",
           "currentBackImageSrc": "",
           "image1State": {
@@ -2690,7 +2349,7 @@
           },
           "offsets": {
             "title": {
-              "x": 800,
+              "x": 67,
               "y": 20
             },
             "desc": {
@@ -2728,7 +2387,7 @@
           },
           "textboxDims": {
             "title": {
-              "wPercent": 80,
+              "wPercent": 66,
               "hPx": 80
             },
             "desc": {
@@ -2935,13 +2594,13 @@
           "cardVideoTime": 0,
           "hdriUrl": "",
           "backVideoPendingUrl": "",
-          "savedAt": 1771705148003,
+          "savedAt": 1771778016380,
           "propertyImages": {
-            "ATK": "1800",
-            "DEF": "100",
-            "Level": "3",
-            "Attribute": "Water",
-            "Type": "Aqua",
+            "ATK": "500",
+            "DEF": "500",
+            "Level": "2",
+            "Attribute": "Fire",
+            "Type": "Pyro",
             "Card": "Effect"
           },
           "imageSizes": {
@@ -2963,20 +2622,20 @@
             }
           }
         },
-        "linkedItemId": "mwlm9k"
+        "linkedItemId": "k9yp0y"
       }
     }
   ],
   "card_preview_template": {
-    "key": "tpl_vmi00n5g",
-    "name": "Crazy Jet",
+    "key": "tpl_u1d3jb2q",
+    "name": "Fizzer",
     "data": {
-      "title": "Crazy Jet",
+      "title": "Fizzer",
       "attribute": "COSMIC",
-      "desc": "Can Special Summon itself from hand if you sent a \"Superthing\" to GY this turn.\n\nIf \"Power Shield\" in GY: this card gains 500 ATK.",
+      "desc": "When destroyed, special summon another Superthing from your Hand or GY.\nif \"Mad Pop\" in GY: Special Summon 2 Superthings intead.",
       "skillOne": "Cosmic Blast",
       "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
-      "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/e/e2/077_and_078.png",
+      "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/3/32/Fizzer.png",
       "currentImageSrc3": "",
       "currentBackImageSrc": "",
       "image1State": {
@@ -3034,7 +2693,7 @@
       },
       "offsets": {
         "title": {
-          "x": 800,
+          "x": 67,
           "y": 20
         },
         "desc": {
@@ -3072,7 +2731,7 @@
       },
       "textboxDims": {
         "title": {
-          "wPercent": 80,
+          "wPercent": 66,
           "hPx": 80
         },
         "desc": {
@@ -3279,13 +2938,13 @@
       "cardVideoTime": 0,
       "hdriUrl": "",
       "backVideoPendingUrl": "",
-      "savedAt": 1771705151775,
+      "savedAt": 1771778022693,
       "propertyImages": {
-        "ATK": "1800",
-        "DEF": "100",
-        "Level": "3",
-        "Attribute": "Water",
-        "Type": "Aqua",
+        "ATK": "500",
+        "DEF": "500",
+        "Level": "2",
+        "Attribute": "Fire",
+        "Type": "Pyro",
         "Card": "Effect"
       },
       "imageSizes": {
@@ -3307,12 +2966,12 @@
         }
       },
       "card_last_settings_v1": {
-        "title": "Crazy Jet",
+        "title": "Fizzer",
         "attribute": "COSMIC",
-        "desc": "Can Special Summon itself from hand if you sent a \"Superthing\" to GY this turn.\n\nIf \"Power Shield\" in GY: this card gains 500 ATK.",
+        "desc": "When destroyed, special summon another Superthing from your Hand or GY.\nif \"Mad Pop\" in GY: Special Summon 2 Superthings intead.",
         "skillOne": "Cosmic Blast",
         "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
-        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/e/e2/077_and_078.png",
+        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/3/32/Fizzer.png",
         "currentImageSrc3": "",
         "currentBackImageSrc": "",
         "image1State": {
@@ -3370,7 +3029,7 @@
         },
         "offsets": {
           "title": {
-            "x": 800,
+            "x": 67,
             "y": 20
           },
           "desc": {
@@ -3408,7 +3067,7 @@
         },
         "textboxDims": {
           "title": {
-            "wPercent": 80,
+            "wPercent": 66,
             "hPx": 80
           },
           "desc": {
@@ -3615,13 +3274,13 @@
         "cardVideoTime": 0,
         "hdriUrl": "",
         "backVideoPendingUrl": "",
-        "savedAt": 1771705148003,
+        "savedAt": 1771778016380,
         "propertyImages": {
-          "ATK": "1800",
-          "DEF": "100",
-          "Level": "3",
-          "Attribute": "Water",
-          "Type": "Aqua",
+          "ATK": "500",
+          "DEF": "500",
+          "Level": "2",
+          "Attribute": "Fire",
+          "Type": "Pyro",
           "Card": "Effect"
         },
         "imageSizes": {
@@ -3643,7 +3302,7 @@
           }
         }
       },
-      "linkedItemId": "mwlm9k"
+      "linkedItemId": "k9yp0y"
     }
   },
   "card_preview_item": null,
