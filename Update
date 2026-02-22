@@ -1951,7 +1951,7 @@
           "desc": "When destroyed, special summon another Superthing from your Hand or GY.\nif \"Mad Pop\" in GY: Special Summon 2 Superthings intead.",
           "skillOne": "Cosmic Blast",
           "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
-          "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+          "currentImageSrc2": "",
           "currentImageSrc3": "",
           "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
           "image1State": {
@@ -2987,3 +2987,4 @@
   "intro_video_time": 0,
   "admin_import_url": ""
 }
+
