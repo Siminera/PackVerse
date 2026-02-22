@@ -100,10 +100,6 @@
             "bgColor": "",
             "accent": ""
           }
-        },
-        "selectedTemplate": {
-          "key": "r2v2iv",
-          "name": "r2v2iv"
         }
       },
       "tts": "Great Ter is a villain Superthing from Series 1, and is a member of the Mad Clan. His rival is Mega Veg, a carrot, and he is based off of a grater.His power is labelled as 'Metal Claw' presumably meaning that he can scrape anyone, as it states that very few people will face Great Ter, and will only come towards him if they are tough."
@@ -1605,18 +1601,18 @@
   "soundConfig": {},
   "templates": [
     {
-      "key": "tpl_28jpyttb",
-      "name": "Load",
-      "createdAt": 1771796754584,
+      "key": "tpl_dzklfewe",
+      "name": "neww",
+      "createdAt": 1771797463774,
       "data": {
-        "title": "Mad Pop",
+        "title": "Great Ter",
         "attribute": "COSMIC",
-        "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
+        "desc": "If this card is Summoned: your opponent cannot target your Level 3 or lower monsters this turn.\n\n\nIf \"Mega Veg\" is in your GY: this card gains 300 ATK and cannot be destroyed the turn it is Summoned.",
         "skillOne": "Cosmic Blast",
         "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
-        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/f/fb/079_and_080.png",
         "currentImageSrc3": "",
-        "currentBackImageSrc": "",
+        "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
         "image1State": {
           "posX": 0,
           "posY": -48,
@@ -1922,13 +1918,13 @@
         "cardVideoTime": 0,
         "hdriUrl": "",
         "backVideoPendingUrl": "",
-        "savedAt": 1771796754584,
+        "savedAt": 1771797463773,
         "propertyImages": {
-          "ATK": "500",
-          "DEF": "500",
-          "Level": "2",
-          "Attribute": "Fire",
-          "Type": "Pyro",
+          "ATK": "1300",
+          "DEF": "1200",
+          "Level": "3",
+          "Attribute": "Water",
+          "Type": "Plant",
           "Card": "Effect"
         },
         "imageSizes": {
@@ -1950,14 +1946,14 @@
           }
         },
         "card_last_settings_v1": {
-          "title": "Mad Pop",
+          "title": "Great Ter",
           "attribute": "COSMIC",
-          "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
+          "desc": "If this card is Summoned: your opponent cannot target your Level 3 or lower monsters this turn.\n\n\nIf \"Mega Veg\" is in your GY: this card gains 300 ATK and cannot be destroyed the turn it is Summoned.",
           "skillOne": "Cosmic Blast",
           "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
-          "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+          "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/f/fb/079_and_080.png",
           "currentImageSrc3": "",
-          "currentBackImageSrc": "",
+          "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
           "image1State": {
             "posX": 0,
             "posY": -48,
@@ -2263,13 +2259,13 @@
           "cardVideoTime": 0,
           "hdriUrl": "",
           "backVideoPendingUrl": "",
-          "savedAt": 1771796747695,
+          "savedAt": 1771797427965,
           "propertyImages": {
-            "ATK": "500",
-            "DEF": "500",
-            "Level": "2",
-            "Attribute": "Fire",
-            "Type": "Pyro",
+            "ATK": "1300",
+            "DEF": "1200",
+            "Level": "3",
+            "Attribute": "Water",
+            "Type": "Plant",
             "Card": "Effect"
           },
           "imageSizes": {
@@ -2290,23 +2286,22 @@
               "height": 1433
             }
           }
-        },
-        "linkedItemId": "gu3tyg"
+        }
       }
     }
   ],
   "card_preview_template": {
-    "key": "tpl_28jpyttb",
-    "name": "Mad Pop",
+    "key": "tpl_dzklfewe",
+    "name": "neww",
     "data": {
-      "title": "Mad Pop",
+      "title": "Great Ter",
       "attribute": "COSMIC",
-      "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
+      "desc": "If this card is Summoned: your opponent cannot target your Level 3 or lower monsters this turn.\n\n\nIf \"Mega Veg\" is in your GY: this card gains 300 ATK and cannot be destroyed the turn it is Summoned.",
       "skillOne": "Cosmic Blast",
       "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
-      "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+      "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/f/fb/079_and_080.png",
       "currentImageSrc3": "",
-      "currentBackImageSrc": "",
+      "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
       "image1State": {
         "posX": 0,
         "posY": -48,
@@ -2612,13 +2607,13 @@
       "cardVideoTime": 0,
       "hdriUrl": "",
       "backVideoPendingUrl": "",
-      "savedAt": 1771796754584,
+      "savedAt": 1771797463773,
       "propertyImages": {
-        "ATK": "500",
-        "DEF": "500",
-        "Level": "2",
-        "Attribute": "Fire",
-        "Type": "Pyro",
+        "ATK": "1300",
+        "DEF": "1200",
+        "Level": "3",
+        "Attribute": "Water",
+        "Type": "Plant",
         "Card": "Effect"
       },
       "imageSizes": {
@@ -2640,14 +2635,14 @@
         }
       },
       "card_last_settings_v1": {
-        "title": "Mad Pop",
+        "title": "Great Ter",
         "attribute": "COSMIC",
-        "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
+        "desc": "If this card is Summoned: your opponent cannot target your Level 3 or lower monsters this turn.\n\n\nIf \"Mega Veg\" is in your GY: this card gains 300 ATK and cannot be destroyed the turn it is Summoned.",
         "skillOne": "Cosmic Blast",
         "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
-        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/f/fb/079_and_080.png",
         "currentImageSrc3": "",
-        "currentBackImageSrc": "",
+        "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
         "image1State": {
           "posX": 0,
           "posY": -48,
@@ -2953,13 +2948,13 @@
         "cardVideoTime": 0,
         "hdriUrl": "",
         "backVideoPendingUrl": "",
-        "savedAt": 1771796747695,
+        "savedAt": 1771797427965,
         "propertyImages": {
-          "ATK": "500",
-          "DEF": "500",
-          "Level": "2",
-          "Attribute": "Fire",
-          "Type": "Pyro",
+          "ATK": "1300",
+          "DEF": "1200",
+          "Level": "3",
+          "Attribute": "Water",
+          "Type": "Plant",
           "Card": "Effect"
         },
         "imageSizes": {
@@ -2980,8 +2975,7 @@
             "height": 1433
           }
         }
-      },
-      "linkedItemId": "gu3tyg"
+      }
     }
   },
   "card_preview_item": null,
