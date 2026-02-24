@@ -1601,13 +1601,13 @@
   "soundConfig": {},
   "templates": [
     {
-      "key": "tpl_u3nsyu5d",
-      "name": "Fizzer",
-      "createdAt": 1771798408684,
+      "key": "tpl_d071g3cl",
+      "name": "Done",
+      "createdAt": 1771957962891,
       "data": {
-        "title": "Fizzer",
+        "title": "Mad Pop",
         "attribute": "COSMIC",
-        "desc": "When destroyed, special summon another Superthing from your Hand or GY.\nif \"Mad Pop\" in GY: Special Summon 2 Superthings intead.",
+        "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
         "skillOne": "Cosmic Blast",
         "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
         "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
@@ -1633,8 +1633,8 @@
         },
         "cardColor": "#7851a9",
         "holoEffect": "0",
-        "holoIntensity": 60,
-        "autoRotateEnabled": true,
+        "holoIntensity": 0,
+        "autoRotateEnabled": false,
         "hueShift": 0,
         "saturation": 100,
         "brightness": 100,
@@ -1643,151 +1643,154 @@
         "spectrumScale": 200,
         "spectrumContrast": 100,
         "spectrumOrientation": "0",
-        "streakFreq": 15,
-        "streakSize": 100,
-        "streakWidth": 100,
+        "streakFreq": 1,
+        "streakSize": 200,
+        "streakWidth": 10,
         "streakHeight": 100,
         "streakRotation": 0,
         "streakFormat": "0",
         "shimmerStrength": 2,
         "animSpeed": 5,
-        "vertexAmp": 8,
-        "vertexFreq": 6,
-        "vertexNoise": 10,
+        "vertexAmp": 0,
+        "vertexFreq": 1,
+        "vertexNoise": 0,
         "selectedTextTarget": "title",
-        "titleFontSize": 42,
-        "descFontSize": 18,
+        "titleFontSize": 55,
+        "descFontSize": 32,
         "skillsFontSize": 20,
         "extraFontSizes": {
-          "ATK": 20,
-          "DEF": 20,
-          "Level": 20,
-          "Attribute": 20,
-          "Type": 20,
-          "Card": 20
+          "ATK": 40,
+          "DEF": 40,
+          "Level": 70,
+          "Attribute": 40,
+          "Type": 40,
+          "Card": 40
         },
         "offsets": {
           "title": {
-            "x": 67,
-            "y": 20
+            "x": 216,
+            "y": 39
           },
           "desc": {
-            "x": 800,
-            "y": 20
+            "x": 70,
+            "y": 960
           },
           "skills": {
             "x": 800,
             "y": 20
           },
           "ATK": {
-            "x": 800,
-            "y": 20
+            "x": 350,
+            "y": 935
           },
           "DEF": {
-            "x": 800,
-            "y": 20
+            "x": 671,
+            "y": 935
           },
           "Level": {
-            "x": 800,
-            "y": 20
+            "x": 90,
+            "y": 895
           },
           "Attribute": {
-            "x": 800,
-            "y": 20
+            "x": 62,
+            "y": 1006
           },
           "Type": {
-            "x": 800,
-            "y": 20
+            "x": 301,
+            "y": 1007
           },
           "Card": {
-            "x": 800,
-            "y": 20
+            "x": 540,
+            "y": 1005
           }
         },
         "selectedTextAlignment": {
           "title": "center",
           "desc": "left",
-          "skills": "left"
+          "skills": "left",
+          "ATK": "center",
+          "DEF": "center",
+          "Level": "center"
         },
         "textboxDims": {
           "title": {
-            "wPercent": 66,
-            "hPx": 80
+            "wPercent": 55,
+            "hPx": 90
           },
           "desc": {
-            "wPercent": 80,
-            "hPx": 180
+            "wPercent": 85,
+            "hPx": 209
           },
           "skills": {
             "wPercent": 80,
             "hPx": 140
           },
           "ATK": {
-            "wPercent": 80,
-            "hPx": 140
+            "wPercent": 20,
+            "hPx": 60
           },
           "DEF": {
-            "wPercent": 80,
-            "hPx": 140
+            "wPercent": 20,
+            "hPx": 65
           },
           "Level": {
-            "wPercent": 80,
-            "hPx": 140
+            "wPercent": 20,
+            "hPx": 100
           },
           "Attribute": {
-            "wPercent": 80,
-            "hPx": 140
+            "wPercent": 20,
+            "hPx": 60
           },
           "Type": {
-            "wPercent": 80,
-            "hPx": 140
+            "wPercent": 20,
+            "hPx": 60
           },
           "Card": {
-            "wPercent": 80,
-            "hPx": 140
+            "wPercent": 20,
+            "hPx": 60
           }
         },
         "textboxStyle": {
           "title": {
-            "strokeEnabled": true,
+            "strokeEnabled": false,
             "strokeWidth": 2,
             "strokeColor": "#000000",
-            "innerShadow": true,
+            "innerShadow": false,
             "innerShadowColor": "#000000",
             "innerShadowStrength": 0.3,
-            "dropShadow": true,
+            "dropShadow": false,
             "dropShadowColor": "#000000",
             "dropShadowOffsetX": 6,
             "dropShadowOffsetY": 6,
             "dropShadowBlur": 12,
             "shadowSize": 100,
             "bgColor": "#ffffff",
-            "bgOpacity": 1,
+            "bgOpacity": 0,
             "textColor": "#000000",
             "_baseDropBlur": 12,
             "_baseInnerStrength": 0.3,
             "textBevel": {
               "enabled": false,
-              "highlight": "#ffffff",
+              "highlight": "#a28310",
               "shadow": "#000000",
               "offset": 2
             }
           },
           "desc": {
-            "strokeEnabled": true,
+            "strokeEnabled": false,
             "strokeWidth": 2,
             "strokeColor": "#000000",
-            "innerShadow": true,
+            "innerShadow": false,
             "innerShadowColor": "#000000",
             "innerShadowStrength": 0.3,
-            "dropShadow": true,
+            "dropShadow": false,
             "dropShadowColor": "#000000",
             "dropShadowOffsetX": 6,
             "dropShadowOffsetY": 6,
             "dropShadowBlur": 12,
             "shadowSize": 100,
             "bgColor": "#ffffff",
-            "bgOpacity": 0.95,
+            "bgOpacity": 0,
             "textColor": "#000000"
           },
           "skills": {
@@ -1808,123 +1811,123 @@
             "textColor": "#000000"
           },
           "ATK": {
-            "strokeEnabled": true,
+            "strokeEnabled": false,
             "strokeWidth": 2,
             "strokeColor": "#000000",
-            "innerShadow": true,
+            "innerShadow": false,
             "innerShadowColor": "#000000",
             "innerShadowStrength": 0.3,
-            "dropShadow": true,
+            "dropShadow": false,
             "dropShadowColor": "#000000",
             "dropShadowOffsetX": 6,
             "dropShadowOffsetY": 6,
             "dropShadowBlur": 12,
             "shadowSize": 100,
             "bgColor": "#ffffff",
-            "bgOpacity": 1,
-            "textColor": "#000000"
+            "bgOpacity": 0,
+            "textColor": "#ffffff"
           },
           "DEF": {
-            "strokeEnabled": true,
+            "strokeEnabled": false,
             "strokeWidth": 2,
             "strokeColor": "#000000",
-            "innerShadow": true,
+            "innerShadow": false,
             "innerShadowColor": "#000000",
             "innerShadowStrength": 0.3,
-            "dropShadow": true,
+            "dropShadow": false,
             "dropShadowColor": "#000000",
             "dropShadowOffsetX": 6,
             "dropShadowOffsetY": 6,
             "dropShadowBlur": 12,
             "shadowSize": 100,
             "bgColor": "#ffffff",
-            "bgOpacity": 1,
-            "textColor": "#000000"
+            "bgOpacity": 0,
+            "textColor": "#ffffff"
           },
           "Level": {
-            "strokeEnabled": true,
+            "strokeEnabled": false,
             "strokeWidth": 2,
             "strokeColor": "#000000",
-            "innerShadow": true,
+            "innerShadow": false,
             "innerShadowColor": "#000000",
             "innerShadowStrength": 0.3,
-            "dropShadow": true,
+            "dropShadow": false,
             "dropShadowColor": "#000000",
             "dropShadowOffsetX": 6,
             "dropShadowOffsetY": 6,
             "dropShadowBlur": 12,
             "shadowSize": 100,
             "bgColor": "#ffffff",
-            "bgOpacity": 1,
+            "bgOpacity": 0,
             "textColor": "#000000"
           },
           "Attribute": {
-            "strokeEnabled": true,
+            "strokeEnabled": false,
             "strokeWidth": 2,
             "strokeColor": "#000000",
-            "innerShadow": true,
+            "innerShadow": false,
             "innerShadowColor": "#000000",
             "innerShadowStrength": 0.3,
-            "dropShadow": true,
+            "dropShadow": false,
             "dropShadowColor": "#000000",
             "dropShadowOffsetX": 6,
             "dropShadowOffsetY": 6,
             "dropShadowBlur": 12,
             "shadowSize": 100,
             "bgColor": "#ffffff",
-            "bgOpacity": 1,
+            "bgOpacity": 0,
             "textColor": "#000000"
           },
           "Type": {
-            "strokeEnabled": true,
+            "strokeEnabled": false,
             "strokeWidth": 2,
             "strokeColor": "#000000",
-            "innerShadow": true,
+            "innerShadow": false,
             "innerShadowColor": "#000000",
             "innerShadowStrength": 0.3,
-            "dropShadow": true,
+            "dropShadow": false,
             "dropShadowColor": "#000000",
             "dropShadowOffsetX": 6,
             "dropShadowOffsetY": 6,
             "dropShadowBlur": 12,
             "shadowSize": 100,
             "bgColor": "#ffffff",
-            "bgOpacity": 1,
+            "bgOpacity": 0,
             "textColor": "#000000"
           },
           "Card": {
-            "strokeEnabled": true,
+            "strokeEnabled": false,
             "strokeWidth": 2,
             "strokeColor": "#000000",
-            "innerShadow": true,
+            "innerShadow": false,
             "innerShadowColor": "#000000",
             "innerShadowStrength": 0.3,
-            "dropShadow": true,
+            "dropShadow": false,
             "dropShadowColor": "#000000",
             "dropShadowOffsetX": 6,
             "dropShadowOffsetY": 6,
             "dropShadowBlur": 12,
             "shadowSize": 100,
             "bgColor": "#ffffff",
-            "bgOpacity": 1,
+            "bgOpacity": 0,
             "textColor": "#000000"
           }
         },
         "textBevelEnabled": false,
-        "textBevelHighlight": "#ffffff",
+        "textBevelHighlight": "#a28310",
         "textBevelShadow": "#000000",
         "textBevelOffset": 2,
         "cardVideoUrl": "",
         "cardVideoTime": 0,
         "hdriUrl": "",
         "backVideoPendingUrl": "",
-        "savedAt": 1771798408684,
+        "savedAt": 1771957962891,
         "propertyImages": {
-          "ATK": "500",
-          "DEF": "500",
-          "Level": "2",
-          "Attribute": "Fire",
-          "Type": "Pyro",
+          "ATK": "1400",
+          "DEF": "1400",
+          "Level": "3",
+          "Attribute": "Earth",
+          "Type": "Rock",
           "Card": "Effect"
         },
         "imageSizes": {
@@ -1946,12 +1949,12 @@
           }
         },
         "card_last_settings_v1": {
-          "title": "Fizzer",
+          "title": "Mad Pop",
           "attribute": "COSMIC",
-          "desc": "When destroyed, special summon another Superthing from your Hand or GY.\nif \"Mad Pop\" in GY: Special Summon 2 Superthings intead.",
+          "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
           "skillOne": "Cosmic Blast",
           "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
-          "currentImageSrc2": "",
+          "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
           "currentImageSrc3": "",
           "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
           "image1State": {
@@ -1974,8 +1977,8 @@
           },
           "cardColor": "#7851a9",
           "holoEffect": "0",
-          "holoIntensity": 60,
-          "autoRotateEnabled": true,
+          "holoIntensity": 0,
+          "autoRotateEnabled": false,
           "hueShift": 0,
           "saturation": 100,
           "brightness": 100,
@@ -1984,151 +1987,154 @@
           "spectrumScale": 200,
           "spectrumContrast": 100,
           "spectrumOrientation": "0",
-          "streakFreq": 15,
-          "streakSize": 100,
-          "streakWidth": 100,
+          "streakFreq": 1,
+          "streakSize": 200,
+          "streakWidth": 10,
           "streakHeight": 100,
           "streakRotation": 0,
           "streakFormat": "0",
           "shimmerStrength": 2,
           "animSpeed": 5,
-          "vertexAmp": 8,
-          "vertexFreq": 6,
-          "vertexNoise": 10,
+          "vertexAmp": 0,
+          "vertexFreq": 1,
+          "vertexNoise": 0,
           "selectedTextTarget": "title",
-          "titleFontSize": 42,
-          "descFontSize": 18,
+          "titleFontSize": 55,
+          "descFontSize": 32,
           "skillsFontSize": 20,
           "extraFontSizes": {
-            "ATK": 20,
-            "DEF": 20,
-            "Level": 20,
-            "Attribute": 20,
-            "Type": 20,
-            "Card": 20
+            "ATK": 40,
+            "DEF": 40,
+            "Level": 70,
+            "Attribute": 40,
+            "Type": 40,
+            "Card": 40
           },
           "offsets": {
             "title": {
-              "x": 67,
-              "y": 20
+              "x": 216,
+              "y": 39
             },
             "desc": {
-              "x": 800,
-              "y": 20
+              "x": 70,
+              "y": 960
             },
             "skills": {
               "x": 800,
               "y": 20
             },
             "ATK": {
-              "x": 800,
-              "y": 20
+              "x": 350,
+              "y": 935
             },
             "DEF": {
-              "x": 800,
-              "y": 20
+              "x": 671,
+              "y": 935
             },
             "Level": {
-              "x": 800,
-              "y": 20
+              "x": 90,
+              "y": 895
             },
             "Attribute": {
-              "x": 800,
-              "y": 20
+              "x": 62,
+              "y": 1006
             },
             "Type": {
-              "x": 800,
-              "y": 20
+              "x": 301,
+              "y": 1007
             },
             "Card": {
-              "x": 800,
-              "y": 20
+              "x": 540,
+              "y": 1005
             }
           },
           "selectedTextAlignment": {
             "title": "center",
             "desc": "left",
-            "skills": "left"
+            "skills": "left",
+            "ATK": "center",
+            "DEF": "center",
+            "Level": "center"
           },
           "textboxDims": {
             "title": {
-              "wPercent": 66,
-              "hPx": 80
+              "wPercent": 55,
+              "hPx": 90
             },
             "desc": {
-              "wPercent": 80,
-              "hPx": 180
+              "wPercent": 85,
+              "hPx": 209
             },
             "skills": {
               "wPercent": 80,
               "hPx": 140
             },
             "ATK": {
-              "wPercent": 80,
-              "hPx": 140
+              "wPercent": 20,
+              "hPx": 60
             },
             "DEF": {
-              "wPercent": 80,
-              "hPx": 140
+              "wPercent": 20,
+              "hPx": 65
             },
             "Level": {
-              "wPercent": 80,
-              "hPx": 140
+              "wPercent": 20,
+              "hPx": 100
             },
             "Attribute": {
-              "wPercent": 80,
-              "hPx": 140
+              "wPercent": 20,
+              "hPx": 60
             },
             "Type": {
-              "wPercent": 80,
-              "hPx": 140
+              "wPercent": 20,
+              "hPx": 60
             },
             "Card": {
-              "wPercent": 80,
-              "hPx": 140
+              "wPercent": 20,
+              "hPx": 60
             }
           },
           "textboxStyle": {
             "title": {
-              "strokeEnabled": true,
+              "strokeEnabled": false,
               "strokeWidth": 2,
               "strokeColor": "#000000",
-              "innerShadow": true,
+              "innerShadow": false,
               "innerShadowColor": "#000000",
               "innerShadowStrength": 0.3,
-              "dropShadow": true,
+              "dropShadow": false,
               "dropShadowColor": "#000000",
               "dropShadowOffsetX": 6,
               "dropShadowOffsetY": 6,
               "dropShadowBlur": 12,
               "shadowSize": 100,
               "bgColor": "#ffffff",
-              "bgOpacity": 1,
+              "bgOpacity": 0,
               "textColor": "#000000",
               "_baseDropBlur": 12,
               "_baseInnerStrength": 0.3,
               "textBevel": {
                 "enabled": false,
-                "highlight": "#ffffff",
+                "highlight": "#a28310",
                 "shadow": "#000000",
                 "offset": 2
               }
             },
             "desc": {
-              "strokeEnabled": true,
+              "strokeEnabled": false,
               "strokeWidth": 2,
               "strokeColor": "#000000",
-              "innerShadow": true,
+              "innerShadow": false,
               "innerShadowColor": "#000000",
               "innerShadowStrength": 0.3,
-              "dropShadow": true,
+              "dropShadow": false,
               "dropShadowColor": "#000000",
               "dropShadowOffsetX": 6,
               "dropShadowOffsetY": 6,
               "dropShadowBlur": 12,
               "shadowSize": 100,
               "bgColor": "#ffffff",
-              "bgOpacity": 0.95,
+              "bgOpacity": 0,
               "textColor": "#000000"
             },
             "skills": {
@@ -2149,123 +2155,123 @@
               "textColor": "#000000"
             },
             "ATK": {
-              "strokeEnabled": true,
+              "strokeEnabled": false,
               "strokeWidth": 2,
               "strokeColor": "#000000",
-              "innerShadow": true,
+              "innerShadow": false,
               "innerShadowColor": "#000000",
               "innerShadowStrength": 0.3,
-              "dropShadow": true,
+              "dropShadow": false,
               "dropShadowColor": "#000000",
               "dropShadowOffsetX": 6,
               "dropShadowOffsetY": 6,
               "dropShadowBlur": 12,
               "shadowSize": 100,
               "bgColor": "#ffffff",
-              "bgOpacity": 1,
-              "textColor": "#000000"
+              "bgOpacity": 0,
+              "textColor": "#ffffff"
             },
             "DEF": {
-              "strokeEnabled": true,
+              "strokeEnabled": false,
               "strokeWidth": 2,
               "strokeColor": "#000000",
-              "innerShadow": true,
+              "innerShadow": false,
               "innerShadowColor": "#000000",
               "innerShadowStrength": 0.3,
-              "dropShadow": true,
+              "dropShadow": false,
               "dropShadowColor": "#000000",
               "dropShadowOffsetX": 6,
               "dropShadowOffsetY": 6,
               "dropShadowBlur": 12,
               "shadowSize": 100,
               "bgColor": "#ffffff",
-              "bgOpacity": 1,
-              "textColor": "#000000"
+              "bgOpacity": 0,
+              "textColor": "#ffffff"
             },
             "Level": {
-              "strokeEnabled": true,
+              "strokeEnabled": false,
               "strokeWidth": 2,
               "strokeColor": "#000000",
-              "innerShadow": true,
+              "innerShadow": false,
               "innerShadowColor": "#000000",
               "innerShadowStrength": 0.3,
-              "dropShadow": true,
+              "dropShadow": false,
               "dropShadowColor": "#000000",
               "dropShadowOffsetX": 6,
               "dropShadowOffsetY": 6,
               "dropShadowBlur": 12,
               "shadowSize": 100,
               "bgColor": "#ffffff",
-              "bgOpacity": 1,
+              "bgOpacity": 0,
               "textColor": "#000000"
             },
             "Attribute": {
-              "strokeEnabled": true,
+              "strokeEnabled": false,
               "strokeWidth": 2,
               "strokeColor": "#000000",
-              "innerShadow": true,
+              "innerShadow": false,
               "innerShadowColor": "#000000",
               "innerShadowStrength": 0.3,
-              "dropShadow": true,
+              "dropShadow": false,
               "dropShadowColor": "#000000",
               "dropShadowOffsetX": 6,
               "dropShadowOffsetY": 6,
               "dropShadowBlur": 12,
               "shadowSize": 100,
               "bgColor": "#ffffff",
-              "bgOpacity": 1,
+              "bgOpacity": 0,
               "textColor": "#000000"
             },
             "Type": {
-              "strokeEnabled": true,
+              "strokeEnabled": false,
               "strokeWidth": 2,
               "strokeColor": "#000000",
-              "innerShadow": true,
+              "innerShadow": false,
               "innerShadowColor": "#000000",
               "innerShadowStrength": 0.3,
-              "dropShadow": true,
+              "dropShadow": false,
               "dropShadowColor": "#000000",
               "dropShadowOffsetX": 6,
               "dropShadowOffsetY": 6,
               "dropShadowBlur": 12,
               "shadowSize": 100,
               "bgColor": "#ffffff",
-              "bgOpacity": 1,
+              "bgOpacity": 0,
               "textColor": "#000000"
             },
             "Card": {
-              "strokeEnabled": true,
+              "strokeEnabled": false,
               "strokeWidth": 2,
               "strokeColor": "#000000",
-              "innerShadow": true,
+              "innerShadow": false,
               "innerShadowColor": "#000000",
               "innerShadowStrength": 0.3,
-              "dropShadow": true,
+              "dropShadow": false,
               "dropShadowColor": "#000000",
               "dropShadowOffsetX": 6,
               "dropShadowOffsetY": 6,
               "dropShadowBlur": 12,
               "shadowSize": 100,
               "bgColor": "#ffffff",
-              "bgOpacity": 1,
+              "bgOpacity": 0,
               "textColor": "#000000"
             }
           },
           "textBevelEnabled": false,
-          "textBevelHighlight": "#ffffff",
+          "textBevelHighlight": "#a28310",
           "textBevelShadow": "#000000",
           "textBevelOffset": 2,
           "cardVideoUrl": "",
           "cardVideoTime": 0,
           "hdriUrl": "",
           "backVideoPendingUrl": "",
-          "savedAt": 1771798386866,
+          "savedAt": 1771957961807,
           "propertyImages": {
-            "ATK": "500",
-            "DEF": "500",
-            "Level": "2",
-            "Attribute": "Fire",
-            "Type": "Pyro",
+            "ATK": "1400",
+            "DEF": "1400",
+            "Level": "3",
+            "Attribute": "Earth",
+            "Type": "Rock",
             "Card": "Effect"
           },
           "imageSizes": {
@@ -2287,17 +2293,17 @@
             }
           }
         },
-        "linkedItemId": "k9yp0y"
+        "linkedItemId": "gu3tyg"
       }
     }
   ],
   "card_preview_template": {
-    "key": "tpl_u3nsyu5d",
-    "name": "Fizzer",
+    "key": "tpl_d071g3cl",
+    "name": "Mad Pop",
     "data": {
-      "title": "Fizzer",
+      "title": "Mad Pop",
       "attribute": "COSMIC",
-      "desc": "When destroyed, special summon another Superthing from your Hand or GY.\nif \"Mad Pop\" in GY: Special Summon 2 Superthings intead.",
+      "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
       "skillOne": "Cosmic Blast",
       "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
       "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
@@ -2323,8 +2329,8 @@
       },
       "cardColor": "#7851a9",
       "holoEffect": "0",
-      "holoIntensity": 60,
-      "autoRotateEnabled": true,
+      "holoIntensity": 0,
+      "autoRotateEnabled": false,
       "hueShift": 0,
       "saturation": 100,
       "brightness": 100,
@@ -2333,151 +2339,154 @@
       "spectrumScale": 200,
       "spectrumContrast": 100,
       "spectrumOrientation": "0",
-      "streakFreq": 15,
-      "streakSize": 100,
-      "streakWidth": 100,
+      "streakFreq": 1,
+      "streakSize": 200,
+      "streakWidth": 10,
       "streakHeight": 100,
       "streakRotation": 0,
       "streakFormat": "0",
       "shimmerStrength": 2,
       "animSpeed": 5,
-      "vertexAmp": 8,
-      "vertexFreq": 6,
-      "vertexNoise": 10,
+      "vertexAmp": 0,
+      "vertexFreq": 1,
+      "vertexNoise": 0,
       "selectedTextTarget": "title",
-      "titleFontSize": 42,
-      "descFontSize": 18,
+      "titleFontSize": 55,
+      "descFontSize": 32,
       "skillsFontSize": 20,
       "extraFontSizes": {
-        "ATK": 20,
-        "DEF": 20,
-        "Level": 20,
-        "Attribute": 20,
-        "Type": 20,
-        "Card": 20
+        "ATK": 40,
+        "DEF": 40,
+        "Level": 70,
+        "Attribute": 40,
+        "Type": 40,
+        "Card": 40
       },
       "offsets": {
         "title": {
-          "x": 67,
-          "y": 20
+          "x": 216,
+          "y": 39
         },
         "desc": {
-          "x": 800,
-          "y": 20
+          "x": 70,
+          "y": 960
         },
         "skills": {
           "x": 800,
           "y": 20
         },
         "ATK": {
-          "x": 800,
-          "y": 20
+          "x": 350,
+          "y": 935
         },
         "DEF": {
-          "x": 800,
-          "y": 20
+          "x": 671,
+          "y": 935
         },
         "Level": {
-          "x": 800,
-          "y": 20
+          "x": 90,
+          "y": 895
         },
         "Attribute": {
-          "x": 800,
-          "y": 20
+          "x": 62,
+          "y": 1006
         },
         "Type": {
-          "x": 800,
-          "y": 20
+          "x": 301,
+          "y": 1007
         },
         "Card": {
-          "x": 800,
-          "y": 20
+          "x": 540,
+          "y": 1005
         }
       },
       "selectedTextAlignment": {
         "title": "center",
         "desc": "left",
-        "skills": "left"
+        "skills": "left",
+        "ATK": "center",
+        "DEF": "center",
+        "Level": "center"
       },
       "textboxDims": {
         "title": {
-          "wPercent": 66,
-          "hPx": 80
+          "wPercent": 55,
+          "hPx": 90
         },
         "desc": {
-          "wPercent": 80,
-          "hPx": 180
+          "wPercent": 85,
+          "hPx": 209
         },
         "skills": {
           "wPercent": 80,
           "hPx": 140
         },
         "ATK": {
-          "wPercent": 80,
-          "hPx": 140
+          "wPercent": 20,
+          "hPx": 60
         },
         "DEF": {
-          "wPercent": 80,
-          "hPx": 140
+          "wPercent": 20,
+          "hPx": 65
         },
         "Level": {
-          "wPercent": 80,
-          "hPx": 140
+          "wPercent": 20,
+          "hPx": 100
         },
         "Attribute": {
-          "wPercent": 80,
-          "hPx": 140
+          "wPercent": 20,
+          "hPx": 60
         },
         "Type": {
-          "wPercent": 80,
-          "hPx": 140
+          "wPercent": 20,
+          "hPx": 60
         },
         "Card": {
-          "wPercent": 80,
-          "hPx": 140
+          "wPercent": 20,
+          "hPx": 60
         }
       },
       "textboxStyle": {
         "title": {
-          "strokeEnabled": true,
+          "strokeEnabled": false,
           "strokeWidth": 2,
           "strokeColor": "#000000",
-          "innerShadow": true,
+          "innerShadow": false,
           "innerShadowColor": "#000000",
           "innerShadowStrength": 0.3,
-          "dropShadow": true,
+          "dropShadow": false,
           "dropShadowColor": "#000000",
           "dropShadowOffsetX": 6,
           "dropShadowOffsetY": 6,
           "dropShadowBlur": 12,
           "shadowSize": 100,
           "bgColor": "#ffffff",
-          "bgOpacity": 1,
+          "bgOpacity": 0,
           "textColor": "#000000",
           "_baseDropBlur": 12,
           "_baseInnerStrength": 0.3,
           "textBevel": {
             "enabled": false,
-            "highlight": "#ffffff",
+            "highlight": "#a28310",
             "shadow": "#000000",
             "offset": 2
           }
         },
         "desc": {
-          "strokeEnabled": true,
+          "strokeEnabled": false,
           "strokeWidth": 2,
           "strokeColor": "#000000",
-          "innerShadow": true,
+          "innerShadow": false,
           "innerShadowColor": "#000000",
           "innerShadowStrength": 0.3,
-          "dropShadow": true,
+          "dropShadow": false,
           "dropShadowColor": "#000000",
           "dropShadowOffsetX": 6,
           "dropShadowOffsetY": 6,
           "dropShadowBlur": 12,
           "shadowSize": 100,
           "bgColor": "#ffffff",
-          "bgOpacity": 0.95,
+          "bgOpacity": 0,
           "textColor": "#000000"
         },
         "skills": {
@@ -2498,123 +2507,123 @@
           "textColor": "#000000"
         },
         "ATK": {
-          "strokeEnabled": true,
+          "strokeEnabled": false,
           "strokeWidth": 2,
           "strokeColor": "#000000",
-          "innerShadow": true,
+          "innerShadow": false,
           "innerShadowColor": "#000000",
           "innerShadowStrength": 0.3,
-          "dropShadow": true,
+          "dropShadow": false,
           "dropShadowColor": "#000000",
           "dropShadowOffsetX": 6,
           "dropShadowOffsetY": 6,
           "dropShadowBlur": 12,
           "shadowSize": 100,
           "bgColor": "#ffffff",
-          "bgOpacity": 1,
-          "textColor": "#000000"
+          "bgOpacity": 0,
+          "textColor": "#ffffff"
         },
         "DEF": {
-          "strokeEnabled": true,
+          "strokeEnabled": false,
           "strokeWidth": 2,
           "strokeColor": "#000000",
-          "innerShadow": true,
+          "innerShadow": false,
           "innerShadowColor": "#000000",
           "innerShadowStrength": 0.3,
-          "dropShadow": true,
+          "dropShadow": false,
           "dropShadowColor": "#000000",
           "dropShadowOffsetX": 6,
           "dropShadowOffsetY": 6,
           "dropShadowBlur": 12,
           "shadowSize": 100,
           "bgColor": "#ffffff",
-          "bgOpacity": 1,
-          "textColor": "#000000"
+          "bgOpacity": 0,
+          "textColor": "#ffffff"
         },
         "Level": {
-          "strokeEnabled": true,
+          "strokeEnabled": false,
           "strokeWidth": 2,
           "strokeColor": "#000000",
-          "innerShadow": true,
+          "innerShadow": false,
           "innerShadowColor": "#000000",
           "innerShadowStrength": 0.3,
-          "dropShadow": true,
+          "dropShadow": false,
           "dropShadowColor": "#000000",
           "dropShadowOffsetX": 6,
           "dropShadowOffsetY": 6,
           "dropShadowBlur": 12,
           "shadowSize": 100,
           "bgColor": "#ffffff",
-          "bgOpacity": 1,
+          "bgOpacity": 0,
           "textColor": "#000000"
         },
         "Attribute": {
-          "strokeEnabled": true,
+          "strokeEnabled": false,
           "strokeWidth": 2,
           "strokeColor": "#000000",
-          "innerShadow": true,
+          "innerShadow": false,
           "innerShadowColor": "#000000",
           "innerShadowStrength": 0.3,
-          "dropShadow": true,
+          "dropShadow": false,
           "dropShadowColor": "#000000",
           "dropShadowOffsetX": 6,
           "dropShadowOffsetY": 6,
           "dropShadowBlur": 12,
           "shadowSize": 100,
           "bgColor": "#ffffff",
-          "bgOpacity": 1,
+          "bgOpacity": 0,
           "textColor": "#000000"
         },
         "Type": {
-          "strokeEnabled": true,
+          "strokeEnabled": false,
           "strokeWidth": 2,
           "strokeColor": "#000000",
-          "innerShadow": true,
+          "innerShadow": false,
           "innerShadowColor": "#000000",
           "innerShadowStrength": 0.3,
-          "dropShadow": true,
+          "dropShadow": false,
           "dropShadowColor": "#000000",
           "dropShadowOffsetX": 6,
           "dropShadowOffsetY": 6,
           "dropShadowBlur": 12,
           "shadowSize": 100,
           "bgColor": "#ffffff",
-          "bgOpacity": 1,
+          "bgOpacity": 0,
           "textColor": "#000000"
         },
         "Card": {
-          "strokeEnabled": true,
+          "strokeEnabled": false,
           "strokeWidth": 2,
           "strokeColor": "#000000",
-          "innerShadow": true,
+          "innerShadow": false,
           "innerShadowColor": "#000000",
           "innerShadowStrength": 0.3,
-          "dropShadow": true,
+          "dropShadow": false,
           "dropShadowColor": "#000000",
           "dropShadowOffsetX": 6,
           "dropShadowOffsetY": 6,
           "dropShadowBlur": 12,
           "shadowSize": 100,
           "bgColor": "#ffffff",
-          "bgOpacity": 1,
+          "bgOpacity": 0,
           "textColor": "#000000"
         }
       },
       "textBevelEnabled": false,
-      "textBevelHighlight": "#ffffff",
+      "textBevelHighlight": "#a28310",
       "textBevelShadow": "#000000",
       "textBevelOffset": 2,
       "cardVideoUrl": "",
       "cardVideoTime": 0,
       "hdriUrl": "",
       "backVideoPendingUrl": "",
-      "savedAt": 1771798408684,
+      "savedAt": 1771957962891,
       "propertyImages": {
-        "ATK": "500",
-        "DEF": "500",
-        "Level": "2",
-        "Attribute": "Fire",
-        "Type": "Pyro",
+        "ATK": "1400",
+        "DEF": "1400",
+        "Level": "3",
+        "Attribute": "Earth",
+        "Type": "Rock",
         "Card": "Effect"
       },
       "imageSizes": {
@@ -2636,9 +2645,9 @@
         }
       },
       "card_last_settings_v1": {
-        "title": "Fizzer",
+        "title": "Mad Pop",
         "attribute": "COSMIC",
-        "desc": "When destroyed, special summon another Superthing from your Hand or GY.\nif \"Mad Pop\" in GY: Special Summon 2 Superthings intead.",
+        "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
         "skillOne": "Cosmic Blast",
         "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
         "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
@@ -2664,8 +2673,8 @@
         },
         "cardColor": "#7851a9",
         "holoEffect": "0",
-        "holoIntensity": 60,
-        "autoRotateEnabled": true,
+        "holoIntensity": 0,
+        "autoRotateEnabled": false,
         "hueShift": 0,
         "saturation": 100,
         "brightness": 100,
@@ -2674,151 +2683,154 @@
         "spectrumScale": 200,
         "spectrumContrast": 100,
         "spectrumOrientation": "0",
-        "streakFreq": 15,
-        "streakSize": 100,
-        "streakWidth": 100,
+        "streakFreq": 1,
+        "streakSize": 200,
+        "streakWidth": 10,
         "streakHeight": 100,
         "streakRotation": 0,
         "streakFormat": "0",
         "shimmerStrength": 2,
         "animSpeed": 5,
-        "vertexAmp": 8,
-        "vertexFreq": 6,
-        "vertexNoise": 10,
+        "vertexAmp": 0,
+        "vertexFreq": 1,
+        "vertexNoise": 0,
         "selectedTextTarget": "title",
-        "titleFontSize": 42,
-        "descFontSize": 18,
+        "titleFontSize": 55,
+        "descFontSize": 32,
         "skillsFontSize": 20,
         "extraFontSizes": {
-          "ATK": 20,
-          "DEF": 20,
-          "Level": 20,
-          "Attribute": 20,
-          "Type": 20,
-          "Card": 20
+          "ATK": 40,
+          "DEF": 40,
+          "Level": 70,
+          "Attribute": 40,
+          "Type": 40,
+          "Card": 40
         },
         "offsets": {
           "title": {
-            "x": 67,
-            "y": 20
+            "x": 216,
+            "y": 39
           },
           "desc": {
-            "x": 800,
-            "y": 20
+            "x": 70,
+            "y": 960
           },
           "skills": {
             "x": 800,
             "y": 20
           },
           "ATK": {
-            "x": 800,
-            "y": 20
+            "x": 350,
+            "y": 935
           },
           "DEF": {
-            "x": 800,
-            "y": 20
+            "x": 671,
+            "y": 935
           },
           "Level": {
-            "x": 800,
-            "y": 20
+            "x": 90,
+            "y": 895
           },
           "Attribute": {
-            "x": 800,
-            "y": 20
+            "x": 62,
+            "y": 1006
           },
           "Type": {
-            "x": 800,
-            "y": 20
+            "x": 301,
+            "y": 1007
           },
           "Card": {
-            "x": 800,
-            "y": 20
+            "x": 540,
+            "y": 1005
           }
         },
         "selectedTextAlignment": {
           "title": "center",
           "desc": "left",
-          "skills": "left"
+          "skills": "left",
+          "ATK": "center",
+          "DEF": "center",
+          "Level": "center"
         },
         "textboxDims": {
           "title": {
-            "wPercent": 66,
-            "hPx": 80
+            "wPercent": 55,
+            "hPx": 90
           },
           "desc": {
-            "wPercent": 80,
-            "hPx": 180
+            "wPercent": 85,
+            "hPx": 209
           },
           "skills": {
             "wPercent": 80,
             "hPx": 140
           },
           "ATK": {
-            "wPercent": 80,
-            "hPx": 140
+            "wPercent": 20,
+            "hPx": 60
           },
           "DEF": {
-            "wPercent": 80,
-            "hPx": 140
+            "wPercent": 20,
+            "hPx": 65
           },
           "Level": {
-            "wPercent": 80,
-            "hPx": 140
+            "wPercent": 20,
+            "hPx": 100
           },
           "Attribute": {
-            "wPercent": 80,
-            "hPx": 140
+            "wPercent": 20,
+            "hPx": 60
           },
           "Type": {
-            "wPercent": 80,
-            "hPx": 140
+            "wPercent": 20,
+            "hPx": 60
           },
           "Card": {
-            "wPercent": 80,
-            "hPx": 140
+            "wPercent": 20,
+            "hPx": 60
           }
         },
         "textboxStyle": {
           "title": {
-            "strokeEnabled": true,
+            "strokeEnabled": false,
             "strokeWidth": 2,
             "strokeColor": "#000000",
-            "innerShadow": true,
+            "innerShadow": false,
             "innerShadowColor": "#000000",
             "innerShadowStrength": 0.3,
-            "dropShadow": true,
+            "dropShadow": false,
             "dropShadowColor": "#000000",
             "dropShadowOffsetX": 6,
             "dropShadowOffsetY": 6,
             "dropShadowBlur": 12,
             "shadowSize": 100,
             "bgColor": "#ffffff",
-            "bgOpacity": 1,
+            "bgOpacity": 0,
             "textColor": "#000000",
             "_baseDropBlur": 12,
             "_baseInnerStrength": 0.3,
             "textBevel": {
               "enabled": false,
-              "highlight": "#ffffff",
+              "highlight": "#a28310",
               "shadow": "#000000",
               "offset": 2
             }
           },
           "desc": {
-            "strokeEnabled": true,
+            "strokeEnabled": false,
             "strokeWidth": 2,
             "strokeColor": "#000000",
-            "innerShadow": true,
+            "innerShadow": false,
             "innerShadowColor": "#000000",
             "innerShadowStrength": 0.3,
-            "dropShadow": true,
+            "dropShadow": false,
             "dropShadowColor": "#000000",
             "dropShadowOffsetX": 6,
             "dropShadowOffsetY": 6,
             "dropShadowBlur": 12,
             "shadowSize": 100,
             "bgColor": "#ffffff",
-            "bgOpacity": 0.95,
+            "bgOpacity": 0,
             "textColor": "#000000"
           },
           "skills": {
@@ -2839,123 +2851,123 @@
             "textColor": "#000000"
           },
           "ATK": {
-            "strokeEnabled": true,
+            "strokeEnabled": false,
             "strokeWidth": 2,
             "strokeColor": "#000000",
-            "innerShadow": true,
+            "innerShadow": false,
             "innerShadowColor": "#000000",
             "innerShadowStrength": 0.3,
-            "dropShadow": true,
+            "dropShadow": false,
             "dropShadowColor": "#000000",
             "dropShadowOffsetX": 6,
             "dropShadowOffsetY": 6,
             "dropShadowBlur": 12,
             "shadowSize": 100,
             "bgColor": "#ffffff",
-            "bgOpacity": 1,
-            "textColor": "#000000"
+            "bgOpacity": 0,
+            "textColor": "#ffffff"
           },
           "DEF": {
-            "strokeEnabled": true,
+            "strokeEnabled": false,
             "strokeWidth": 2,
             "strokeColor": "#000000",
-            "innerShadow": true,
+            "innerShadow": false,
             "innerShadowColor": "#000000",
             "innerShadowStrength": 0.3,
-            "dropShadow": true,
+            "dropShadow": false,
             "dropShadowColor": "#000000",
             "dropShadowOffsetX": 6,
             "dropShadowOffsetY": 6,
             "dropShadowBlur": 12,
             "shadowSize": 100,
             "bgColor": "#ffffff",
-            "bgOpacity": 1,
-            "textColor": "#000000"
+            "bgOpacity": 0,
+            "textColor": "#ffffff"
           },
           "Level": {
-            "strokeEnabled": true,
+            "strokeEnabled": false,
             "strokeWidth": 2,
             "strokeColor": "#000000",
-            "innerShadow": true,
+            "innerShadow": false,
             "innerShadowColor": "#000000",
             "innerShadowStrength": 0.3,
-            "dropShadow": true,
+            "dropShadow": false,
             "dropShadowColor": "#000000",
             "dropShadowOffsetX": 6,
             "dropShadowOffsetY": 6,
             "dropShadowBlur": 12,
             "shadowSize": 100,
             "bgColor": "#ffffff",
-            "bgOpacity": 1,
+            "bgOpacity": 0,
             "textColor": "#000000"
           },
           "Attribute": {
-            "strokeEnabled": true,
+            "strokeEnabled": false,
             "strokeWidth": 2,
             "strokeColor": "#000000",
-            "innerShadow": true,
+            "innerShadow": false,
             "innerShadowColor": "#000000",
             "innerShadowStrength": 0.3,
-            "dropShadow": true,
+            "dropShadow": false,
             "dropShadowColor": "#000000",
             "dropShadowOffsetX": 6,
             "dropShadowOffsetY": 6,
             "dropShadowBlur": 12,
             "shadowSize": 100,
             "bgColor": "#ffffff",
-            "bgOpacity": 1,
+            "bgOpacity": 0,
             "textColor": "#000000"
           },
           "Type": {
-            "strokeEnabled": true,
+            "strokeEnabled": false,
             "strokeWidth": 2,
             "strokeColor": "#000000",
-            "innerShadow": true,
+            "innerShadow": false,
             "innerShadowColor": "#000000",
             "innerShadowStrength": 0.3,
-            "dropShadow": true,
+            "dropShadow": false,
             "dropShadowColor": "#000000",
             "dropShadowOffsetX": 6,
             "dropShadowOffsetY": 6,
             "dropShadowBlur": 12,
             "shadowSize": 100,
             "bgColor": "#ffffff",
-            "bgOpacity": 1,
+            "bgOpacity": 0,
             "textColor": "#000000"
           },
           "Card": {
-            "strokeEnabled": true,
+            "strokeEnabled": false,
             "strokeWidth": 2,
             "strokeColor": "#000000",
-            "innerShadow": true,
+            "innerShadow": false,
             "innerShadowColor": "#000000",
             "innerShadowStrength": 0.3,
-            "dropShadow": true,
+            "dropShadow": false,
             "dropShadowColor": "#000000",
             "dropShadowOffsetX": 6,
             "dropShadowOffsetY": 6,
             "dropShadowBlur": 12,
             "shadowSize": 100,
             "bgColor": "#ffffff",
-            "bgOpacity": 1,
+            "bgOpacity": 0,
             "textColor": "#000000"
           }
         },
         "textBevelEnabled": false,
-        "textBevelHighlight": "#ffffff",
+        "textBevelHighlight": "#a28310",
         "textBevelShadow": "#000000",
         "textBevelOffset": 2,
         "cardVideoUrl": "",
         "cardVideoTime": 0,
         "hdriUrl": "",
         "backVideoPendingUrl": "",
-        "savedAt": 1771798386866,
+        "savedAt": 1771957961807,
         "propertyImages": {
-          "ATK": "500",
-          "DEF": "500",
-          "Level": "2",
-          "Attribute": "Fire",
-          "Type": "Pyro",
+          "ATK": "1400",
+          "DEF": "1400",
+          "Level": "3",
+          "Attribute": "Earth",
+          "Type": "Rock",
           "Card": "Effect"
         },
         "imageSizes": {
@@ -2977,7 +2989,7 @@
           }
         }
       },
-      "linkedItemId": "k9yp0y"
+      "linkedItemId": "gu3tyg"
     }
   },
   "card_preview_item": null,
@@ -2987,4 +2999,3 @@
   "intro_video_time": 0,
   "admin_import_url": ""
 }
-
