@@ -1601,9 +1601,9 @@
   "soundConfig": {},
   "templates": [
     {
-      "key": "tpl_d071g3cl",
-      "name": "Done",
-      "createdAt": 1771957962891,
+      "key": "tpl_85z144bv",
+      "name": "Final",
+      "createdAt": 1771958291738,
       "data": {
         "title": "Mad Pop",
         "attribute": "COSMIC",
@@ -1611,7 +1611,7 @@
         "skillOne": "Cosmic Blast",
         "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
         "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
-        "currentImageSrc3": "",
+        "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
         "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
         "image1State": {
           "posX": 0,
@@ -1626,9 +1626,9 @@
           "zOrder": "below"
         },
         "image3State": {
-          "posX": 0,
-          "posY": 0,
-          "scalePct": 100,
+          "posX": 214,
+          "posY": -146,
+          "scalePct": 200,
           "zOrder": "above"
         },
         "cardColor": "#7851a9",
@@ -1921,7 +1921,7 @@
         "cardVideoTime": 0,
         "hdriUrl": "",
         "backVideoPendingUrl": "",
-        "savedAt": 1771957962891,
+        "savedAt": 1771958291738,
         "propertyImages": {
           "ATK": "1400",
           "DEF": "1400",
@@ -1940,8 +1940,8 @@
             "height": 1153
           },
           "image3": {
-            "width": 964,
-            "height": 1153
+            "width": 1928,
+            "height": 2306
           },
           "backImage": {
             "width": 1024,
@@ -1955,7 +1955,7 @@
           "skillOne": "Cosmic Blast",
           "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
           "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
-          "currentImageSrc3": "",
+          "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
           "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
           "image1State": {
             "posX": 0,
@@ -1970,9 +1970,9 @@
             "zOrder": "below"
           },
           "image3State": {
-            "posX": 0,
-            "posY": 0,
-            "scalePct": 100,
+            "posX": 214,
+            "posY": -146,
+            "scalePct": 200,
             "zOrder": "above"
           },
           "cardColor": "#7851a9",
@@ -1995,9 +1995,9 @@
           "streakFormat": "0",
           "shimmerStrength": 2,
           "animSpeed": 5,
-          "vertexAmp": 0,
+          "vertexAmp": 8,
           "vertexFreq": 1,
-          "vertexNoise": 0,
+          "vertexNoise": 10,
           "selectedTextTarget": "title",
           "titleFontSize": 55,
           "descFontSize": 32,
@@ -2265,7 +2265,7 @@
           "cardVideoTime": 0,
           "hdriUrl": "",
           "backVideoPendingUrl": "",
-          "savedAt": 1771957961807,
+          "savedAt": 1771958261812,
           "propertyImages": {
             "ATK": "1400",
             "DEF": "1400",
@@ -2284,8 +2284,8 @@
               "height": 1153
             },
             "image3": {
-              "width": 964,
-              "height": 1153
+              "width": 1928,
+              "height": 2306
             },
             "backImage": {
               "width": 1024,
@@ -2298,7 +2298,7 @@
     }
   ],
   "card_preview_template": {
-    "key": "tpl_d071g3cl",
+    "key": "tpl_85z144bv",
     "name": "Mad Pop",
     "data": {
       "title": "Mad Pop",
@@ -2307,7 +2307,7 @@
       "skillOne": "Cosmic Blast",
       "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
       "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
-      "currentImageSrc3": "",
+      "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
       "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
       "image1State": {
         "posX": 0,
@@ -2322,9 +2322,9 @@
         "zOrder": "below"
       },
       "image3State": {
-        "posX": 0,
-        "posY": 0,
-        "scalePct": 100,
+        "posX": 214,
+        "posY": -146,
+        "scalePct": 200,
         "zOrder": "above"
       },
       "cardColor": "#7851a9",
@@ -2617,7 +2617,7 @@
       "cardVideoTime": 0,
       "hdriUrl": "",
       "backVideoPendingUrl": "",
-      "savedAt": 1771957962891,
+      "savedAt": 1771958291738,
       "propertyImages": {
         "ATK": "1400",
         "DEF": "1400",
@@ -2636,8 +2636,8 @@
           "height": 1153
         },
         "image3": {
-          "width": 964,
-          "height": 1153
+          "width": 1928,
+          "height": 2306
         },
         "backImage": {
           "width": 1024,
@@ -2651,7 +2651,7 @@
         "skillOne": "Cosmic Blast",
         "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
         "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
-        "currentImageSrc3": "",
+        "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
         "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
         "image1State": {
           "posX": 0,
@@ -2666,9 +2666,9 @@
           "zOrder": "below"
         },
         "image3State": {
-          "posX": 0,
-          "posY": 0,
-          "scalePct": 100,
+          "posX": 214,
+          "posY": -146,
+          "scalePct": 200,
           "zOrder": "above"
         },
         "cardColor": "#7851a9",
@@ -2691,9 +2691,9 @@
         "streakFormat": "0",
         "shimmerStrength": 2,
         "animSpeed": 5,
-        "vertexAmp": 0,
+        "vertexAmp": 8,
         "vertexFreq": 1,
-        "vertexNoise": 0,
+        "vertexNoise": 10,
         "selectedTextTarget": "title",
         "titleFontSize": 55,
         "descFontSize": 32,
@@ -2961,7 +2961,7 @@
         "cardVideoTime": 0,
         "hdriUrl": "",
         "backVideoPendingUrl": "",
-        "savedAt": 1771957961807,
+        "savedAt": 1771958261812,
         "propertyImages": {
           "ATK": "1400",
           "DEF": "1400",
@@ -2980,8 +2980,8 @@
             "height": 1153
           },
           "image3": {
-            "width": 964,
-            "height": 1153
+            "width": 1928,
+            "height": 2306
           },
           "backImage": {
             "width": 1024,
