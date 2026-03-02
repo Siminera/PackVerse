@@ -11,9 +11,9 @@
         "ATK": "1200",
         "DEF": "1100",
         "Level": "3",
-        "Attribute": "Dark",
-        "Type": "Fiend",
-        "Card": "Effect"
+        "Attribute": "Trevas",
+        "Type": "Demônio",
+        "Card": "Efeito"
       },
       "customReveal": {
         "positions": {
@@ -115,9 +115,9 @@
         "ATK": "900",
         "DEF": "1900",
         "Level": "4",
-        "Attribute": "Earth",
-        "Type": "Plant",
-        "Card": "Effect"
+        "Attribute": "Terra",
+        "Type": "Planta",
+        "Card": "Efeito"
       },
       "tts": "Mega Veg is a hero Superthing from Series 1, and is a member of the Cool Troop. His rival is Great Ter, a grater, and he resembles a carrot. His power is labelled 'Deep Vision', meaning that he can see through the walls of any hideout, no matter how thick it is, so villians have to be careful.",
       "customReveal": {
@@ -219,9 +219,9 @@
         "ATK": "1800",
         "DEF": "100",
         "Level": "3",
-        "Attribute": "Water",
+        "Attribute": "Água",
         "Type": "Aqua",
-        "Card": "Effect"
+        "Card": "Efeito"
       },
       "customReveal": {
         "positions": {
@@ -323,9 +323,9 @@
         "ATK": "500",
         "DEF": "1600",
         "Level": "3",
-        "Attribute": "Light",
-        "Type": "Warrior",
-        "Card": "Effect"
+        "Attribute": "Luz",
+        "Type": "Guerreiro",
+        "Card": "Efeito"
       },
       "customReveal": {
         "positions": {
@@ -427,9 +427,9 @@
         "ATK": "1400",
         "DEF": "1400",
         "Level": "3",
-        "Attribute": "Earth",
-        "Type": "Rock",
-        "Card": "Effect"
+        "Attribute": "Terra",
+        "Type": "Rocha",
+        "Card": "Efeito"
       },
       "customReveal": {
         "positions": {
@@ -531,9 +531,9 @@
         "ATK": "500",
         "DEF": "500",
         "Level": "2",
-        "Attribute": "Fire",
-        "Type": "Pyro",
-        "Card": "Effect"
+        "Attribute": "Fogo",
+        "Type": "Piro",
+        "Card": "Efeito"
       },
       "customReveal": {
         "positions": {
@@ -629,15 +629,15 @@
       "rarity": "common",
       "description": "If this card destroys a monster: Special Summon 1 Level 3 Superthing from your GY.\n\nIf \"T-Mate\"in GY: Special Summon from deck instead.",
       "pack": "classic",
-      "name": "Red Ray",
+      "name": "Raio Vermelho",
       "url": "https://static.wikia.nocookie.net/superthings/images/2/25/073_and_074.png",
       "customProperties": {
         "ATK": "1700",
         "DEF": "90",
         "Level": "3",
-        "Attribute": "Fire",
-        "Type": "Warrior",
-        "Card": "Effect"
+        "Attribute": "Fogo",
+        "Type": "Guerreiro",
+        "Card": "Efeito"
       },
       "tts": "Red Ray is a villain Superthing from Series 1, and is a member of the Mad Clan. His rival is T-Mate, a tomato, and he resembles a bottle of ketchup. His power is labelled as 'Red Jet'. He has the stickiest ketchup in the city, and enemies who get close will be stuck to the floor.",
       "customReveal": {
@@ -739,9 +739,9 @@
         "ATK": "1300",
         "DEF": "1200",
         "Level": "3",
-        "Attribute": "Water",
-        "Type": "Plant",
-        "Card": "Effect"
+        "Attribute": "Água",
+        "Type": "Planta",
+        "Card": "Efeito"
       },
       "tts": "T-Mate is a hero Superthing from Series 1, and is a member of the Cool Troop. His rival is Red Ray, a bottle of ketchup, and he resembles a tomato. His power is labelled as 'Cherry Storm', presumably meaning he can shoot hundreds of tomatoes at his enemies.",
       "customReveal": {
@@ -1601,9 +1601,9 @@
   "soundConfig": {},
   "templates": [
     {
-      "key": "tpl_85z144bv",
-      "name": "Final",
-      "createdAt": 1771958291738,
+      "key": "tpl_ya2jbnco",
+      "name": "ygo_effect_common",
+      "createdAt": 1772465920430,
       "data": {
         "title": "Mad Pop",
         "attribute": "COSMIC",
@@ -1651,11 +1651,11 @@
         "streakFormat": "0",
         "shimmerStrength": 2,
         "animSpeed": 5,
-        "vertexAmp": 0,
+        "vertexAmp": 8,
         "vertexFreq": 1,
-        "vertexNoise": 0,
-        "selectedTextTarget": "title",
-        "titleFontSize": 55,
+        "vertexNoise": 10,
+        "selectedTextTarget": "Level",
+        "titleFontSize": 60,
         "descFontSize": 32,
         "skillsFontSize": 20,
         "extraFontSizes": {
@@ -1668,8 +1668,8 @@
         },
         "offsets": {
           "title": {
-            "x": 216,
-            "y": 39
+            "x": 50,
+            "y": 25
           },
           "desc": {
             "x": 70,
@@ -1688,7 +1688,7 @@
             "y": 935
           },
           "Level": {
-            "x": 90,
+            "x": 75,
             "y": 895
           },
           "Attribute": {
@@ -1705,7 +1705,7 @@
           }
         },
         "selectedTextAlignment": {
-          "title": "center",
+          "title": "left",
           "desc": "left",
           "skills": "left",
           "ATK": "center",
@@ -1714,8 +1714,8 @@
         },
         "textboxDims": {
           "title": {
-            "wPercent": 55,
-            "hPx": 90
+            "wPercent": 68,
+            "hPx": 80
           },
           "desc": {
             "wPercent": 85,
@@ -1859,7 +1859,13 @@
             "shadowSize": 100,
             "bgColor": "#ffffff",
             "bgOpacity": 0,
-            "textColor": "#000000"
+            "textColor": "#000000",
+            "textBevel": {
+              "enabled": false,
+              "highlight": "#ffffff",
+              "shadow": "#000000",
+              "offset": 2
+            }
           },
           "Attribute": {
             "strokeEnabled": false,
@@ -1914,14 +1920,14 @@
           }
         },
         "textBevelEnabled": false,
-        "textBevelHighlight": "#a28310",
+        "textBevelHighlight": "#ffffff",
         "textBevelShadow": "#000000",
         "textBevelOffset": 2,
         "cardVideoUrl": "",
         "cardVideoTime": 0,
         "hdriUrl": "",
         "backVideoPendingUrl": "",
-        "savedAt": 1771958291738,
+        "savedAt": 1772465920430,
         "propertyImages": {
           "ATK": "1400",
           "DEF": "1400",
@@ -1998,8 +2004,8 @@
           "vertexAmp": 8,
           "vertexFreq": 1,
           "vertexNoise": 10,
-          "selectedTextTarget": "title",
-          "titleFontSize": 55,
+          "selectedTextTarget": "Level",
+          "titleFontSize": 60,
           "descFontSize": 32,
           "skillsFontSize": 20,
           "extraFontSizes": {
@@ -2012,8 +2018,8 @@
           },
           "offsets": {
             "title": {
-              "x": 216,
-              "y": 39
+              "x": 50,
+              "y": 25
             },
             "desc": {
               "x": 70,
@@ -2032,7 +2038,7 @@
               "y": 935
             },
             "Level": {
-              "x": 90,
+              "x": 75,
               "y": 895
             },
             "Attribute": {
@@ -2049,7 +2055,7 @@
             }
           },
           "selectedTextAlignment": {
-            "title": "center",
+            "title": "left",
             "desc": "left",
             "skills": "left",
             "ATK": "center",
@@ -2058,8 +2064,8 @@
           },
           "textboxDims": {
             "title": {
-              "wPercent": 55,
-              "hPx": 90
+              "wPercent": 68,
+              "hPx": 80
             },
             "desc": {
               "wPercent": 85,
@@ -2203,7 +2209,13 @@
               "shadowSize": 100,
               "bgColor": "#ffffff",
               "bgOpacity": 0,
-              "textColor": "#000000"
+              "textColor": "#000000",
+              "textBevel": {
+                "enabled": false,
+                "highlight": "#ffffff",
+                "shadow": "#000000",
+                "offset": 2
+              }
             },
             "Attribute": {
               "strokeEnabled": false,
@@ -2258,14 +2270,14 @@
             }
           },
           "textBevelEnabled": false,
-          "textBevelHighlight": "#a28310",
+          "textBevelHighlight": "#ffffff",
           "textBevelShadow": "#000000",
           "textBevelOffset": 2,
           "cardVideoUrl": "",
           "cardVideoTime": 0,
           "hdriUrl": "",
           "backVideoPendingUrl": "",
-          "savedAt": 1771958261812,
+          "savedAt": 1772465914504,
           "propertyImages": {
             "ATK": "1400",
             "DEF": "1400",
@@ -2292,13 +2304,12 @@
               "height": 1433
             }
           }
-        },
-        "linkedItemId": "gu3tyg"
+        }
       }
     }
   ],
   "card_preview_template": {
-    "key": "tpl_85z144bv",
+    "key": "tpl_ol77ilqw",
     "name": "Mad Pop",
     "data": {
       "title": "Mad Pop",
@@ -2347,11 +2358,11 @@
       "streakFormat": "0",
       "shimmerStrength": 2,
       "animSpeed": 5,
-      "vertexAmp": 0,
+      "vertexAmp": 8,
       "vertexFreq": 1,
-      "vertexNoise": 0,
-      "selectedTextTarget": "title",
-      "titleFontSize": 55,
+      "vertexNoise": 10,
+      "selectedTextTarget": "Level",
+      "titleFontSize": 60,
       "descFontSize": 32,
       "skillsFontSize": 20,
       "extraFontSizes": {
@@ -2364,8 +2375,8 @@
       },
       "offsets": {
         "title": {
-          "x": 216,
-          "y": 39
+          "x": 50,
+          "y": 25
         },
         "desc": {
           "x": 70,
@@ -2384,7 +2395,7 @@
           "y": 935
         },
         "Level": {
-          "x": 90,
+          "x": 75,
           "y": 895
         },
         "Attribute": {
@@ -2401,7 +2412,7 @@
         }
       },
       "selectedTextAlignment": {
-        "title": "center",
+        "title": "left",
         "desc": "left",
         "skills": "left",
         "ATK": "center",
@@ -2410,8 +2421,8 @@
       },
       "textboxDims": {
         "title": {
-          "wPercent": 55,
-          "hPx": 90
+          "wPercent": 68,
+          "hPx": 80
         },
         "desc": {
           "wPercent": 85,
@@ -2555,7 +2566,13 @@
           "shadowSize": 100,
           "bgColor": "#ffffff",
           "bgOpacity": 0,
-          "textColor": "#000000"
+          "textColor": "#000000",
+          "textBevel": {
+            "enabled": false,
+            "highlight": "#ffffff",
+            "shadow": "#000000",
+            "offset": 2
+          }
         },
         "Attribute": {
           "strokeEnabled": false,
@@ -2610,14 +2627,14 @@
         }
       },
       "textBevelEnabled": false,
-      "textBevelHighlight": "#a28310",
+      "textBevelHighlight": "#ffffff",
       "textBevelShadow": "#000000",
       "textBevelOffset": 2,
       "cardVideoUrl": "",
       "cardVideoTime": 0,
       "hdriUrl": "",
       "backVideoPendingUrl": "",
-      "savedAt": 1771958291738,
+      "savedAt": 1772465934981,
       "propertyImages": {
         "ATK": "1400",
         "DEF": "1400",
@@ -2694,8 +2711,8 @@
         "vertexAmp": 8,
         "vertexFreq": 1,
         "vertexNoise": 10,
-        "selectedTextTarget": "title",
-        "titleFontSize": 55,
+        "selectedTextTarget": "Level",
+        "titleFontSize": 60,
         "descFontSize": 32,
         "skillsFontSize": 20,
         "extraFontSizes": {
@@ -2708,8 +2725,8 @@
         },
         "offsets": {
           "title": {
-            "x": 216,
-            "y": 39
+            "x": 50,
+            "y": 25
           },
           "desc": {
             "x": 70,
@@ -2728,7 +2745,7 @@
             "y": 935
           },
           "Level": {
-            "x": 90,
+            "x": 75,
             "y": 895
           },
           "Attribute": {
@@ -2745,7 +2762,7 @@
           }
         },
         "selectedTextAlignment": {
-          "title": "center",
+          "title": "left",
           "desc": "left",
           "skills": "left",
           "ATK": "center",
@@ -2754,8 +2771,8 @@
         },
         "textboxDims": {
           "title": {
-            "wPercent": 55,
-            "hPx": 90
+            "wPercent": 68,
+            "hPx": 80
           },
           "desc": {
             "wPercent": 85,
@@ -2899,7 +2916,13 @@
             "shadowSize": 100,
             "bgColor": "#ffffff",
             "bgOpacity": 0,
-            "textColor": "#000000"
+            "textColor": "#000000",
+            "textBevel": {
+              "enabled": false,
+              "highlight": "#ffffff",
+              "shadow": "#000000",
+              "offset": 2
+            }
           },
           "Attribute": {
             "strokeEnabled": false,
@@ -2954,14 +2977,14 @@
           }
         },
         "textBevelEnabled": false,
-        "textBevelHighlight": "#a28310",
+        "textBevelHighlight": "#ffffff",
         "textBevelShadow": "#000000",
         "textBevelOffset": 2,
         "cardVideoUrl": "",
         "cardVideoTime": 0,
         "hdriUrl": "",
         "backVideoPendingUrl": "",
-        "savedAt": 1771958261812,
+        "savedAt": 1772465914504,
         "propertyImages": {
           "ATK": "1400",
           "DEF": "1400",
@@ -2988,14 +3011,13 @@
             "height": 1433
           }
         }
-      },
-      "linkedItemId": "gu3tyg"
+      }
     }
   },
   "card_preview_item": null,
-  "fontUrl": "",
+  "fontUrl": "https://fonts.googleapis.com/css?family=Averia Libre",
   "adminPin": "admin",
-  "intro_video_url": "",
-  "intro_video_time": 0,
+  "intro_video_url": "https://www.youtube.com/watch?v=gpaqf09rRyM",
+  "intro_video_time": 9,
   "admin_import_url": ""
 }
