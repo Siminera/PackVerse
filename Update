@@ -8457,9 +8457,9 @@
     }
   ],
   "card_preview_template": {
-    "key": "tpl_334fl1d8",
-    "name": "YGO_NRM_CMN",
-    "createdAt": 1772635890608,
+    "key": "tpl_recrtmkn",
+    "name": "YGO_XYZ_CMN",
+    "createdAt": 1772636340777,
     "data": {
       "title": "Mad Pop",
       "attribute": "COSMIC",
@@ -8545,7 +8545,7 @@
           "y": 935
         },
         "Level": {
-          "x": 73,
+          "x": 74,
           "y": 895
         },
         "Attribute": {
@@ -8572,7 +8572,8 @@
         "ATK": "center",
         "DEF": "center",
         "Level": "center",
-        "": "left"
+        "": "left",
+        "Attribute": "left"
       },
       "textboxDims": {
         "title": {
@@ -8632,7 +8633,7 @@
           "shadowSize": 100,
           "bgColor": "#ffffff",
           "bgOpacity": 0,
-          "textColor": "#000000",
+          "textColor": "#ffffff",
           "_baseDropBlur": 12,
           "_baseInnerStrength": 0.3,
           "textBevel": {
@@ -8748,7 +8749,7 @@
           "shadowSize": 100,
           "bgColor": "#ffffff",
           "bgOpacity": 0,
-          "textColor": "#000000"
+          "textColor": "#ffffff"
         },
         "Type": {
           "strokeEnabled": false,
@@ -8765,7 +8766,7 @@
           "shadowSize": 100,
           "bgColor": "#ffffff",
           "bgOpacity": 0,
-          "textColor": "#000000"
+          "textColor": "#ffffff"
         },
         "Card": {
           "strokeEnabled": false,
@@ -8782,7 +8783,7 @@
           "shadowSize": 100,
           "bgColor": "#ffffff",
           "bgOpacity": 0,
-          "textColor": "#000000"
+          "textColor": "#ffffff"
         },
         "": {
           "strokeEnabled": true,
@@ -8810,7 +8811,7 @@
       "cardVideoTime": 0,
       "hdriUrl": "",
       "backVideoPendingUrl": "",
-      "savedAt": 1772635890608,
+      "savedAt": 1772636340776,
       "propertyImages": {
         "ATK": "1400",
         "DEF": "1400",
@@ -8922,7 +8923,7 @@
             "y": 935
           },
           "Level": {
-            "x": 73,
+            "x": 74,
             "y": 895
           },
           "Attribute": {
@@ -8949,7 +8950,8 @@
           "ATK": "center",
           "DEF": "center",
           "Level": "center",
-          "": "left"
+          "": "left",
+          "Attribute": "left"
         },
         "textboxDims": {
           "title": {
@@ -9009,7 +9011,7 @@
             "shadowSize": 100,
             "bgColor": "#ffffff",
             "bgOpacity": 0,
-            "textColor": "#000000",
+            "textColor": "#ffffff",
             "_baseDropBlur": 12,
             "_baseInnerStrength": 0.3,
             "textBevel": {
@@ -9125,7 +9127,7 @@
             "shadowSize": 100,
             "bgColor": "#ffffff",
             "bgOpacity": 0,
-            "textColor": "#000000"
+            "textColor": "#ffffff"
           },
           "Type": {
             "strokeEnabled": false,
@@ -9142,7 +9144,7 @@
             "shadowSize": 100,
             "bgColor": "#ffffff",
             "bgOpacity": 0,
-            "textColor": "#000000"
+            "textColor": "#ffffff"
           },
           "Card": {
             "strokeEnabled": false,
@@ -9159,7 +9161,7 @@
             "shadowSize": 100,
             "bgColor": "#ffffff",
             "bgOpacity": 0,
-            "textColor": "#000000"
+            "textColor": "#ffffff"
           },
           "": {
             "strokeEnabled": true,
@@ -9187,7 +9189,7 @@
         "cardVideoTime": 0,
         "hdriUrl": "",
         "backVideoPendingUrl": "",
-        "savedAt": 1772635887648,
+        "savedAt": 1772636339482,
         "propertyImages": {
           "ATK": "1400",
           "DEF": "1400",
