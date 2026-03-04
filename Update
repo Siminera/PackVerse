@@ -1601,15 +1601,15 @@
   "soundConfig": {},
   "templates": [
     {
-      "key": "tpl_ya2jbnco",
-      "name": "ygo_effect_common",
-      "createdAt": 1772465920430,
+      "key": "tpl_9h6k47yi",
+      "name": "YGO_EFCT_CMN",
+      "createdAt": 1772635827870,
       "data": {
         "title": "Mad Pop",
         "attribute": "COSMIC",
         "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
         "skillOne": "Cosmic Blast",
-        "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
+        "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/Cards/CardTemplates/ygo/effect.png",
         "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
         "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
         "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
@@ -1664,7 +1664,8 @@
           "Level": 70,
           "Attribute": 40,
           "Type": 40,
-          "Card": 40
+          "Card": 40,
+          "": 20
         },
         "offsets": {
           "title": {
@@ -1688,7 +1689,7 @@
             "y": 935
           },
           "Level": {
-            "x": 75,
+            "x": 73,
             "y": 895
           },
           "Attribute": {
@@ -1702,6 +1703,10 @@
           "Card": {
             "x": 540,
             "y": 1005
+          },
+          "": {
+            "x": 800,
+            "y": 20
           }
         },
         "selectedTextAlignment": {
@@ -1710,11 +1715,12 @@
           "skills": "left",
           "ATK": "center",
           "DEF": "center",
-          "Level": "center"
+          "Level": "center",
+          "": "left"
         },
         "textboxDims": {
           "title": {
-            "wPercent": 68,
+            "wPercent": 90,
             "hPx": 80
           },
           "desc": {
@@ -1748,6 +1754,10 @@
           "Card": {
             "wPercent": 20,
             "hPx": 60
+          },
+          "": {
+            "wPercent": 80,
+            "hPx": 140
           }
         },
         "textboxStyle": {
@@ -1771,7 +1781,7 @@
             "_baseInnerStrength": 0.3,
             "textBevel": {
               "enabled": false,
-              "highlight": "#a28310",
+              "highlight": "#ffffff",
               "shadow": "#000000",
               "offset": 2
             }
@@ -1917,6 +1927,23 @@
             "bgColor": "#ffffff",
             "bgOpacity": 0,
             "textColor": "#000000"
+          },
+          "": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 1,
+            "textColor": "#000000"
           }
         },
         "textBevelEnabled": false,
@@ -1927,14 +1954,14 @@
         "cardVideoTime": 0,
         "hdriUrl": "",
         "backVideoPendingUrl": "",
-        "savedAt": 1772465920430,
+        "savedAt": 1772635827870,
         "propertyImages": {
           "ATK": "1400",
           "DEF": "1400",
           "Level": "3",
-          "Attribute": "Earth",
-          "Type": "Rock",
-          "Card": "Effect"
+          "Attribute": "Terra",
+          "Type": "Rocha",
+          "Card": "Efeito"
         },
         "imageSizes": {
           "image1": {
@@ -1959,7 +1986,7 @@
           "attribute": "COSMIC",
           "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
           "skillOne": "Cosmic Blast",
-          "currentImageSrc": "",
+          "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
           "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
           "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
           "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
@@ -2014,7 +2041,8 @@
             "Level": 70,
             "Attribute": 40,
             "Type": 40,
-            "Card": 40
+            "Card": 40,
+            "": 20
           },
           "offsets": {
             "title": {
@@ -2038,7 +2066,7 @@
               "y": 935
             },
             "Level": {
-              "x": 75,
+              "x": 73,
               "y": 895
             },
             "Attribute": {
@@ -2052,6 +2080,10 @@
             "Card": {
               "x": 540,
               "y": 1005
+            },
+            "": {
+              "x": 800,
+              "y": 20
             }
           },
           "selectedTextAlignment": {
@@ -2060,11 +2092,12 @@
             "skills": "left",
             "ATK": "center",
             "DEF": "center",
-            "Level": "center"
+            "Level": "center",
+            "": "left"
           },
           "textboxDims": {
             "title": {
-              "wPercent": 68,
+              "wPercent": 90,
               "hPx": 80
             },
             "desc": {
@@ -2098,6 +2131,10 @@
             "Card": {
               "wPercent": 20,
               "hPx": 60
+            },
+            "": {
+              "wPercent": 80,
+              "hPx": 140
             }
           },
           "textboxStyle": {
@@ -2121,7 +2158,7 @@
               "_baseInnerStrength": 0.3,
               "textBevel": {
                 "enabled": false,
-                "highlight": "#a28310",
+                "highlight": "#ffffff",
                 "shadow": "#000000",
                 "offset": 2
               }
@@ -2267,6 +2304,23 @@
               "bgColor": "#ffffff",
               "bgOpacity": 0,
               "textColor": "#000000"
+            },
+            "": {
+              "strokeEnabled": true,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": true,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": true,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 1,
+              "textColor": "#000000"
             }
           },
           "textBevelEnabled": false,
@@ -2277,14 +2331,14 @@
           "cardVideoTime": 0,
           "hdriUrl": "",
           "backVideoPendingUrl": "",
-          "savedAt": 1772465914504,
+          "savedAt": 1772635825855,
           "propertyImages": {
             "ATK": "1400",
             "DEF": "1400",
             "Level": "3",
-            "Attribute": "Earth",
-            "Type": "Rock",
-            "Card": "Effect"
+            "Attribute": "Terra",
+            "Type": "Rocha",
+            "Card": "Efeito"
           },
           "imageSizes": {
             "image1": {
@@ -2308,15 +2362,15 @@
       }
     },
     {
-      "key": "tpl_ge5bztg2",
-      "name": "ygo",
-      "createdAt": 1772481572059,
+      "key": "tpl_334fl1d8",
+      "name": "YGO_NRM_CMN",
+      "createdAt": 1772635890608,
       "data": {
         "title": "Mad Pop",
         "attribute": "COSMIC",
         "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
         "skillOne": "Cosmic Blast",
-        "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/Cards/CardTemplates/ygo/effect.png",
+        "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/Cards/CardTemplates/ygo/normal.png",
         "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
         "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
         "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
@@ -2361,7 +2415,7 @@
         "vertexAmp": 8,
         "vertexFreq": 1,
         "vertexNoise": 10,
-        "selectedTextTarget": "title",
+        "selectedTextTarget": "Level",
         "titleFontSize": 60,
         "descFontSize": 32,
         "skillsFontSize": 20,
@@ -2396,7 +2450,7 @@
             "y": 935
           },
           "Level": {
-            "x": 75,
+            "x": 73,
             "y": 895
           },
           "Attribute": {
@@ -2427,7 +2481,7 @@
         },
         "textboxDims": {
           "title": {
-            "wPercent": 68,
+            "wPercent": 90,
             "hPx": 80
           },
           "desc": {
@@ -2488,7 +2542,7 @@
             "_baseInnerStrength": 0.3,
             "textBevel": {
               "enabled": false,
-              "highlight": "#a28310",
+              "highlight": "#ffffff",
               "shadow": "#000000",
               "offset": 2
             }
@@ -2661,14 +2715,14 @@
         "cardVideoTime": 0,
         "hdriUrl": "",
         "backVideoPendingUrl": "",
-        "savedAt": 1772481572059,
+        "savedAt": 1772635890608,
         "propertyImages": {
-          "ATK": "",
-          "DEF": "",
-          "Level": "",
-          "Attribute": "",
-          "Type": "",
-          "Card": ""
+          "ATK": "1400",
+          "DEF": "1400",
+          "Level": "3",
+          "Attribute": "Terra",
+          "Type": "Rocha",
+          "Card": "Efeito"
         },
         "imageSizes": {
           "image1": {
@@ -2693,7 +2747,7 @@
           "attribute": "COSMIC",
           "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
           "skillOne": "Cosmic Blast",
-          "currentImageSrc": "",
+          "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
           "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
           "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
           "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
@@ -2738,7 +2792,7 @@
           "vertexAmp": 8,
           "vertexFreq": 1,
           "vertexNoise": 10,
-          "selectedTextTarget": "title",
+          "selectedTextTarget": "Level",
           "titleFontSize": 60,
           "descFontSize": 32,
           "skillsFontSize": 20,
@@ -2773,7 +2827,7 @@
               "y": 935
             },
             "Level": {
-              "x": 75,
+              "x": 73,
               "y": 895
             },
             "Attribute": {
@@ -2804,7 +2858,7 @@
           },
           "textboxDims": {
             "title": {
-              "wPercent": 68,
+              "wPercent": 90,
               "hPx": 80
             },
             "desc": {
@@ -2865,7 +2919,7 @@
               "_baseInnerStrength": 0.3,
               "textBevel": {
                 "enabled": false,
-                "highlight": "#a28310",
+                "highlight": "#ffffff",
                 "shadow": "#000000",
                 "offset": 2
               }
@@ -3038,14 +3092,14 @@
           "cardVideoTime": 0,
           "hdriUrl": "",
           "backVideoPendingUrl": "",
-          "savedAt": 1772481570580,
+          "savedAt": 1772635887648,
           "propertyImages": {
-            "ATK": "",
-            "DEF": "",
-            "Level": "",
-            "Attribute": "",
-            "Type": "",
-            "Card": ""
+            "ATK": "1400",
+            "DEF": "1400",
+            "Level": "3",
+            "Attribute": "Terra",
+            "Type": "Rocha",
+            "Card": "Efeito"
           },
           "imageSizes": {
             "image1": {
@@ -3065,21 +3119,5353 @@
               "height": 1433
             }
           }
+        }
+      }
+    },
+    {
+      "key": "tpl_euxsr22z",
+      "name": "YGO_TKN_CMN",
+      "createdAt": 1772635959084,
+      "data": {
+        "title": "Mad Pop",
+        "attribute": "COSMIC",
+        "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
+        "skillOne": "Cosmic Blast",
+        "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/Cards/CardTemplates/ygo/token.png",
+        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+        "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
+        "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
+        "image1State": {
+          "posX": 0,
+          "posY": -48,
+          "scale": 125,
+          "zOrder": "below"
         },
-        "linkedItemId": "gu3tyg"
+        "image2State": {
+          "posX": 0,
+          "posY": 0,
+          "scalePct": 100,
+          "zOrder": "below"
+        },
+        "image3State": {
+          "posX": 214,
+          "posY": -146,
+          "scalePct": 200,
+          "zOrder": "above"
+        },
+        "cardColor": "#7851a9",
+        "holoEffect": "0",
+        "holoIntensity": 0,
+        "autoRotateEnabled": false,
+        "hueShift": 0,
+        "saturation": 100,
+        "brightness": 100,
+        "rainbowVariant": "0",
+        "spectrumOffset": 0,
+        "spectrumScale": 200,
+        "spectrumContrast": 100,
+        "spectrumOrientation": "0",
+        "streakFreq": 1,
+        "streakSize": 200,
+        "streakWidth": 10,
+        "streakHeight": 100,
+        "streakRotation": 0,
+        "streakFormat": "0",
+        "shimmerStrength": 2,
+        "animSpeed": 5,
+        "vertexAmp": 8,
+        "vertexFreq": 1,
+        "vertexNoise": 10,
+        "selectedTextTarget": "Level",
+        "titleFontSize": 60,
+        "descFontSize": 32,
+        "skillsFontSize": 20,
+        "extraFontSizes": {
+          "ATK": 40,
+          "DEF": 40,
+          "Level": 70,
+          "Attribute": 40,
+          "Type": 40,
+          "Card": 40,
+          "": 20
+        },
+        "offsets": {
+          "title": {
+            "x": 50,
+            "y": 25
+          },
+          "desc": {
+            "x": 70,
+            "y": 960
+          },
+          "skills": {
+            "x": 800,
+            "y": 20
+          },
+          "ATK": {
+            "x": 350,
+            "y": 935
+          },
+          "DEF": {
+            "x": 671,
+            "y": 935
+          },
+          "Level": {
+            "x": 73,
+            "y": 895
+          },
+          "Attribute": {
+            "x": 62,
+            "y": 1006
+          },
+          "Type": {
+            "x": 301,
+            "y": 1007
+          },
+          "Card": {
+            "x": 540,
+            "y": 1005
+          },
+          "": {
+            "x": 800,
+            "y": 20
+          }
+        },
+        "selectedTextAlignment": {
+          "title": "left",
+          "desc": "left",
+          "skills": "left",
+          "ATK": "center",
+          "DEF": "center",
+          "Level": "center",
+          "": "left"
+        },
+        "textboxDims": {
+          "title": {
+            "wPercent": 90,
+            "hPx": 80
+          },
+          "desc": {
+            "wPercent": 85,
+            "hPx": 209
+          },
+          "skills": {
+            "wPercent": 80,
+            "hPx": 140
+          },
+          "ATK": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "DEF": {
+            "wPercent": 20,
+            "hPx": 65
+          },
+          "Level": {
+            "wPercent": 20,
+            "hPx": 100
+          },
+          "Attribute": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "Type": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "Card": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "": {
+            "wPercent": 80,
+            "hPx": 140
+          }
+        },
+        "textboxStyle": {
+          "title": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000",
+            "_baseDropBlur": 12,
+            "_baseInnerStrength": 0.3,
+            "textBevel": {
+              "enabled": false,
+              "highlight": "#ffffff",
+              "shadow": "#000000",
+              "offset": 2
+            }
+          },
+          "desc": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "skills": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 1,
+            "textColor": "#000000"
+          },
+          "ATK": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#ffffff"
+          },
+          "DEF": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#ffffff"
+          },
+          "Level": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000",
+            "textBevel": {
+              "enabled": false,
+              "highlight": "#ffffff",
+              "shadow": "#000000",
+              "offset": 2
+            }
+          },
+          "Attribute": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "Type": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "Card": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 1,
+            "textColor": "#000000"
+          }
+        },
+        "textBevelEnabled": false,
+        "textBevelHighlight": "#ffffff",
+        "textBevelShadow": "#000000",
+        "textBevelOffset": 2,
+        "cardVideoUrl": "",
+        "cardVideoTime": 0,
+        "hdriUrl": "",
+        "backVideoPendingUrl": "",
+        "savedAt": 1772635959084,
+        "propertyImages": {
+          "ATK": "1400",
+          "DEF": "1400",
+          "Level": "3",
+          "Attribute": "Terra",
+          "Type": "Rocha",
+          "Card": "Efeito"
+        },
+        "imageSizes": {
+          "image1": {
+            "width": 1205,
+            "height": 1441
+          },
+          "image2": {
+            "width": 964,
+            "height": 1153
+          },
+          "image3": {
+            "width": 1928,
+            "height": 2306
+          },
+          "backImage": {
+            "width": 1024,
+            "height": 1433
+          }
+        },
+        "card_last_settings_v1": {
+          "title": "Mad Pop",
+          "attribute": "COSMIC",
+          "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
+          "skillOne": "Cosmic Blast",
+          "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
+          "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+          "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
+          "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
+          "image1State": {
+            "posX": 0,
+            "posY": -48,
+            "scale": 125,
+            "zOrder": "below"
+          },
+          "image2State": {
+            "posX": 0,
+            "posY": 0,
+            "scalePct": 100,
+            "zOrder": "below"
+          },
+          "image3State": {
+            "posX": 214,
+            "posY": -146,
+            "scalePct": 200,
+            "zOrder": "above"
+          },
+          "cardColor": "#7851a9",
+          "holoEffect": "0",
+          "holoIntensity": 0,
+          "autoRotateEnabled": false,
+          "hueShift": 0,
+          "saturation": 100,
+          "brightness": 100,
+          "rainbowVariant": "0",
+          "spectrumOffset": 0,
+          "spectrumScale": 200,
+          "spectrumContrast": 100,
+          "spectrumOrientation": "0",
+          "streakFreq": 1,
+          "streakSize": 200,
+          "streakWidth": 10,
+          "streakHeight": 100,
+          "streakRotation": 0,
+          "streakFormat": "0",
+          "shimmerStrength": 2,
+          "animSpeed": 5,
+          "vertexAmp": 8,
+          "vertexFreq": 1,
+          "vertexNoise": 10,
+          "selectedTextTarget": "Level",
+          "titleFontSize": 60,
+          "descFontSize": 32,
+          "skillsFontSize": 20,
+          "extraFontSizes": {
+            "ATK": 40,
+            "DEF": 40,
+            "Level": 70,
+            "Attribute": 40,
+            "Type": 40,
+            "Card": 40,
+            "": 20
+          },
+          "offsets": {
+            "title": {
+              "x": 50,
+              "y": 25
+            },
+            "desc": {
+              "x": 70,
+              "y": 960
+            },
+            "skills": {
+              "x": 800,
+              "y": 20
+            },
+            "ATK": {
+              "x": 350,
+              "y": 935
+            },
+            "DEF": {
+              "x": 671,
+              "y": 935
+            },
+            "Level": {
+              "x": 73,
+              "y": 895
+            },
+            "Attribute": {
+              "x": 62,
+              "y": 1006
+            },
+            "Type": {
+              "x": 301,
+              "y": 1007
+            },
+            "Card": {
+              "x": 540,
+              "y": 1005
+            },
+            "": {
+              "x": 800,
+              "y": 20
+            }
+          },
+          "selectedTextAlignment": {
+            "title": "left",
+            "desc": "left",
+            "skills": "left",
+            "ATK": "center",
+            "DEF": "center",
+            "Level": "center",
+            "": "left"
+          },
+          "textboxDims": {
+            "title": {
+              "wPercent": 90,
+              "hPx": 80
+            },
+            "desc": {
+              "wPercent": 85,
+              "hPx": 209
+            },
+            "skills": {
+              "wPercent": 80,
+              "hPx": 140
+            },
+            "ATK": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "DEF": {
+              "wPercent": 20,
+              "hPx": 65
+            },
+            "Level": {
+              "wPercent": 20,
+              "hPx": 100
+            },
+            "Attribute": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "Type": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "Card": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "": {
+              "wPercent": 80,
+              "hPx": 140
+            }
+          },
+          "textboxStyle": {
+            "title": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000",
+              "_baseDropBlur": 12,
+              "_baseInnerStrength": 0.3,
+              "textBevel": {
+                "enabled": false,
+                "highlight": "#ffffff",
+                "shadow": "#000000",
+                "offset": 2
+              }
+            },
+            "desc": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "skills": {
+              "strokeEnabled": true,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": true,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": true,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 1,
+              "textColor": "#000000"
+            },
+            "ATK": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#ffffff"
+            },
+            "DEF": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#ffffff"
+            },
+            "Level": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000",
+              "textBevel": {
+                "enabled": false,
+                "highlight": "#ffffff",
+                "shadow": "#000000",
+                "offset": 2
+              }
+            },
+            "Attribute": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "Type": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "Card": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "": {
+              "strokeEnabled": true,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": true,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": true,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 1,
+              "textColor": "#000000"
+            }
+          },
+          "textBevelEnabled": false,
+          "textBevelHighlight": "#ffffff",
+          "textBevelShadow": "#000000",
+          "textBevelOffset": 2,
+          "cardVideoUrl": "",
+          "cardVideoTime": 0,
+          "hdriUrl": "",
+          "backVideoPendingUrl": "",
+          "savedAt": 1772635953568,
+          "propertyImages": {
+            "ATK": "1400",
+            "DEF": "1400",
+            "Level": "3",
+            "Attribute": "Terra",
+            "Type": "Rocha",
+            "Card": "Efeito"
+          },
+          "imageSizes": {
+            "image1": {
+              "width": 1205,
+              "height": 1441
+            },
+            "image2": {
+              "width": 964,
+              "height": 1153
+            },
+            "image3": {
+              "width": 1928,
+              "height": 2306
+            },
+            "backImage": {
+              "width": 1024,
+              "height": 1433
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "tpl_x5kr5jed",
+      "name": "YGO_RTL_CMN",
+      "createdAt": 1772636001859,
+      "data": {
+        "title": "Mad Pop",
+        "attribute": "COSMIC",
+        "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
+        "skillOne": "Cosmic Blast",
+        "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/Cards/CardTemplates/ygo/ritual.png",
+        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+        "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
+        "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
+        "image1State": {
+          "posX": 0,
+          "posY": -48,
+          "scale": 125,
+          "zOrder": "below"
+        },
+        "image2State": {
+          "posX": 0,
+          "posY": 0,
+          "scalePct": 100,
+          "zOrder": "below"
+        },
+        "image3State": {
+          "posX": 214,
+          "posY": -146,
+          "scalePct": 200,
+          "zOrder": "above"
+        },
+        "cardColor": "#7851a9",
+        "holoEffect": "0",
+        "holoIntensity": 0,
+        "autoRotateEnabled": false,
+        "hueShift": 0,
+        "saturation": 100,
+        "brightness": 100,
+        "rainbowVariant": "0",
+        "spectrumOffset": 0,
+        "spectrumScale": 200,
+        "spectrumContrast": 100,
+        "spectrumOrientation": "0",
+        "streakFreq": 1,
+        "streakSize": 200,
+        "streakWidth": 10,
+        "streakHeight": 100,
+        "streakRotation": 0,
+        "streakFormat": "0",
+        "shimmerStrength": 2,
+        "animSpeed": 5,
+        "vertexAmp": 8,
+        "vertexFreq": 1,
+        "vertexNoise": 10,
+        "selectedTextTarget": "Level",
+        "titleFontSize": 60,
+        "descFontSize": 32,
+        "skillsFontSize": 20,
+        "extraFontSizes": {
+          "ATK": 40,
+          "DEF": 40,
+          "Level": 70,
+          "Attribute": 40,
+          "Type": 40,
+          "Card": 40,
+          "": 20
+        },
+        "offsets": {
+          "title": {
+            "x": 50,
+            "y": 25
+          },
+          "desc": {
+            "x": 70,
+            "y": 960
+          },
+          "skills": {
+            "x": 800,
+            "y": 20
+          },
+          "ATK": {
+            "x": 350,
+            "y": 935
+          },
+          "DEF": {
+            "x": 671,
+            "y": 935
+          },
+          "Level": {
+            "x": 73,
+            "y": 895
+          },
+          "Attribute": {
+            "x": 62,
+            "y": 1006
+          },
+          "Type": {
+            "x": 301,
+            "y": 1007
+          },
+          "Card": {
+            "x": 540,
+            "y": 1005
+          },
+          "": {
+            "x": 800,
+            "y": 20
+          }
+        },
+        "selectedTextAlignment": {
+          "title": "left",
+          "desc": "left",
+          "skills": "left",
+          "ATK": "center",
+          "DEF": "center",
+          "Level": "center",
+          "": "left"
+        },
+        "textboxDims": {
+          "title": {
+            "wPercent": 90,
+            "hPx": 80
+          },
+          "desc": {
+            "wPercent": 85,
+            "hPx": 209
+          },
+          "skills": {
+            "wPercent": 80,
+            "hPx": 140
+          },
+          "ATK": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "DEF": {
+            "wPercent": 20,
+            "hPx": 65
+          },
+          "Level": {
+            "wPercent": 20,
+            "hPx": 100
+          },
+          "Attribute": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "Type": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "Card": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "": {
+            "wPercent": 80,
+            "hPx": 140
+          }
+        },
+        "textboxStyle": {
+          "title": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000",
+            "_baseDropBlur": 12,
+            "_baseInnerStrength": 0.3,
+            "textBevel": {
+              "enabled": false,
+              "highlight": "#ffffff",
+              "shadow": "#000000",
+              "offset": 2
+            }
+          },
+          "desc": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "skills": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 1,
+            "textColor": "#000000"
+          },
+          "ATK": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#ffffff"
+          },
+          "DEF": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#ffffff"
+          },
+          "Level": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000",
+            "textBevel": {
+              "enabled": false,
+              "highlight": "#ffffff",
+              "shadow": "#000000",
+              "offset": 2
+            }
+          },
+          "Attribute": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "Type": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "Card": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 1,
+            "textColor": "#000000"
+          }
+        },
+        "textBevelEnabled": false,
+        "textBevelHighlight": "#ffffff",
+        "textBevelShadow": "#000000",
+        "textBevelOffset": 2,
+        "cardVideoUrl": "",
+        "cardVideoTime": 0,
+        "hdriUrl": "",
+        "backVideoPendingUrl": "",
+        "savedAt": 1772636001859,
+        "propertyImages": {
+          "ATK": "1400",
+          "DEF": "1400",
+          "Level": "3",
+          "Attribute": "Terra",
+          "Type": "Rocha",
+          "Card": "Efeito"
+        },
+        "imageSizes": {
+          "image1": {
+            "width": 1205,
+            "height": 1441
+          },
+          "image2": {
+            "width": 964,
+            "height": 1153
+          },
+          "image3": {
+            "width": 1928,
+            "height": 2306
+          },
+          "backImage": {
+            "width": 1024,
+            "height": 1433
+          }
+        },
+        "card_last_settings_v1": {
+          "title": "Mad Pop",
+          "attribute": "COSMIC",
+          "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
+          "skillOne": "Cosmic Blast",
+          "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
+          "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+          "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
+          "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
+          "image1State": {
+            "posX": 0,
+            "posY": -48,
+            "scale": 125,
+            "zOrder": "below"
+          },
+          "image2State": {
+            "posX": 0,
+            "posY": 0,
+            "scalePct": 100,
+            "zOrder": "below"
+          },
+          "image3State": {
+            "posX": 214,
+            "posY": -146,
+            "scalePct": 200,
+            "zOrder": "above"
+          },
+          "cardColor": "#7851a9",
+          "holoEffect": "0",
+          "holoIntensity": 0,
+          "autoRotateEnabled": false,
+          "hueShift": 0,
+          "saturation": 100,
+          "brightness": 100,
+          "rainbowVariant": "0",
+          "spectrumOffset": 0,
+          "spectrumScale": 200,
+          "spectrumContrast": 100,
+          "spectrumOrientation": "0",
+          "streakFreq": 1,
+          "streakSize": 200,
+          "streakWidth": 10,
+          "streakHeight": 100,
+          "streakRotation": 0,
+          "streakFormat": "0",
+          "shimmerStrength": 2,
+          "animSpeed": 5,
+          "vertexAmp": 8,
+          "vertexFreq": 1,
+          "vertexNoise": 10,
+          "selectedTextTarget": "Level",
+          "titleFontSize": 60,
+          "descFontSize": 32,
+          "skillsFontSize": 20,
+          "extraFontSizes": {
+            "ATK": 40,
+            "DEF": 40,
+            "Level": 70,
+            "Attribute": 40,
+            "Type": 40,
+            "Card": 40,
+            "": 20
+          },
+          "offsets": {
+            "title": {
+              "x": 50,
+              "y": 25
+            },
+            "desc": {
+              "x": 70,
+              "y": 960
+            },
+            "skills": {
+              "x": 800,
+              "y": 20
+            },
+            "ATK": {
+              "x": 350,
+              "y": 935
+            },
+            "DEF": {
+              "x": 671,
+              "y": 935
+            },
+            "Level": {
+              "x": 73,
+              "y": 895
+            },
+            "Attribute": {
+              "x": 62,
+              "y": 1006
+            },
+            "Type": {
+              "x": 301,
+              "y": 1007
+            },
+            "Card": {
+              "x": 540,
+              "y": 1005
+            },
+            "": {
+              "x": 800,
+              "y": 20
+            }
+          },
+          "selectedTextAlignment": {
+            "title": "left",
+            "desc": "left",
+            "skills": "left",
+            "ATK": "center",
+            "DEF": "center",
+            "Level": "center",
+            "": "left"
+          },
+          "textboxDims": {
+            "title": {
+              "wPercent": 90,
+              "hPx": 80
+            },
+            "desc": {
+              "wPercent": 85,
+              "hPx": 209
+            },
+            "skills": {
+              "wPercent": 80,
+              "hPx": 140
+            },
+            "ATK": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "DEF": {
+              "wPercent": 20,
+              "hPx": 65
+            },
+            "Level": {
+              "wPercent": 20,
+              "hPx": 100
+            },
+            "Attribute": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "Type": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "Card": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "": {
+              "wPercent": 80,
+              "hPx": 140
+            }
+          },
+          "textboxStyle": {
+            "title": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000",
+              "_baseDropBlur": 12,
+              "_baseInnerStrength": 0.3,
+              "textBevel": {
+                "enabled": false,
+                "highlight": "#ffffff",
+                "shadow": "#000000",
+                "offset": 2
+              }
+            },
+            "desc": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "skills": {
+              "strokeEnabled": true,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": true,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": true,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 1,
+              "textColor": "#000000"
+            },
+            "ATK": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#ffffff"
+            },
+            "DEF": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#ffffff"
+            },
+            "Level": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000",
+              "textBevel": {
+                "enabled": false,
+                "highlight": "#ffffff",
+                "shadow": "#000000",
+                "offset": 2
+              }
+            },
+            "Attribute": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "Type": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "Card": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "": {
+              "strokeEnabled": true,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": true,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": true,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 1,
+              "textColor": "#000000"
+            }
+          },
+          "textBevelEnabled": false,
+          "textBevelHighlight": "#ffffff",
+          "textBevelShadow": "#000000",
+          "textBevelOffset": 2,
+          "cardVideoUrl": "",
+          "cardVideoTime": 0,
+          "hdriUrl": "",
+          "backVideoPendingUrl": "",
+          "savedAt": 1772635994475,
+          "propertyImages": {
+            "ATK": "1400",
+            "DEF": "1400",
+            "Level": "3",
+            "Attribute": "Terra",
+            "Type": "Rocha",
+            "Card": "Efeito"
+          },
+          "imageSizes": {
+            "image1": {
+              "width": 1205,
+              "height": 1441
+            },
+            "image2": {
+              "width": 964,
+              "height": 1153
+            },
+            "image3": {
+              "width": 1928,
+              "height": 2306
+            },
+            "backImage": {
+              "width": 1024,
+              "height": 1433
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "tpl_g4uy3zwd",
+      "name": "YGO_FSN_CMN",
+      "createdAt": 1772636040875,
+      "data": {
+        "title": "Mad Pop",
+        "attribute": "COSMIC",
+        "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
+        "skillOne": "Cosmic Blast",
+        "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/Cards/CardTemplates/ygo/fusion.png",
+        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+        "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
+        "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
+        "image1State": {
+          "posX": 0,
+          "posY": -48,
+          "scale": 125,
+          "zOrder": "below"
+        },
+        "image2State": {
+          "posX": 0,
+          "posY": 0,
+          "scalePct": 100,
+          "zOrder": "below"
+        },
+        "image3State": {
+          "posX": 214,
+          "posY": -146,
+          "scalePct": 200,
+          "zOrder": "above"
+        },
+        "cardColor": "#7851a9",
+        "holoEffect": "0",
+        "holoIntensity": 0,
+        "autoRotateEnabled": false,
+        "hueShift": 0,
+        "saturation": 100,
+        "brightness": 100,
+        "rainbowVariant": "0",
+        "spectrumOffset": 0,
+        "spectrumScale": 200,
+        "spectrumContrast": 100,
+        "spectrumOrientation": "0",
+        "streakFreq": 1,
+        "streakSize": 200,
+        "streakWidth": 10,
+        "streakHeight": 100,
+        "streakRotation": 0,
+        "streakFormat": "0",
+        "shimmerStrength": 2,
+        "animSpeed": 5,
+        "vertexAmp": 8,
+        "vertexFreq": 1,
+        "vertexNoise": 10,
+        "selectedTextTarget": "Level",
+        "titleFontSize": 60,
+        "descFontSize": 32,
+        "skillsFontSize": 20,
+        "extraFontSizes": {
+          "ATK": 40,
+          "DEF": 40,
+          "Level": 70,
+          "Attribute": 40,
+          "Type": 40,
+          "Card": 40,
+          "": 20
+        },
+        "offsets": {
+          "title": {
+            "x": 50,
+            "y": 25
+          },
+          "desc": {
+            "x": 70,
+            "y": 960
+          },
+          "skills": {
+            "x": 800,
+            "y": 20
+          },
+          "ATK": {
+            "x": 350,
+            "y": 935
+          },
+          "DEF": {
+            "x": 671,
+            "y": 935
+          },
+          "Level": {
+            "x": 73,
+            "y": 895
+          },
+          "Attribute": {
+            "x": 62,
+            "y": 1006
+          },
+          "Type": {
+            "x": 301,
+            "y": 1007
+          },
+          "Card": {
+            "x": 540,
+            "y": 1005
+          },
+          "": {
+            "x": 800,
+            "y": 20
+          }
+        },
+        "selectedTextAlignment": {
+          "title": "left",
+          "desc": "left",
+          "skills": "left",
+          "ATK": "center",
+          "DEF": "center",
+          "Level": "center",
+          "": "left"
+        },
+        "textboxDims": {
+          "title": {
+            "wPercent": 90,
+            "hPx": 80
+          },
+          "desc": {
+            "wPercent": 85,
+            "hPx": 209
+          },
+          "skills": {
+            "wPercent": 80,
+            "hPx": 140
+          },
+          "ATK": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "DEF": {
+            "wPercent": 20,
+            "hPx": 65
+          },
+          "Level": {
+            "wPercent": 20,
+            "hPx": 100
+          },
+          "Attribute": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "Type": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "Card": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "": {
+            "wPercent": 80,
+            "hPx": 140
+          }
+        },
+        "textboxStyle": {
+          "title": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000",
+            "_baseDropBlur": 12,
+            "_baseInnerStrength": 0.3,
+            "textBevel": {
+              "enabled": false,
+              "highlight": "#ffffff",
+              "shadow": "#000000",
+              "offset": 2
+            }
+          },
+          "desc": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "skills": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 1,
+            "textColor": "#000000"
+          },
+          "ATK": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#ffffff"
+          },
+          "DEF": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#ffffff"
+          },
+          "Level": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000",
+            "textBevel": {
+              "enabled": false,
+              "highlight": "#ffffff",
+              "shadow": "#000000",
+              "offset": 2
+            }
+          },
+          "Attribute": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "Type": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "Card": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 1,
+            "textColor": "#000000"
+          }
+        },
+        "textBevelEnabled": false,
+        "textBevelHighlight": "#ffffff",
+        "textBevelShadow": "#000000",
+        "textBevelOffset": 2,
+        "cardVideoUrl": "",
+        "cardVideoTime": 0,
+        "hdriUrl": "",
+        "backVideoPendingUrl": "",
+        "savedAt": 1772636040875,
+        "propertyImages": {
+          "ATK": "1400",
+          "DEF": "1400",
+          "Level": "3",
+          "Attribute": "Terra",
+          "Type": "Rocha",
+          "Card": "Efeito"
+        },
+        "imageSizes": {
+          "image1": {
+            "width": 1205,
+            "height": 1441
+          },
+          "image2": {
+            "width": 964,
+            "height": 1153
+          },
+          "image3": {
+            "width": 1928,
+            "height": 2306
+          },
+          "backImage": {
+            "width": 1024,
+            "height": 1433
+          }
+        },
+        "card_last_settings_v1": {
+          "title": "Mad Pop",
+          "attribute": "COSMIC",
+          "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
+          "skillOne": "Cosmic Blast",
+          "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
+          "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+          "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
+          "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
+          "image1State": {
+            "posX": 0,
+            "posY": -48,
+            "scale": 125,
+            "zOrder": "below"
+          },
+          "image2State": {
+            "posX": 0,
+            "posY": 0,
+            "scalePct": 100,
+            "zOrder": "below"
+          },
+          "image3State": {
+            "posX": 214,
+            "posY": -146,
+            "scalePct": 200,
+            "zOrder": "above"
+          },
+          "cardColor": "#7851a9",
+          "holoEffect": "0",
+          "holoIntensity": 0,
+          "autoRotateEnabled": false,
+          "hueShift": 0,
+          "saturation": 100,
+          "brightness": 100,
+          "rainbowVariant": "0",
+          "spectrumOffset": 0,
+          "spectrumScale": 200,
+          "spectrumContrast": 100,
+          "spectrumOrientation": "0",
+          "streakFreq": 1,
+          "streakSize": 200,
+          "streakWidth": 10,
+          "streakHeight": 100,
+          "streakRotation": 0,
+          "streakFormat": "0",
+          "shimmerStrength": 2,
+          "animSpeed": 5,
+          "vertexAmp": 8,
+          "vertexFreq": 1,
+          "vertexNoise": 10,
+          "selectedTextTarget": "Level",
+          "titleFontSize": 60,
+          "descFontSize": 32,
+          "skillsFontSize": 20,
+          "extraFontSizes": {
+            "ATK": 40,
+            "DEF": 40,
+            "Level": 70,
+            "Attribute": 40,
+            "Type": 40,
+            "Card": 40,
+            "": 20
+          },
+          "offsets": {
+            "title": {
+              "x": 50,
+              "y": 25
+            },
+            "desc": {
+              "x": 70,
+              "y": 960
+            },
+            "skills": {
+              "x": 800,
+              "y": 20
+            },
+            "ATK": {
+              "x": 350,
+              "y": 935
+            },
+            "DEF": {
+              "x": 671,
+              "y": 935
+            },
+            "Level": {
+              "x": 73,
+              "y": 895
+            },
+            "Attribute": {
+              "x": 62,
+              "y": 1006
+            },
+            "Type": {
+              "x": 301,
+              "y": 1007
+            },
+            "Card": {
+              "x": 540,
+              "y": 1005
+            },
+            "": {
+              "x": 800,
+              "y": 20
+            }
+          },
+          "selectedTextAlignment": {
+            "title": "left",
+            "desc": "left",
+            "skills": "left",
+            "ATK": "center",
+            "DEF": "center",
+            "Level": "center",
+            "": "left"
+          },
+          "textboxDims": {
+            "title": {
+              "wPercent": 90,
+              "hPx": 80
+            },
+            "desc": {
+              "wPercent": 85,
+              "hPx": 209
+            },
+            "skills": {
+              "wPercent": 80,
+              "hPx": 140
+            },
+            "ATK": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "DEF": {
+              "wPercent": 20,
+              "hPx": 65
+            },
+            "Level": {
+              "wPercent": 20,
+              "hPx": 100
+            },
+            "Attribute": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "Type": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "Card": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "": {
+              "wPercent": 80,
+              "hPx": 140
+            }
+          },
+          "textboxStyle": {
+            "title": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000",
+              "_baseDropBlur": 12,
+              "_baseInnerStrength": 0.3,
+              "textBevel": {
+                "enabled": false,
+                "highlight": "#ffffff",
+                "shadow": "#000000",
+                "offset": 2
+              }
+            },
+            "desc": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "skills": {
+              "strokeEnabled": true,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": true,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": true,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 1,
+              "textColor": "#000000"
+            },
+            "ATK": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#ffffff"
+            },
+            "DEF": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#ffffff"
+            },
+            "Level": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000",
+              "textBevel": {
+                "enabled": false,
+                "highlight": "#ffffff",
+                "shadow": "#000000",
+                "offset": 2
+              }
+            },
+            "Attribute": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "Type": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "Card": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "": {
+              "strokeEnabled": true,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": true,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": true,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 1,
+              "textColor": "#000000"
+            }
+          },
+          "textBevelEnabled": false,
+          "textBevelHighlight": "#ffffff",
+          "textBevelShadow": "#000000",
+          "textBevelOffset": 2,
+          "cardVideoUrl": "",
+          "cardVideoTime": 0,
+          "hdriUrl": "",
+          "backVideoPendingUrl": "",
+          "savedAt": 1772636039149,
+          "propertyImages": {
+            "ATK": "1400",
+            "DEF": "1400",
+            "Level": "3",
+            "Attribute": "Terra",
+            "Type": "Rocha",
+            "Card": "Efeito"
+          },
+          "imageSizes": {
+            "image1": {
+              "width": 1205,
+              "height": 1441
+            },
+            "image2": {
+              "width": 964,
+              "height": 1153
+            },
+            "image3": {
+              "width": 1928,
+              "height": 2306
+            },
+            "backImage": {
+              "width": 1024,
+              "height": 1433
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "tpl_z2by0ihc",
+      "name": "YGO_SYN_CMN",
+      "createdAt": 1772636155009,
+      "data": {
+        "title": "Mad Pop",
+        "attribute": "COSMIC",
+        "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
+        "skillOne": "Cosmic Blast",
+        "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/Cards/CardTemplates/ygo/synchro.png",
+        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+        "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
+        "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
+        "image1State": {
+          "posX": 0,
+          "posY": -48,
+          "scale": 125,
+          "zOrder": "below"
+        },
+        "image2State": {
+          "posX": 0,
+          "posY": 0,
+          "scalePct": 100,
+          "zOrder": "below"
+        },
+        "image3State": {
+          "posX": 214,
+          "posY": -146,
+          "scalePct": 200,
+          "zOrder": "above"
+        },
+        "cardColor": "#7851a9",
+        "holoEffect": "0",
+        "holoIntensity": 0,
+        "autoRotateEnabled": false,
+        "hueShift": 0,
+        "saturation": 100,
+        "brightness": 100,
+        "rainbowVariant": "0",
+        "spectrumOffset": 0,
+        "spectrumScale": 200,
+        "spectrumContrast": 100,
+        "spectrumOrientation": "0",
+        "streakFreq": 1,
+        "streakSize": 200,
+        "streakWidth": 10,
+        "streakHeight": 100,
+        "streakRotation": 0,
+        "streakFormat": "0",
+        "shimmerStrength": 2,
+        "animSpeed": 5,
+        "vertexAmp": 8,
+        "vertexFreq": 1,
+        "vertexNoise": 10,
+        "selectedTextTarget": "Level",
+        "titleFontSize": 60,
+        "descFontSize": 32,
+        "skillsFontSize": 20,
+        "extraFontSizes": {
+          "ATK": 40,
+          "DEF": 40,
+          "Level": 70,
+          "Attribute": 40,
+          "Type": 40,
+          "Card": 40,
+          "": 20
+        },
+        "offsets": {
+          "title": {
+            "x": 50,
+            "y": 25
+          },
+          "desc": {
+            "x": 70,
+            "y": 960
+          },
+          "skills": {
+            "x": 800,
+            "y": 20
+          },
+          "ATK": {
+            "x": 350,
+            "y": 935
+          },
+          "DEF": {
+            "x": 671,
+            "y": 935
+          },
+          "Level": {
+            "x": 73,
+            "y": 895
+          },
+          "Attribute": {
+            "x": 62,
+            "y": 1006
+          },
+          "Type": {
+            "x": 301,
+            "y": 1007
+          },
+          "Card": {
+            "x": 540,
+            "y": 1005
+          },
+          "": {
+            "x": 800,
+            "y": 20
+          }
+        },
+        "selectedTextAlignment": {
+          "title": "left",
+          "desc": "left",
+          "skills": "left",
+          "ATK": "center",
+          "DEF": "center",
+          "Level": "center",
+          "": "left"
+        },
+        "textboxDims": {
+          "title": {
+            "wPercent": 90,
+            "hPx": 80
+          },
+          "desc": {
+            "wPercent": 85,
+            "hPx": 209
+          },
+          "skills": {
+            "wPercent": 80,
+            "hPx": 140
+          },
+          "ATK": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "DEF": {
+            "wPercent": 20,
+            "hPx": 65
+          },
+          "Level": {
+            "wPercent": 20,
+            "hPx": 100
+          },
+          "Attribute": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "Type": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "Card": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "": {
+            "wPercent": 80,
+            "hPx": 140
+          }
+        },
+        "textboxStyle": {
+          "title": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000",
+            "_baseDropBlur": 12,
+            "_baseInnerStrength": 0.3,
+            "textBevel": {
+              "enabled": false,
+              "highlight": "#ffffff",
+              "shadow": "#000000",
+              "offset": 2
+            }
+          },
+          "desc": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "skills": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 1,
+            "textColor": "#000000"
+          },
+          "ATK": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#ffffff"
+          },
+          "DEF": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#ffffff"
+          },
+          "Level": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000",
+            "textBevel": {
+              "enabled": false,
+              "highlight": "#ffffff",
+              "shadow": "#000000",
+              "offset": 2
+            }
+          },
+          "Attribute": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "Type": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "Card": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 1,
+            "textColor": "#000000"
+          }
+        },
+        "textBevelEnabled": false,
+        "textBevelHighlight": "#ffffff",
+        "textBevelShadow": "#000000",
+        "textBevelOffset": 2,
+        "cardVideoUrl": "",
+        "cardVideoTime": 0,
+        "hdriUrl": "",
+        "backVideoPendingUrl": "",
+        "savedAt": 1772636155009,
+        "propertyImages": {
+          "ATK": "1400",
+          "DEF": "1400",
+          "Level": "3",
+          "Attribute": "Terra",
+          "Type": "Rocha",
+          "Card": "Efeito"
+        },
+        "imageSizes": {
+          "image1": {
+            "width": 1205,
+            "height": 1441
+          },
+          "image2": {
+            "width": 964,
+            "height": 1153
+          },
+          "image3": {
+            "width": 1928,
+            "height": 2306
+          },
+          "backImage": {
+            "width": 1024,
+            "height": 1433
+          }
+        },
+        "card_last_settings_v1": {
+          "title": "Mad Pop",
+          "attribute": "COSMIC",
+          "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
+          "skillOne": "Cosmic Blast",
+          "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
+          "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+          "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
+          "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
+          "image1State": {
+            "posX": 0,
+            "posY": -48,
+            "scale": 125,
+            "zOrder": "below"
+          },
+          "image2State": {
+            "posX": 0,
+            "posY": 0,
+            "scalePct": 100,
+            "zOrder": "below"
+          },
+          "image3State": {
+            "posX": 214,
+            "posY": -146,
+            "scalePct": 200,
+            "zOrder": "above"
+          },
+          "cardColor": "#7851a9",
+          "holoEffect": "0",
+          "holoIntensity": 0,
+          "autoRotateEnabled": false,
+          "hueShift": 0,
+          "saturation": 100,
+          "brightness": 100,
+          "rainbowVariant": "0",
+          "spectrumOffset": 0,
+          "spectrumScale": 200,
+          "spectrumContrast": 100,
+          "spectrumOrientation": "0",
+          "streakFreq": 1,
+          "streakSize": 200,
+          "streakWidth": 10,
+          "streakHeight": 100,
+          "streakRotation": 0,
+          "streakFormat": "0",
+          "shimmerStrength": 2,
+          "animSpeed": 5,
+          "vertexAmp": 8,
+          "vertexFreq": 1,
+          "vertexNoise": 10,
+          "selectedTextTarget": "Level",
+          "titleFontSize": 60,
+          "descFontSize": 32,
+          "skillsFontSize": 20,
+          "extraFontSizes": {
+            "ATK": 40,
+            "DEF": 40,
+            "Level": 70,
+            "Attribute": 40,
+            "Type": 40,
+            "Card": 40,
+            "": 20
+          },
+          "offsets": {
+            "title": {
+              "x": 50,
+              "y": 25
+            },
+            "desc": {
+              "x": 70,
+              "y": 960
+            },
+            "skills": {
+              "x": 800,
+              "y": 20
+            },
+            "ATK": {
+              "x": 350,
+              "y": 935
+            },
+            "DEF": {
+              "x": 671,
+              "y": 935
+            },
+            "Level": {
+              "x": 73,
+              "y": 895
+            },
+            "Attribute": {
+              "x": 62,
+              "y": 1006
+            },
+            "Type": {
+              "x": 301,
+              "y": 1007
+            },
+            "Card": {
+              "x": 540,
+              "y": 1005
+            },
+            "": {
+              "x": 800,
+              "y": 20
+            }
+          },
+          "selectedTextAlignment": {
+            "title": "left",
+            "desc": "left",
+            "skills": "left",
+            "ATK": "center",
+            "DEF": "center",
+            "Level": "center",
+            "": "left"
+          },
+          "textboxDims": {
+            "title": {
+              "wPercent": 90,
+              "hPx": 80
+            },
+            "desc": {
+              "wPercent": 85,
+              "hPx": 209
+            },
+            "skills": {
+              "wPercent": 80,
+              "hPx": 140
+            },
+            "ATK": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "DEF": {
+              "wPercent": 20,
+              "hPx": 65
+            },
+            "Level": {
+              "wPercent": 20,
+              "hPx": 100
+            },
+            "Attribute": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "Type": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "Card": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "": {
+              "wPercent": 80,
+              "hPx": 140
+            }
+          },
+          "textboxStyle": {
+            "title": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000",
+              "_baseDropBlur": 12,
+              "_baseInnerStrength": 0.3,
+              "textBevel": {
+                "enabled": false,
+                "highlight": "#ffffff",
+                "shadow": "#000000",
+                "offset": 2
+              }
+            },
+            "desc": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "skills": {
+              "strokeEnabled": true,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": true,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": true,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 1,
+              "textColor": "#000000"
+            },
+            "ATK": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#ffffff"
+            },
+            "DEF": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#ffffff"
+            },
+            "Level": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000",
+              "textBevel": {
+                "enabled": false,
+                "highlight": "#ffffff",
+                "shadow": "#000000",
+                "offset": 2
+              }
+            },
+            "Attribute": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "Type": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "Card": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "": {
+              "strokeEnabled": true,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": true,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": true,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 1,
+              "textColor": "#000000"
+            }
+          },
+          "textBevelEnabled": false,
+          "textBevelHighlight": "#ffffff",
+          "textBevelShadow": "#000000",
+          "textBevelOffset": 2,
+          "cardVideoUrl": "",
+          "cardVideoTime": 0,
+          "hdriUrl": "",
+          "backVideoPendingUrl": "",
+          "savedAt": 1772636147297,
+          "propertyImages": {
+            "ATK": "1400",
+            "DEF": "1400",
+            "Level": "3",
+            "Attribute": "Terra",
+            "Type": "Rocha",
+            "Card": "Efeito"
+          },
+          "imageSizes": {
+            "image1": {
+              "width": 1205,
+              "height": 1441
+            },
+            "image2": {
+              "width": 964,
+              "height": 1153
+            },
+            "image3": {
+              "width": 1928,
+              "height": 2306
+            },
+            "backImage": {
+              "width": 1024,
+              "height": 1433
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "tpl_recrtmkn",
+      "name": "YGO_XYZ_CMN",
+      "createdAt": 1772636340777,
+      "data": {
+        "title": "Mad Pop",
+        "attribute": "COSMIC",
+        "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
+        "skillOne": "Cosmic Blast",
+        "currentImageSrc": https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/Cards/CardTemplates/ygo/xyz.png",
+        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+        "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
+        "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
+        "image1State": {
+          "posX": 0,
+          "posY": -48,
+          "scale": 125,
+          "zOrder": "below"
+        },
+        "image2State": {
+          "posX": 0,
+          "posY": 0,
+          "scalePct": 100,
+          "zOrder": "below"
+        },
+        "image3State": {
+          "posX": 214,
+          "posY": -146,
+          "scalePct": 200,
+          "zOrder": "above"
+        },
+        "cardColor": "#7851a9",
+        "holoEffect": "0",
+        "holoIntensity": 0,
+        "autoRotateEnabled": false,
+        "hueShift": 0,
+        "saturation": 100,
+        "brightness": 100,
+        "rainbowVariant": "0",
+        "spectrumOffset": 0,
+        "spectrumScale": 200,
+        "spectrumContrast": 100,
+        "spectrumOrientation": "0",
+        "streakFreq": 1,
+        "streakSize": 200,
+        "streakWidth": 10,
+        "streakHeight": 100,
+        "streakRotation": 0,
+        "streakFormat": "0",
+        "shimmerStrength": 2,
+        "animSpeed": 5,
+        "vertexAmp": 8,
+        "vertexFreq": 1,
+        "vertexNoise": 10,
+        "selectedTextTarget": "Level",
+        "titleFontSize": 60,
+        "descFontSize": 32,
+        "skillsFontSize": 20,
+        "extraFontSizes": {
+          "ATK": 40,
+          "DEF": 40,
+          "Level": 70,
+          "Attribute": 40,
+          "Type": 40,
+          "Card": 40,
+          "": 20
+        },
+        "offsets": {
+          "title": {
+            "x": 50,
+            "y": 25
+          },
+          "desc": {
+            "x": 70,
+            "y": 960
+          },
+          "skills": {
+            "x": 800,
+            "y": 20
+          },
+          "ATK": {
+            "x": 350,
+            "y": 935
+          },
+          "DEF": {
+            "x": 671,
+            "y": 935
+          },
+          "Level": {
+            "x": 74,
+            "y": 895
+          },
+          "Attribute": {
+            "x": 62,
+            "y": 1006
+          },
+          "Type": {
+            "x": 301,
+            "y": 1007
+          },
+          "Card": {
+            "x": 540,
+            "y": 1005
+          },
+          "": {
+            "x": 800,
+            "y": 20
+          }
+        },
+        "selectedTextAlignment": {
+          "title": "left",
+          "desc": "left",
+          "skills": "left",
+          "ATK": "center",
+          "DEF": "center",
+          "Level": "center",
+          "": "left",
+          "Attribute": "left"
+        },
+        "textboxDims": {
+          "title": {
+            "wPercent": 90,
+            "hPx": 80
+          },
+          "desc": {
+            "wPercent": 85,
+            "hPx": 209
+          },
+          "skills": {
+            "wPercent": 80,
+            "hPx": 140
+          },
+          "ATK": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "DEF": {
+            "wPercent": 20,
+            "hPx": 65
+          },
+          "Level": {
+            "wPercent": 20,
+            "hPx": 100
+          },
+          "Attribute": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "Type": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "Card": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "": {
+            "wPercent": 80,
+            "hPx": 140
+          }
+        },
+        "textboxStyle": {
+          "title": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#ffffff",
+            "_baseDropBlur": 12,
+            "_baseInnerStrength": 0.3,
+            "textBevel": {
+              "enabled": false,
+              "highlight": "#ffffff",
+              "shadow": "#000000",
+              "offset": 2
+            }
+          },
+          "desc": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "skills": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 1,
+            "textColor": "#000000"
+          },
+          "ATK": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#ffffff"
+          },
+          "DEF": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#ffffff"
+          },
+          "Level": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000",
+            "textBevel": {
+              "enabled": false,
+              "highlight": "#ffffff",
+              "shadow": "#000000",
+              "offset": 2
+            }
+          },
+          "Attribute": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#ffffff"
+          },
+          "Type": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#ffffff"
+          },
+          "Card": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#ffffff"
+          },
+          "": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 1,
+            "textColor": "#000000"
+          }
+        },
+        "textBevelEnabled": false,
+        "textBevelHighlight": "#ffffff",
+        "textBevelShadow": "#000000",
+        "textBevelOffset": 2,
+        "cardVideoUrl": "",
+        "cardVideoTime": 0,
+        "hdriUrl": "",
+        "backVideoPendingUrl": "",
+        "savedAt": 1772636340776,
+        "propertyImages": {
+          "ATK": "1400",
+          "DEF": "1400",
+          "Level": "3",
+          "Attribute": "Terra",
+          "Type": "Rocha",
+          "Card": "Efeito"
+        },
+        "imageSizes": {
+          "image1": {
+            "width": 1205,
+            "height": 1441
+          },
+          "image2": {
+            "width": 964,
+            "height": 1153
+          },
+          "image3": {
+            "width": 1928,
+            "height": 2306
+          },
+          "backImage": {
+            "width": 1024,
+            "height": 1433
+          }
+        },
+        "card_last_settings_v1": {
+          "title": "Mad Pop",
+          "attribute": "COSMIC",
+          "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
+          "skillOne": "Cosmic Blast",
+          "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
+          "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+          "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
+          "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
+          "image1State": {
+            "posX": 0,
+            "posY": -48,
+            "scale": 125,
+            "zOrder": "below"
+          },
+          "image2State": {
+            "posX": 0,
+            "posY": 0,
+            "scalePct": 100,
+            "zOrder": "below"
+          },
+          "image3State": {
+            "posX": 214,
+            "posY": -146,
+            "scalePct": 200,
+            "zOrder": "above"
+          },
+          "cardColor": "#7851a9",
+          "holoEffect": "0",
+          "holoIntensity": 0,
+          "autoRotateEnabled": false,
+          "hueShift": 0,
+          "saturation": 100,
+          "brightness": 100,
+          "rainbowVariant": "0",
+          "spectrumOffset": 0,
+          "spectrumScale": 200,
+          "spectrumContrast": 100,
+          "spectrumOrientation": "0",
+          "streakFreq": 1,
+          "streakSize": 200,
+          "streakWidth": 10,
+          "streakHeight": 100,
+          "streakRotation": 0,
+          "streakFormat": "0",
+          "shimmerStrength": 2,
+          "animSpeed": 5,
+          "vertexAmp": 8,
+          "vertexFreq": 1,
+          "vertexNoise": 10,
+          "selectedTextTarget": "Level",
+          "titleFontSize": 60,
+          "descFontSize": 32,
+          "skillsFontSize": 20,
+          "extraFontSizes": {
+            "ATK": 40,
+            "DEF": 40,
+            "Level": 70,
+            "Attribute": 40,
+            "Type": 40,
+            "Card": 40,
+            "": 20
+          },
+          "offsets": {
+            "title": {
+              "x": 50,
+              "y": 25
+            },
+            "desc": {
+              "x": 70,
+              "y": 960
+            },
+            "skills": {
+              "x": 800,
+              "y": 20
+            },
+            "ATK": {
+              "x": 350,
+              "y": 935
+            },
+            "DEF": {
+              "x": 671,
+              "y": 935
+            },
+            "Level": {
+              "x": 74,
+              "y": 895
+            },
+            "Attribute": {
+              "x": 62,
+              "y": 1006
+            },
+            "Type": {
+              "x": 301,
+              "y": 1007
+            },
+            "Card": {
+              "x": 540,
+              "y": 1005
+            },
+            "": {
+              "x": 800,
+              "y": 20
+            }
+          },
+          "selectedTextAlignment": {
+            "title": "left",
+            "desc": "left",
+            "skills": "left",
+            "ATK": "center",
+            "DEF": "center",
+            "Level": "center",
+            "": "left",
+            "Attribute": "left"
+          },
+          "textboxDims": {
+            "title": {
+              "wPercent": 90,
+              "hPx": 80
+            },
+            "desc": {
+              "wPercent": 85,
+              "hPx": 209
+            },
+            "skills": {
+              "wPercent": 80,
+              "hPx": 140
+            },
+            "ATK": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "DEF": {
+              "wPercent": 20,
+              "hPx": 65
+            },
+            "Level": {
+              "wPercent": 20,
+              "hPx": 100
+            },
+            "Attribute": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "Type": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "Card": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "": {
+              "wPercent": 80,
+              "hPx": 140
+            }
+          },
+          "textboxStyle": {
+            "title": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#ffffff",
+              "_baseDropBlur": 12,
+              "_baseInnerStrength": 0.3,
+              "textBevel": {
+                "enabled": false,
+                "highlight": "#ffffff",
+                "shadow": "#000000",
+                "offset": 2
+              }
+            },
+            "desc": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "skills": {
+              "strokeEnabled": true,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": true,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": true,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 1,
+              "textColor": "#000000"
+            },
+            "ATK": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#ffffff"
+            },
+            "DEF": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#ffffff"
+            },
+            "Level": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000",
+              "textBevel": {
+                "enabled": false,
+                "highlight": "#ffffff",
+                "shadow": "#000000",
+                "offset": 2
+              }
+            },
+            "Attribute": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#ffffff"
+            },
+            "Type": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#ffffff"
+            },
+            "Card": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#ffffff"
+            },
+            "": {
+              "strokeEnabled": true,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": true,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": true,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 1,
+              "textColor": "#000000"
+            }
+          },
+          "textBevelEnabled": false,
+          "textBevelHighlight": "#ffffff",
+          "textBevelShadow": "#000000",
+          "textBevelOffset": 2,
+          "cardVideoUrl": "",
+          "cardVideoTime": 0,
+          "hdriUrl": "",
+          "backVideoPendingUrl": "",
+          "savedAt": 1772636339482,
+          "propertyImages": {
+            "ATK": "1400",
+            "DEF": "1400",
+            "Level": "3",
+            "Attribute": "Terra",
+            "Type": "Rocha",
+            "Card": "Efeito"
+          },
+          "imageSizes": {
+            "image1": {
+              "width": 1205,
+              "height": 1441
+            },
+            "image2": {
+              "width": 964,
+              "height": 1153
+            },
+            "image3": {
+              "width": 1928,
+              "height": 2306
+            },
+            "backImage": {
+              "width": 1024,
+              "height": 1433
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "tpl_n3wvqsi7",
+      "name": "YGO_SPL_CMN",
+      "createdAt": 1772636718568,
+      "data": {
+        "title": "Mad Pop",
+        "attribute": "COSMIC",
+        "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
+        "skillOne": "Cosmic Blast",
+        "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/Cards/CardTemplates/ygo/spell.png",
+        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+        "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
+        "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
+        "image1State": {
+          "posX": 0,
+          "posY": -48,
+          "scale": 125,
+          "zOrder": "below"
+        },
+        "image2State": {
+          "posX": 0,
+          "posY": 0,
+          "scalePct": 100,
+          "zOrder": "below"
+        },
+        "image3State": {
+          "posX": 214,
+          "posY": -146,
+          "scalePct": 200,
+          "zOrder": "above"
+        },
+        "cardColor": "#7851a9",
+        "holoEffect": "0",
+        "holoIntensity": 0,
+        "autoRotateEnabled": false,
+        "hueShift": 0,
+        "saturation": 100,
+        "brightness": 100,
+        "rainbowVariant": "0",
+        "spectrumOffset": 0,
+        "spectrumScale": 200,
+        "spectrumContrast": 100,
+        "spectrumOrientation": "0",
+        "streakFreq": 1,
+        "streakSize": 200,
+        "streakWidth": 10,
+        "streakHeight": 100,
+        "streakRotation": 0,
+        "streakFormat": "0",
+        "shimmerStrength": 2,
+        "animSpeed": 5,
+        "vertexAmp": 8,
+        "vertexFreq": 1,
+        "vertexNoise": 10,
+        "selectedTextTarget": "Attribute",
+        "titleFontSize": 60,
+        "descFontSize": 32,
+        "skillsFontSize": 20,
+        "extraFontSizes": {
+          "ATK": 40,
+          "DEF": 40,
+          "Level": 70,
+          "Attribute": 40,
+          "Type": 40,
+          "Card": 40,
+          "": 20
+        },
+        "offsets": {
+          "title": {
+            "x": 50,
+            "y": 25
+          },
+          "desc": {
+            "x": 70,
+            "y": 960
+          },
+          "skills": {
+            "x": 800,
+            "y": 20
+          },
+          "ATK": {
+            "x": 350,
+            "y": 2000
+          },
+          "DEF": {
+            "x": 671,
+            "y": 2000
+          },
+          "Level": {
+            "x": 73,
+            "y": 2000
+          },
+          "Attribute": {
+            "x": 62,
+            "y": 2000
+          },
+          "Type": {
+            "x": 301,
+            "y": 2000
+          },
+          "Card": {
+            "x": 61,
+            "y": 1005
+          },
+          "": {
+            "x": 800,
+            "y": 20
+          }
+        },
+        "selectedTextAlignment": {
+          "title": "left",
+          "desc": "left",
+          "skills": "left",
+          "ATK": "center",
+          "DEF": "center",
+          "Level": "center",
+          "": "left",
+          "Attribute": "left"
+        },
+        "textboxDims": {
+          "title": {
+            "wPercent": 90,
+            "hPx": 80
+          },
+          "desc": {
+            "wPercent": 85,
+            "hPx": 209
+          },
+          "skills": {
+            "wPercent": 80,
+            "hPx": 140
+          },
+          "ATK": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "DEF": {
+            "wPercent": 20,
+            "hPx": 65
+          },
+          "Level": {
+            "wPercent": 20,
+            "hPx": 100
+          },
+          "Attribute": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "Type": {
+            "wPercent": 28,
+            "hPx": 65
+          },
+          "Card": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "": {
+            "wPercent": 80,
+            "hPx": 140
+          }
+        },
+        "textboxStyle": {
+          "title": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000",
+            "_baseDropBlur": 12,
+            "_baseInnerStrength": 0.3,
+            "textBevel": {
+              "enabled": false,
+              "highlight": "#ffffff",
+              "shadow": "#000000",
+              "offset": 2
+            }
+          },
+          "desc": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "skills": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 1,
+            "textColor": "#000000"
+          },
+          "ATK": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#ffffff"
+          },
+          "DEF": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#ffffff"
+          },
+          "Level": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000",
+            "textBevel": {
+              "enabled": false,
+              "highlight": "#ffffff",
+              "shadow": "#000000",
+              "offset": 2
+            }
+          },
+          "Attribute": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "Type": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "Card": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 1,
+            "textColor": "#000000"
+          }
+        },
+        "textBevelEnabled": false,
+        "textBevelHighlight": "#ffffff",
+        "textBevelShadow": "#000000",
+        "textBevelOffset": 2,
+        "cardVideoUrl": "",
+        "cardVideoTime": 0,
+        "hdriUrl": "",
+        "backVideoPendingUrl": "",
+        "savedAt": 1772636718568,
+        "propertyImages": {
+          "ATK": "1400",
+          "DEF": "1400",
+          "Level": "3",
+          "Attribute": "Terra",
+          "Type": "Rocha",
+          "Card": "Efeito"
+        },
+        "imageSizes": {
+          "image1": {
+            "width": 1205,
+            "height": 1441
+          },
+          "image2": {
+            "width": 964,
+            "height": 1153
+          },
+          "image3": {
+            "width": 1928,
+            "height": 2306
+          },
+          "backImage": {
+            "width": 1024,
+            "height": 1433
+          }
+        },
+        "card_last_settings_v1": {
+          "title": "Mad Pop",
+          "attribute": "COSMIC",
+          "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
+          "skillOne": "Cosmic Blast",
+          "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
+          "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+          "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
+          "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
+          "image1State": {
+            "posX": 0,
+            "posY": -48,
+            "scale": 125,
+            "zOrder": "below"
+          },
+          "image2State": {
+            "posX": 0,
+            "posY": 0,
+            "scalePct": 100,
+            "zOrder": "below"
+          },
+          "image3State": {
+            "posX": 214,
+            "posY": -146,
+            "scalePct": 200,
+            "zOrder": "above"
+          },
+          "cardColor": "#7851a9",
+          "holoEffect": "0",
+          "holoIntensity": 0,
+          "autoRotateEnabled": false,
+          "hueShift": 0,
+          "saturation": 100,
+          "brightness": 100,
+          "rainbowVariant": "0",
+          "spectrumOffset": 0,
+          "spectrumScale": 200,
+          "spectrumContrast": 100,
+          "spectrumOrientation": "0",
+          "streakFreq": 1,
+          "streakSize": 200,
+          "streakWidth": 10,
+          "streakHeight": 100,
+          "streakRotation": 0,
+          "streakFormat": "0",
+          "shimmerStrength": 2,
+          "animSpeed": 5,
+          "vertexAmp": 8,
+          "vertexFreq": 1,
+          "vertexNoise": 10,
+          "selectedTextTarget": "Attribute",
+          "titleFontSize": 60,
+          "descFontSize": 32,
+          "skillsFontSize": 20,
+          "extraFontSizes": {
+            "ATK": 40,
+            "DEF": 40,
+            "Level": 70,
+            "Attribute": 40,
+            "Type": 40,
+            "Card": 40,
+            "": 20
+          },
+          "offsets": {
+            "title": {
+              "x": 50,
+              "y": 25
+            },
+            "desc": {
+              "x": 70,
+              "y": 960
+            },
+            "skills": {
+              "x": 800,
+              "y": 20
+            },
+            "ATK": {
+              "x": 350,
+              "y": 2000
+            },
+            "DEF": {
+              "x": 671,
+              "y": 2000
+            },
+            "Level": {
+              "x": 73,
+              "y": 2000
+            },
+            "Attribute": {
+              "x": 62,
+              "y": 2000
+            },
+            "Type": {
+              "x": 301,
+              "y": 2000
+            },
+            "Card": {
+              "x": 61,
+              "y": 1005
+            },
+            "": {
+              "x": 800,
+              "y": 20
+            }
+          },
+          "selectedTextAlignment": {
+            "title": "left",
+            "desc": "left",
+            "skills": "left",
+            "ATK": "center",
+            "DEF": "center",
+            "Level": "center",
+            "": "left",
+            "Attribute": "left"
+          },
+          "textboxDims": {
+            "title": {
+              "wPercent": 90,
+              "hPx": 80
+            },
+            "desc": {
+              "wPercent": 85,
+              "hPx": 209
+            },
+            "skills": {
+              "wPercent": 80,
+              "hPx": 140
+            },
+            "ATK": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "DEF": {
+              "wPercent": 20,
+              "hPx": 65
+            },
+            "Level": {
+              "wPercent": 20,
+              "hPx": 100
+            },
+            "Attribute": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "Type": {
+              "wPercent": 28,
+              "hPx": 65
+            },
+            "Card": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "": {
+              "wPercent": 80,
+              "hPx": 140
+            }
+          },
+          "textboxStyle": {
+            "title": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000",
+              "_baseDropBlur": 12,
+              "_baseInnerStrength": 0.3,
+              "textBevel": {
+                "enabled": false,
+                "highlight": "#ffffff",
+                "shadow": "#000000",
+                "offset": 2
+              }
+            },
+            "desc": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "skills": {
+              "strokeEnabled": true,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": true,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": true,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 1,
+              "textColor": "#000000"
+            },
+            "ATK": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#ffffff"
+            },
+            "DEF": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#ffffff"
+            },
+            "Level": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000",
+              "textBevel": {
+                "enabled": false,
+                "highlight": "#ffffff",
+                "shadow": "#000000",
+                "offset": 2
+              }
+            },
+            "Attribute": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "Type": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "Card": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "": {
+              "strokeEnabled": true,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": true,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": true,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 1,
+              "textColor": "#000000"
+            }
+          },
+          "textBevelEnabled": false,
+          "textBevelHighlight": "#ffffff",
+          "textBevelShadow": "#000000",
+          "textBevelOffset": 2,
+          "cardVideoUrl": "",
+          "cardVideoTime": 0,
+          "hdriUrl": "",
+          "backVideoPendingUrl": "",
+          "savedAt": 1772636708334,
+          "propertyImages": {
+            "ATK": "1400",
+            "DEF": "1400",
+            "Level": "3",
+            "Attribute": "Terra",
+            "Type": "Rocha",
+            "Card": "Efeito"
+          },
+          "imageSizes": {
+            "image1": {
+              "width": 1205,
+              "height": 1441
+            },
+            "image2": {
+              "width": 964,
+              "height": 1153
+            },
+            "image3": {
+              "width": 1928,
+              "height": 2306
+            },
+            "backImage": {
+              "width": 1024,
+              "height": 1433
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "tpl_wtzlmlcq",
+      "name": "YGO_TRP_CMN",
+      "createdAt": 1772636765865,
+      "data": {
+        "title": "Mad Pop",
+        "attribute": "COSMIC",
+        "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
+        "skillOne": "Cosmic Blast",
+        "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/Cards/CardTemplates/ygo/trap.png",
+        "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+        "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
+        "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
+        "image1State": {
+          "posX": 0,
+          "posY": -48,
+          "scale": 125,
+          "zOrder": "below"
+        },
+        "image2State": {
+          "posX": 0,
+          "posY": 0,
+          "scalePct": 100,
+          "zOrder": "below"
+        },
+        "image3State": {
+          "posX": 214,
+          "posY": -146,
+          "scalePct": 200,
+          "zOrder": "above"
+        },
+        "cardColor": "#7851a9",
+        "holoEffect": "0",
+        "holoIntensity": 0,
+        "autoRotateEnabled": false,
+        "hueShift": 0,
+        "saturation": 100,
+        "brightness": 100,
+        "rainbowVariant": "0",
+        "spectrumOffset": 0,
+        "spectrumScale": 200,
+        "spectrumContrast": 100,
+        "spectrumOrientation": "0",
+        "streakFreq": 1,
+        "streakSize": 200,
+        "streakWidth": 10,
+        "streakHeight": 100,
+        "streakRotation": 0,
+        "streakFormat": "0",
+        "shimmerStrength": 2,
+        "animSpeed": 5,
+        "vertexAmp": 8,
+        "vertexFreq": 1,
+        "vertexNoise": 10,
+        "selectedTextTarget": "Attribute",
+        "titleFontSize": 60,
+        "descFontSize": 32,
+        "skillsFontSize": 20,
+        "extraFontSizes": {
+          "ATK": 40,
+          "DEF": 40,
+          "Level": 70,
+          "Attribute": 40,
+          "Type": 40,
+          "Card": 40,
+          "": 20
+        },
+        "offsets": {
+          "title": {
+            "x": 50,
+            "y": 25
+          },
+          "desc": {
+            "x": 70,
+            "y": 960
+          },
+          "skills": {
+            "x": 800,
+            "y": 20
+          },
+          "ATK": {
+            "x": 350,
+            "y": 2000
+          },
+          "DEF": {
+            "x": 671,
+            "y": 2000
+          },
+          "Level": {
+            "x": 73,
+            "y": 2000
+          },
+          "Attribute": {
+            "x": 62,
+            "y": 2000
+          },
+          "Type": {
+            "x": 301,
+            "y": 2000
+          },
+          "Card": {
+            "x": 61,
+            "y": 1005
+          },
+          "": {
+            "x": 800,
+            "y": 20
+          }
+        },
+        "selectedTextAlignment": {
+          "title": "left",
+          "desc": "left",
+          "skills": "left",
+          "ATK": "center",
+          "DEF": "center",
+          "Level": "center",
+          "": "left",
+          "Attribute": "left"
+        },
+        "textboxDims": {
+          "title": {
+            "wPercent": 90,
+            "hPx": 80
+          },
+          "desc": {
+            "wPercent": 85,
+            "hPx": 209
+          },
+          "skills": {
+            "wPercent": 80,
+            "hPx": 140
+          },
+          "ATK": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "DEF": {
+            "wPercent": 20,
+            "hPx": 65
+          },
+          "Level": {
+            "wPercent": 20,
+            "hPx": 100
+          },
+          "Attribute": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "Type": {
+            "wPercent": 28,
+            "hPx": 65
+          },
+          "Card": {
+            "wPercent": 20,
+            "hPx": 60
+          },
+          "": {
+            "wPercent": 80,
+            "hPx": 140
+          }
+        },
+        "textboxStyle": {
+          "title": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000",
+            "_baseDropBlur": 12,
+            "_baseInnerStrength": 0.3,
+            "textBevel": {
+              "enabled": false,
+              "highlight": "#ffffff",
+              "shadow": "#000000",
+              "offset": 2
+            }
+          },
+          "desc": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "skills": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 1,
+            "textColor": "#000000"
+          },
+          "ATK": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#ffffff"
+          },
+          "DEF": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#ffffff"
+          },
+          "Level": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000",
+            "textBevel": {
+              "enabled": false,
+              "highlight": "#ffffff",
+              "shadow": "#000000",
+              "offset": 2
+            }
+          },
+          "Attribute": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "Type": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "Card": {
+            "strokeEnabled": false,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": false,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": false,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 0,
+            "textColor": "#000000"
+          },
+          "": {
+            "strokeEnabled": true,
+            "strokeWidth": 2,
+            "strokeColor": "#000000",
+            "innerShadow": true,
+            "innerShadowColor": "#000000",
+            "innerShadowStrength": 0.3,
+            "dropShadow": true,
+            "dropShadowColor": "#000000",
+            "dropShadowOffsetX": 6,
+            "dropShadowOffsetY": 6,
+            "dropShadowBlur": 12,
+            "shadowSize": 100,
+            "bgColor": "#ffffff",
+            "bgOpacity": 1,
+            "textColor": "#000000"
+          }
+        },
+        "textBevelEnabled": false,
+        "textBevelHighlight": "#ffffff",
+        "textBevelShadow": "#000000",
+        "textBevelOffset": 2,
+        "cardVideoUrl": "",
+        "cardVideoTime": 0,
+        "hdriUrl": "",
+        "backVideoPendingUrl": "",
+        "savedAt": 1772636765865,
+        "propertyImages": {
+          "ATK": "1400",
+          "DEF": "1400",
+          "Level": "3",
+          "Attribute": "Terra",
+          "Type": "Rocha",
+          "Card": "Efeito"
+        },
+        "imageSizes": {
+          "image1": {
+            "width": 1205,
+            "height": 1441
+          },
+          "image2": {
+            "width": 964,
+            "height": 1153
+          },
+          "image3": {
+            "width": 1928,
+            "height": 2306
+          },
+          "backImage": {
+            "width": 1024,
+            "height": 1433
+          }
+        },
+        "card_last_settings_v1": {
+          "title": "Mad Pop",
+          "attribute": "COSMIC",
+          "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
+          "skillOne": "Cosmic Blast",
+          "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
+          "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
+          "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
+          "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
+          "image1State": {
+            "posX": 0,
+            "posY": -48,
+            "scale": 125,
+            "zOrder": "below"
+          },
+          "image2State": {
+            "posX": 0,
+            "posY": 0,
+            "scalePct": 100,
+            "zOrder": "below"
+          },
+          "image3State": {
+            "posX": 214,
+            "posY": -146,
+            "scalePct": 200,
+            "zOrder": "above"
+          },
+          "cardColor": "#7851a9",
+          "holoEffect": "0",
+          "holoIntensity": 0,
+          "autoRotateEnabled": false,
+          "hueShift": 0,
+          "saturation": 100,
+          "brightness": 100,
+          "rainbowVariant": "0",
+          "spectrumOffset": 0,
+          "spectrumScale": 200,
+          "spectrumContrast": 100,
+          "spectrumOrientation": "0",
+          "streakFreq": 1,
+          "streakSize": 200,
+          "streakWidth": 10,
+          "streakHeight": 100,
+          "streakRotation": 0,
+          "streakFormat": "0",
+          "shimmerStrength": 2,
+          "animSpeed": 5,
+          "vertexAmp": 8,
+          "vertexFreq": 1,
+          "vertexNoise": 10,
+          "selectedTextTarget": "Attribute",
+          "titleFontSize": 60,
+          "descFontSize": 32,
+          "skillsFontSize": 20,
+          "extraFontSizes": {
+            "ATK": 40,
+            "DEF": 40,
+            "Level": 70,
+            "Attribute": 40,
+            "Type": 40,
+            "Card": 40,
+            "": 20
+          },
+          "offsets": {
+            "title": {
+              "x": 50,
+              "y": 25
+            },
+            "desc": {
+              "x": 70,
+              "y": 960
+            },
+            "skills": {
+              "x": 800,
+              "y": 20
+            },
+            "ATK": {
+              "x": 350,
+              "y": 2000
+            },
+            "DEF": {
+              "x": 671,
+              "y": 2000
+            },
+            "Level": {
+              "x": 73,
+              "y": 2000
+            },
+            "Attribute": {
+              "x": 62,
+              "y": 2000
+            },
+            "Type": {
+              "x": 301,
+              "y": 2000
+            },
+            "Card": {
+              "x": 61,
+              "y": 1005
+            },
+            "": {
+              "x": 800,
+              "y": 20
+            }
+          },
+          "selectedTextAlignment": {
+            "title": "left",
+            "desc": "left",
+            "skills": "left",
+            "ATK": "center",
+            "DEF": "center",
+            "Level": "center",
+            "": "left",
+            "Attribute": "left"
+          },
+          "textboxDims": {
+            "title": {
+              "wPercent": 90,
+              "hPx": 80
+            },
+            "desc": {
+              "wPercent": 85,
+              "hPx": 209
+            },
+            "skills": {
+              "wPercent": 80,
+              "hPx": 140
+            },
+            "ATK": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "DEF": {
+              "wPercent": 20,
+              "hPx": 65
+            },
+            "Level": {
+              "wPercent": 20,
+              "hPx": 100
+            },
+            "Attribute": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "Type": {
+              "wPercent": 28,
+              "hPx": 65
+            },
+            "Card": {
+              "wPercent": 20,
+              "hPx": 60
+            },
+            "": {
+              "wPercent": 80,
+              "hPx": 140
+            }
+          },
+          "textboxStyle": {
+            "title": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000",
+              "_baseDropBlur": 12,
+              "_baseInnerStrength": 0.3,
+              "textBevel": {
+                "enabled": false,
+                "highlight": "#ffffff",
+                "shadow": "#000000",
+                "offset": 2
+              }
+            },
+            "desc": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "skills": {
+              "strokeEnabled": true,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": true,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": true,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 1,
+              "textColor": "#000000"
+            },
+            "ATK": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#ffffff"
+            },
+            "DEF": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#ffffff"
+            },
+            "Level": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000",
+              "textBevel": {
+                "enabled": false,
+                "highlight": "#ffffff",
+                "shadow": "#000000",
+                "offset": 2
+              }
+            },
+            "Attribute": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "Type": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "Card": {
+              "strokeEnabled": false,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": false,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": false,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 0,
+              "textColor": "#000000"
+            },
+            "": {
+              "strokeEnabled": true,
+              "strokeWidth": 2,
+              "strokeColor": "#000000",
+              "innerShadow": true,
+              "innerShadowColor": "#000000",
+              "innerShadowStrength": 0.3,
+              "dropShadow": true,
+              "dropShadowColor": "#000000",
+              "dropShadowOffsetX": 6,
+              "dropShadowOffsetY": 6,
+              "dropShadowBlur": 12,
+              "shadowSize": 100,
+              "bgColor": "#ffffff",
+              "bgOpacity": 1,
+              "textColor": "#000000"
+            }
+          },
+          "textBevelEnabled": false,
+          "textBevelHighlight": "#ffffff",
+          "textBevelShadow": "#000000",
+          "textBevelOffset": 2,
+          "cardVideoUrl": "",
+          "cardVideoTime": 0,
+          "hdriUrl": "",
+          "backVideoPendingUrl": "",
+          "savedAt": 1772636763623,
+          "propertyImages": {
+            "ATK": "1400",
+            "DEF": "1400",
+            "Level": "3",
+            "Attribute": "Terra",
+            "Type": "Rocha",
+            "Card": "Efeito"
+          },
+          "imageSizes": {
+            "image1": {
+              "width": 1205,
+              "height": 1441
+            },
+            "image2": {
+              "width": 964,
+              "height": 1153
+            },
+            "image3": {
+              "width": 1928,
+              "height": 2306
+            },
+            "backImage": {
+              "width": 1024,
+              "height": 1433
+            }
+          }
+        }
       }
     }
   ],
   "card_preview_template": {
-    "key": "tpl_ge5bztg2",
+    "key": "tpl_wtzlmlcq",
     "name": "Mad Pop",
-    "createdAt": 1772481572059,
+    "createdAt": 1772636765865,
     "data": {
       "title": "Mad Pop",
       "attribute": "COSMIC",
       "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
       "skillOne": "Cosmic Blast",
-      "currentImageSrc": "",
+      "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
       "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
       "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
       "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
@@ -3124,7 +8510,7 @@
       "vertexAmp": 8,
       "vertexFreq": 1,
       "vertexNoise": 10,
-      "selectedTextTarget": "title",
+      "selectedTextTarget": "Attribute",
       "titleFontSize": 60,
       "descFontSize": 32,
       "skillsFontSize": 20,
@@ -3152,26 +8538,26 @@
         },
         "ATK": {
           "x": 350,
-          "y": 935
+          "y": 2000
         },
         "DEF": {
           "x": 671,
-          "y": 935
+          "y": 2000
         },
         "Level": {
-          "x": 75,
-          "y": 895
+          "x": 73,
+          "y": 2000
         },
         "Attribute": {
           "x": 62,
-          "y": 1006
+          "y": 2000
         },
         "Type": {
           "x": 301,
-          "y": 1007
+          "y": 2000
         },
         "Card": {
-          "x": 540,
+          "x": 61,
           "y": 1005
         },
         "": {
@@ -3186,11 +8572,12 @@
         "ATK": "center",
         "DEF": "center",
         "Level": "center",
-        "": "left"
+        "": "left",
+        "Attribute": "left"
       },
       "textboxDims": {
         "title": {
-          "wPercent": 68,
+          "wPercent": 90,
           "hPx": 80
         },
         "desc": {
@@ -3218,8 +8605,8 @@
           "hPx": 60
         },
         "Type": {
-          "wPercent": 20,
-          "hPx": 60
+          "wPercent": 28,
+          "hPx": 65
         },
         "Card": {
           "wPercent": 20,
@@ -3251,7 +8638,7 @@
           "_baseInnerStrength": 0.3,
           "textBevel": {
             "enabled": false,
-            "highlight": "#a28310",
+            "highlight": "#ffffff",
             "shadow": "#000000",
             "offset": 2
           }
@@ -3424,14 +8811,14 @@
       "cardVideoTime": 0,
       "hdriUrl": "",
       "backVideoPendingUrl": "",
-      "savedAt": 1772481572059,
+      "savedAt": 1772636765865,
       "propertyImages": {
-        "ATK": "",
-        "DEF": "",
-        "Level": "",
-        "Attribute": "",
-        "Type": "",
-        "Card": ""
+        "ATK": "1400",
+        "DEF": "1400",
+        "Level": "3",
+        "Attribute": "Terra",
+        "Type": "Rocha",
+        "Card": "Efeito"
       },
       "imageSizes": {
         "image1": {
@@ -3456,7 +8843,7 @@
         "attribute": "COSMIC",
         "desc": "Once per turn: destroy 1 face-up card you control  draw 2 cards.\n\nIf \"Fizzer\" in GY: draw 3 instead.",
         "skillOne": "Cosmic Blast",
-        "currentImageSrc": "",
+        "currentImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/front%20cover%20name.png",
         "currentImageSrc2": "https://static.wikia.nocookie.net/superthings/images/2/2e/075_and_076.png",
         "currentImageSrc3": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/wallpaper.jpg",
         "currentBackImageSrc": "https://raw.githubusercontent.com/Siminera/PackVerse/refs/heads/main/logo%20back%20cover%20art%20modern%20xs.png",
@@ -3501,7 +8888,7 @@
         "vertexAmp": 8,
         "vertexFreq": 1,
         "vertexNoise": 10,
-        "selectedTextTarget": "title",
+        "selectedTextTarget": "Attribute",
         "titleFontSize": 60,
         "descFontSize": 32,
         "skillsFontSize": 20,
@@ -3529,26 +8916,26 @@
           },
           "ATK": {
             "x": 350,
-            "y": 935
+            "y": 2000
           },
           "DEF": {
             "x": 671,
-            "y": 935
+            "y": 2000
           },
           "Level": {
-            "x": 75,
-            "y": 895
+            "x": 73,
+            "y": 2000
           },
           "Attribute": {
             "x": 62,
-            "y": 1006
+            "y": 2000
           },
           "Type": {
             "x": 301,
-            "y": 1007
+            "y": 2000
           },
           "Card": {
-            "x": 540,
+            "x": 61,
             "y": 1005
           },
           "": {
@@ -3563,11 +8950,12 @@
           "ATK": "center",
           "DEF": "center",
           "Level": "center",
-          "": "left"
+          "": "left",
+          "Attribute": "left"
         },
         "textboxDims": {
           "title": {
-            "wPercent": 68,
+            "wPercent": 90,
             "hPx": 80
           },
           "desc": {
@@ -3595,8 +8983,8 @@
             "hPx": 60
           },
           "Type": {
-            "wPercent": 20,
-            "hPx": 60
+            "wPercent": 28,
+            "hPx": 65
           },
           "Card": {
             "wPercent": 20,
@@ -3628,7 +9016,7 @@
             "_baseInnerStrength": 0.3,
             "textBevel": {
               "enabled": false,
-              "highlight": "#a28310",
+              "highlight": "#ffffff",
               "shadow": "#000000",
               "offset": 2
             }
@@ -3801,14 +9189,14 @@
         "cardVideoTime": 0,
         "hdriUrl": "",
         "backVideoPendingUrl": "",
-        "savedAt": 1772481570580,
+        "savedAt": 1772636763623,
         "propertyImages": {
-          "ATK": "",
-          "DEF": "",
-          "Level": "",
-          "Attribute": "",
-          "Type": "",
-          "Card": ""
+          "ATK": "1400",
+          "DEF": "1400",
+          "Level": "3",
+          "Attribute": "Terra",
+          "Type": "Rocha",
+          "Card": "Efeito"
         },
         "imageSizes": {
           "image1": {
@@ -3828,18 +9216,13 @@
             "height": 1433
           }
         }
-      },
-      "linkedItemId": "gu3tyg"
+      }
     }
   },
   "card_preview_item": null,
-  "fontUrl": "https://fonts.googleapis.com/css?family=Averia Libre",
+  "fontUrl": "",
   "adminPin": "admin",
-  "intro_video_url": "https://www.youtube.com/watch?v=gpaqf09rRyM",
-  "intro_video_time": 9,
+  "intro_video_url": "",
+  "intro_video_time": 0,
   "admin_import_url": ""
 }
-
-
-
-
